@@ -1,7 +1,7 @@
 # LifelogDataMLAnalysis
 Machine learning algorithm for mining Coach.Me data for associative analysis, frequent sets, and association rules
 
-This project is for my blog on http://bryandickens.com and https://medium.com/@brDick
+This project is for my blog on http://www.bryandickens.com and https://medium.com/@brDick
 
 I wanted to analyze my college data tracking through the app Coach.Me where I inputted the goals/habits that I accomplished each day. This data can be broken down using Machine Learning, and my first attempt was to apply the Apriori algorithm to find common sets of habits that occured and also useful association rules.
 
