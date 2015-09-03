@@ -1,0 +1,808 @@
+2013-05-06T21:40:29 - INFO    application didFinishLaunchingWithOptions
+2013-05-06T21:40:29 - INFO    started logspecs
+2013-05-06T21:40:29 - INFO    Sleep Time 2.2.1.1010
+2013-05-06T21:40:29 - INFO    iPhone 4S
+2013-05-06T21:40:29 - INFO    Bryan’s iPhone
+2013-05-06T21:40:29 - INFO    iPhone OS
+2013-05-06T21:40:29 - INFO    6.0.1
+2013-05-06T21:40:29 - INFO    iPhone
+2013-05-06T21:40:29 - INFO    iPhone
+2013-05-06T21:40:29 - INFO    multitaskingSupported=1
+2013-05-06T21:40:29 - INFO    App Settings = {
+    "_requestedVersion" = 21210;
+    "_returnedVersion" = 10000;
+    "_v" = 21210;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 1;
+}
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key1/29=WakeUpPhaseTime value=2
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key2/29=_soundscape_on value=NO
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key3/29=TableSectionSettings value=3
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key4/29=WebKitShrinksStandaloneImagesToFit value=1
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key5/29=ShowIntroScreen value=NO
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key6/29=neverShowRatePromptAgain value=
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key7/29=WebKitOfflineWebApplicationCacheEnabled value=1
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key8/29=installedAppsListHash value=DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key9/29=appsListHash value=DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key10/29=SnoozeOptionRowNumber value=1
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key11/29=AlarmTimeHour value=32.510710
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key12/29=showedDragDownHint value=31
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key13/29=WebKitDiskImageCacheSavedCacheDirectory value=
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key14/29=WebKitLocalStorageDatabasePathPreferenceKey value=/var/mobile/Applications/3DEB4E00-B306-4F67-AB8A-7AF1EDF42862/Library/Caches
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key15/29=bundleVersion value=2.2.1.1010
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key16/29=useCount value=23
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key17/29=OpenUDID value={
+    OpenUDID = d40a5093f38d5806e60772dfccfad4513a4f8c2a;
+    "OpenUDID_createdTS" = "2013-03-20 22:59:43 +0000";
+    "OpenUDID_guuid" = "F3B53371-307A-40AD-B47E-FDD5A283B07B";
+    "OpenUDID_slot" = "org.OpenUDID.slot.7";
+}
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key18/29=SnoozeIntervalTime value=8
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key19/29=DoNotShowInstructionsScreen value=NO
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key20/29=TableRowSettings value=14
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key21/29=Use12hSettings value=NO
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key22/29=SlideToStop value=NO
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key23/29=WebDatabaseDirectory value=/var/mobile/Applications/3DEB4E00-B306-4F67-AB8A-7AF1EDF42862/Library/Caches
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key24/29=baseServerURL value=https://api.azumio.com
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key25/29=appsListTime value=1363820391.412373
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key26/29=FirstUseReminder value=YES
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key27/29=MasterVolumeValue value=0.536765
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key28/29=VibrationIsOn value=YES
+2013-05-06T21:40:29 - INFO    PreferencesBase setting: key29/29=AlarmStopRowNumber value=1
+2013-05-06T21:40:29 - INFO    finished logspecs
+2013-05-06T21:40:30 - TRACE   fetchCheckIns END
+2013-05-06T21:40:30 - TRACE   Current token (null)
+2013-05-06T21:40:30 - TRACE   Current token (null)
+2013-05-06T21:40:30 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-05-06T21:40:30 - TRACE   Current token (null)
+2013-05-06T21:40:31 - TRACE   Current token (null)
+2013-05-06T21:40:31 - INFO    startClockUpdates
+2013-05-06T21:40:31 - INFO    stopClockUpdates
+2013-05-06T21:40:32 - TRACE   Current token (null)
+2013-05-06T21:40:32 - INFO    Run clearBackupNotifications.
+2013-05-06T21:40:32 - INFO    clearBackupNotifications Done
+2013-05-06T21:40:32 - TRACE   Current token (null)
+2013-05-06T21:40:33 - TRACE   Params {
+}
+2013-05-06T21:40:33 - INFO    Calling https://api.azumio.com/v2/users/me?
+2013-05-06T21:40:33 - TRACE   Current token (null)
+2013-05-06T21:40:33 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-05-06T21:40:33 - INFO    applicationDidBecomeActive
+2013-05-06T21:40:34 - TRACE   Params {
+    details = "{\"processes\":[{\"pid\":\"0\",\"name\":\"kernel_task\"},{\"pid\":\"1\",\"name\":\"launchd\"},{\"pid\":\"13\",\"name\":\"UserEventAgent\"},{\"pid\":\"14\",\"name\":\"wifid\"},{\"pid\":\"18\",\"name\":\"syslogd\"},{\"pid\":\"20\",\"name\":\"powerd\"},{\"pid\":\"29\",\"name\":\"lockdownd\"},{\"pid\":\"37\",\"name\":\"mediaserverd\"},{\"pid\":\"39\",\"name\":\"mDNSResponder\"},{\"pid\":\"41\",\"name\":\"locationd\"},{\"pid\":\"43\",\"name\":\"imagent\"},{\"pid\":\"44\",\"name\":\"iaptransportd\"},{\"pid\":\"46\",\"name\":\"fseventsd\"},{\"pid\":\"47\",\"name\":\"fairplayd.N94\"},{\"pid\":\"50\",\"name\":\"configd\"},{\"pid\":\"52\",\"name\":\"backboardd\"},{\"pid\":\"57\",\"name\":\"kbd\"},{\"pid\":\"62\",\"name\":\"CommCenter\"},{\"pid\":\"63\",\"name\":\"BTServer\"},{\"pid\":\"65\",\"name\":\"notifyd\"},{\"pid\":\"68\",\"name\":\"networkd\"},{\"pid\":\"69\",\"name\":\"aggregated\"},{\"pid\":\"70\",\"name\":\"SpringBoard\"},{\"pid\":\"75\",\"name\":\"apsd\"},{\"pid\":\"80\",\"name\":\"distnoted\"},{\"pid\":\"82\",\"name\":\"dataaccessd\"},{\"pid\":\"86\",\"name\":\"aosnotifyd\"},{\"pid\":\"90\",\"name\":\"tccd\"},{\"pid\":\"93\",\"name\":\"MobilePhone\"},{\"pid\":\"94\",\"name\":\"MobileMail\"},{\"pid\":\"105\",\"name\":\"filecoordination\"},{\"pid\":\"560\",\"name\":\"recentsd\"},{\"pid\":\"577\",\"name\":\"Facebook\"},{\"pid\":\"600\",\"name\":\"softwareupdatese\"},{\"pid\":\"896\",\"name\":\"itunesstored\"},{\"pid\":\"1204\",\"name\":\"gamed\"},{\"pid\":\"1935\",\"name\":\"installd\"},{\"pid\":\"2732\",\"name\":\"lsd\"},{\"pid\":\"2738\",\"name\":\"accountsd\"},{\"pid\":\"2746\",\"name\":\"geod\"},{\"pid\":\"2765\",\"name\":\"networkd_privile\"},{\"pid\":\"2767\",\"name\":\"MobileSMS\"},{\"pid\":\"2900\",\"name\":\"ubd\"},{\"pid\":\"3037\",\"name\":\"ScrambleWithFrie\"},{\"pid\":\"3041\",\"name\":\"timed\"},{\"pid\":\"3051\",\"name\":\"MobileCal\"},{\"pid\":\"3052\",\"name\":\"calaccessd\"},{\"pid\":\"3053\",\"name\":\"GroupMe\"},{\"pid\":\"3058\",\"name\":\"Twitter\"},{\"pid\":\"3066\",\"name\":\"xpcd\"},{\"pid\":\"3069\",\"name\":\"profiled\"},{\"pid\":\"3071\",\"name\":\"quicklookd\"},{\"pid\":\"3072\",\"name\":\"sandboxd\"},{\"pid\":\"3073\",\"name\":\"librariand\"},{\"pid\":\"3075\",\"name\":\"keybagd\"},{\"pid\":\"3076\",\"name\":\"securityd\"},{\"pid\":\"3077\",\"name\":\"searchd\"},{\"pid\":\"3078\",\"name\":\"IMDMessageServic\"},{\"pid\":\"3079\",\"name\":\"MySleepCycle\"},{\"pid\":\"3080\",\"name\":\"pasteboardd\"},{\"pid\":\"3081\",\"name\":\"mediaremoted\"},{\"pid\":\"3082\",\"name\":\"Music~iphone\"}]}";
+    event = runningProcesses;
+    session = F6CD377A17406D2A48E5;
+}
+2013-05-06T21:40:34 - INFO    Calling https://api.azumio.com/v1/events
+2013-05-06T21:40:34 - TRACE   Current token (null)
+2013-05-06T21:40:34 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-05-06T21:40:35 - INFO    Succeeded! Received 22 bytes of data
+2013-05-06T21:40:35 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-05-06T21:40:35 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-05-06T21:40:35 - INFO    Succeeded! Received 57 bytes of data
+2013-05-06T21:40:35 - TRACE   responseWithData:{"error":{"errorDetail":"Restricted access","code":401}}
+
+2013-05-06T21:40:35 - TRACE   AZHCIApiResponse {
+    error =     {
+        code = 401;
+        errorDetail = "Restricted access";
+    };
+}
+2013-05-06T21:40:35 - TRACE   Current token (null)
+2013-05-06T21:40:36 - INFO    didRegisterForRemoteNotificationsWithDeviceToken
+2013-05-06T21:40:36 - TRACE   Params {
+    token = b9b9182c29064aa0a4ca93038503edd326d61511abbcc2e2c1d2537b97aa295c;
+}
+2013-05-06T21:40:36 - INFO    Calling https://api.azumio.com/v1/registerforpush
+2013-05-06T21:40:36 - TRACE   Current token (null)
+2013-05-06T21:40:36 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-05-06T21:40:36 - INFO    Succeeded! Received 22 bytes of data
+2013-05-06T21:40:36 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-05-06T21:40:36 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-05-06T21:40:48 - INFO    Sleep manager state change 0 to 1
+2013-05-06T21:40:50 - INFO    Sleep manager state change 1 to 2
+2013-05-06T21:40:51 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-05-06T21:40:51 - INFO    AccelerometerThread start.
+2013-05-06T21:40:51 - INFO    alarm start
+2013-05-06T21:40:51 - INFO    Scheduling alarm timer 2013-05-07T08:30:00.000-0700
+2013-05-06T21:40:51 - INFO    Wakup window stats 52.000000 1148.000000 
+2013-05-06T21:40:51 - INFO    PowerManager started
+2013-05-06T21:40:51 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T21:40:51 - INFO    Accelerometer was already on.
+2013-05-06T21:40:51 - INFO    Battery Charging
+2013-05-06T21:40:51 - TRACE   Params {
+    details = "{\"alarm\":\"Morning Dew\"}";
+    event = GoneToBed;
+    session = F6CD377A17406D2A48E5;
+}
+2013-05-06T21:40:51 - INFO    Calling https://api.azumio.com/v1/events
+2013-05-06T21:40:51 - TRACE   Current token (null)
+2013-05-06T21:40:51 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-05-06T21:40:52 - INFO    Succeeded! Received 22 bytes of data
+2013-05-06T21:40:52 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-05-06T21:40:52 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-05-06T21:40:53 - INFO    Proximity sensor state changed: closeToUser=1
+2013-05-06T21:40:53 - INFO    stopClockUpdates
+2013-05-06T21:40:53 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-05-06T21:41:47 - INFO    Battery level changed
+2013-05-06T21:41:47 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T21:41:47 - INFO    Accelerometer was already on.
+2013-05-06T21:41:47 - INFO    Battery Charging
+2013-05-06T21:46:50 - INFO    Battery level changed
+2013-05-06T21:46:50 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T21:46:50 - INFO    Accelerometer was already on.
+2013-05-06T21:46:50 - INFO    Battery Charging
+2013-05-06T21:50:51 - INFO    readAccelerometer counters: Total=59986 Interval=59986 accelerometerActive=1
+2013-05-06T21:51:32 - INFO    Battery level changed
+2013-05-06T21:51:32 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T21:51:32 - INFO    Accelerometer was already on.
+2013-05-06T21:51:32 - INFO    Battery Charging
+2013-05-06T21:56:14 - INFO    Battery level changed
+2013-05-06T21:56:14 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T21:56:14 - INFO    Accelerometer was already on.
+2013-05-06T21:56:14 - INFO    Battery Charging
+2013-05-06T22:00:51 - INFO    readAccelerometer counters: Total=119987 Interval=60001 accelerometerActive=1
+2013-05-06T22:00:56 - INFO    Battery level changed
+2013-05-06T22:00:56 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T22:00:56 - INFO    Accelerometer was already on.
+2013-05-06T22:00:56 - INFO    Battery Charging
+2013-05-06T22:05:38 - INFO    Battery level changed
+2013-05-06T22:05:38 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T22:05:38 - INFO    Accelerometer was already on.
+2013-05-06T22:05:38 - INFO    Battery Charging
+2013-05-06T22:10:21 - INFO    Battery level changed
+2013-05-06T22:10:21 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T22:10:21 - INFO    Accelerometer was already on.
+2013-05-06T22:10:21 - INFO    Battery Charging
+2013-05-06T22:10:51 - INFO    readAccelerometer counters: Total=179982 Interval=59995 accelerometerActive=1
+2013-05-06T22:15:03 - INFO    Battery level changed
+2013-05-06T22:15:03 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T22:15:03 - INFO    Accelerometer was already on.
+2013-05-06T22:15:03 - INFO    Battery Charging
+2013-05-06T22:19:45 - INFO    Battery level changed
+2013-05-06T22:19:45 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T22:19:45 - INFO    Accelerometer was already on.
+2013-05-06T22:19:45 - INFO    Battery Charging
+2013-05-06T22:20:51 - INFO    readAccelerometer counters: Total=239982 Interval=60000 accelerometerActive=1
+2013-05-06T22:25:28 - INFO    Battery level changed
+2013-05-06T22:25:28 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T22:25:28 - INFO    Accelerometer was already on.
+2013-05-06T22:25:28 - INFO    Battery Charging
+2013-05-06T22:30:51 - INFO    readAccelerometer counters: Total=299983 Interval=60001 accelerometerActive=1
+2013-05-06T22:33:11 - INFO    Battery level changed
+2013-05-06T22:33:11 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T22:33:11 - INFO    Accelerometer was already on.
+2013-05-06T22:33:11 - INFO    Battery Charging
+2013-05-06T22:40:51 - INFO    readAccelerometer counters: Total=359983 Interval=60000 accelerometerActive=1
+2013-05-06T22:45:37 - INFO    Battery level changed
+2013-05-06T22:45:37 - INFO    Alarm is on and device has sufficient power.
+2013-05-06T22:45:37 - INFO    Accelerometer was already on.
+2013-05-06T22:45:37 - INFO    Battery Charging
+2013-05-06T22:50:51 - INFO    readAccelerometer counters: Total=419984 Interval=60001 accelerometerActive=1
+2013-05-06T23:00:51 - INFO    readAccelerometer counters: Total=479985 Interval=60001 accelerometerActive=1
+2013-05-06T23:10:51 - INFO    readAccelerometer counters: Total=539985 Interval=60000 accelerometerActive=1
+2013-05-06T23:20:51 - INFO    readAccelerometer counters: Total=599986 Interval=60001 accelerometerActive=1
+2013-05-06T23:30:51 - INFO    readAccelerometer counters: Total=659985 Interval=59999 accelerometerActive=1
+2013-05-06T23:40:51 - INFO    readAccelerometer counters: Total=719985 Interval=60000 accelerometerActive=1
+2013-05-06T23:50:51 - INFO    readAccelerometer counters: Total=779985 Interval=60000 accelerometerActive=1
+2013-05-07T00:00:51 - INFO    readAccelerometer counters: Total=839986 Interval=60001 accelerometerActive=1
+2013-05-07T00:10:51 - INFO    readAccelerometer counters: Total=899987 Interval=60001 accelerometerActive=1
+2013-05-07T00:20:51 - INFO    readAccelerometer counters: Total=959988 Interval=60001 accelerometerActive=1
+2013-05-07T00:30:51 - INFO    readAccelerometer counters: Total=1019988 Interval=60000 accelerometerActive=1
+2013-05-07T00:40:51 - INFO    readAccelerometer counters: Total=1079989 Interval=60001 accelerometerActive=1
+2013-05-07T00:50:51 - INFO    readAccelerometer counters: Total=1139989 Interval=60000 accelerometerActive=1
+2013-05-07T01:00:51 - INFO    readAccelerometer counters: Total=1199990 Interval=60001 accelerometerActive=1
+2013-05-07T01:10:51 - INFO    readAccelerometer counters: Total=1259990 Interval=60000 accelerometerActive=1
+2013-05-07T01:20:51 - INFO    readAccelerometer counters: Total=1319991 Interval=60001 accelerometerActive=1
+2013-05-07T01:30:51 - INFO    readAccelerometer counters: Total=1379991 Interval=60000 accelerometerActive=1
+2013-05-07T01:40:51 - INFO    readAccelerometer counters: Total=1439991 Interval=60000 accelerometerActive=1
+2013-05-07T01:50:51 - INFO    readAccelerometer counters: Total=1499992 Interval=60001 accelerometerActive=1
+2013-05-07T02:00:51 - INFO    readAccelerometer counters: Total=1559993 Interval=60001 accelerometerActive=1
+2013-05-07T02:10:51 - INFO    readAccelerometer counters: Total=1619993 Interval=60000 accelerometerActive=1
+2013-05-07T02:20:51 - INFO    readAccelerometer counters: Total=1679994 Interval=60001 accelerometerActive=1
+2013-05-07T02:30:51 - INFO    readAccelerometer counters: Total=1739994 Interval=60000 accelerometerActive=1
+2013-05-07T02:40:51 - INFO    readAccelerometer counters: Total=1799994 Interval=60000 accelerometerActive=1
+2013-05-07T02:49:04 - INFO    Battery state changed
+2013-05-07T02:49:04 - INFO    Alarm is on and device has sufficient power.
+2013-05-07T02:49:04 - INFO    Accelerometer was already on.
+2013-05-07T02:49:04 - INFO    Battery Charging
+2013-05-07T02:50:51 - INFO    readAccelerometer counters: Total=1859995 Interval=60001 accelerometerActive=1
+2013-05-07T03:00:51 - INFO    readAccelerometer counters: Total=1919995 Interval=60000 accelerometerActive=1
+2013-05-07T03:10:51 - INFO    readAccelerometer counters: Total=1979996 Interval=60001 accelerometerActive=1
+2013-05-07T03:20:51 - INFO    readAccelerometer counters: Total=2039996 Interval=60000 accelerometerActive=1
+2013-05-07T03:30:51 - INFO    readAccelerometer counters: Total=2099996 Interval=60000 accelerometerActive=1
+2013-05-07T03:40:51 - INFO    readAccelerometer counters: Total=2159997 Interval=60001 accelerometerActive=1
+2013-05-07T03:50:51 - INFO    readAccelerometer counters: Total=2219998 Interval=60001 accelerometerActive=1
+2013-05-07T04:00:51 - INFO    readAccelerometer counters: Total=2279999 Interval=60001 accelerometerActive=1
+2013-05-07T04:10:51 - INFO    readAccelerometer counters: Total=2340000 Interval=60001 accelerometerActive=1
+2013-05-07T04:12:42 - INFO    Battery state changed
+2013-05-07T04:12:42 - INFO    Alarm is on and device has sufficient power.
+2013-05-07T04:12:42 - INFO    Accelerometer was already on.
+2013-05-07T04:12:42 - INFO    Battery Charging
+2013-05-07T04:13:02 - INFO    Battery level changed
+2013-05-07T04:13:02 - INFO    Alarm is on and device has sufficient power.
+2013-05-07T04:13:02 - INFO    Accelerometer was already on.
+2013-05-07T04:13:02 - INFO    Battery Charging
+2013-05-07T04:20:25 - INFO    Battery level changed
+2013-05-07T04:20:25 - INFO    Alarm is on and device has sufficient power.
+2013-05-07T04:20:25 - INFO    Accelerometer was already on.
+2013-05-07T04:20:25 - INFO    Battery Charging
+2013-05-07T04:20:51 - INFO    readAccelerometer counters: Total=2400001 Interval=60001 accelerometerActive=1
+2013-05-07T04:30:51 - INFO    readAccelerometer counters: Total=2460001 Interval=60000 accelerometerActive=1
+2013-05-07T04:40:51 - INFO    readAccelerometer counters: Total=2520002 Interval=60001 accelerometerActive=1
+2013-05-07T04:50:51 - INFO    readAccelerometer counters: Total=2580002 Interval=60000 accelerometerActive=1
+2013-05-07T05:00:51 - INFO    readAccelerometer counters: Total=2640003 Interval=60001 accelerometerActive=1
+2013-05-07T05:10:51 - INFO    readAccelerometer counters: Total=2700003 Interval=60000 accelerometerActive=1
+2013-05-07T05:20:51 - INFO    readAccelerometer counters: Total=2760004 Interval=60001 accelerometerActive=1
+2013-05-07T05:30:51 - INFO    readAccelerometer counters: Total=2820005 Interval=60001 accelerometerActive=1
+2013-05-07T05:40:51 - INFO    readAccelerometer counters: Total=2880006 Interval=60001 accelerometerActive=1
+2013-05-07T05:50:51 - INFO    readAccelerometer counters: Total=2940006 Interval=60000 accelerometerActive=1
+2013-05-07T06:00:51 - INFO    readAccelerometer counters: Total=3000006 Interval=60000 accelerometerActive=1
+2013-05-07T06:10:51 - INFO    readAccelerometer counters: Total=3060007 Interval=60001 accelerometerActive=1
+2013-05-07T06:20:51 - INFO    readAccelerometer counters: Total=3120008 Interval=60001 accelerometerActive=1
+2013-05-07T06:30:51 - INFO    readAccelerometer counters: Total=3180008 Interval=60000 accelerometerActive=1
+2013-05-07T06:40:51 - INFO    readAccelerometer counters: Total=3240009 Interval=60001 accelerometerActive=1
+2013-05-07T06:50:51 - INFO    readAccelerometer counters: Total=3300009 Interval=60000 accelerometerActive=1
+2013-05-07T06:53:58 - INFO    Proximity sensor state changed: closeToUser=0
+2013-05-07T06:53:58 - INFO    startClockUpdates
+2013-05-07T06:53:58 - INFO    stopClockUpdates
+2013-05-07T06:53:58 - INFO    Device face up
+2013-05-07T06:53:58 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-05-07T06:53:58 - INFO    Proximity sensor state changed: closeToUser=1
+2013-05-07T06:53:58 - INFO    stopClockUpdates
+2013-05-07T06:53:58 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-05-07T06:53:59 - INFO    Device face up
+2013-05-07T06:53:59 - INFO    Proximity sensor state changed: closeToUser=0
+2013-05-07T06:53:59 - INFO    startClockUpdates
+2013-05-07T06:53:59 - INFO    stopClockUpdates
+2013-05-07T06:53:59 - INFO    Device face up
+2013-05-07T06:53:59 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-05-07T06:53:59 - INFO    Proximity sensor state changed: closeToUser=1
+2013-05-07T06:53:59 - INFO    stopClockUpdates
+2013-05-07T06:53:59 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-05-07T06:54:00 - INFO    Proximity sensor state changed: closeToUser=0
+2013-05-07T06:54:00 - INFO    startClockUpdates
+2013-05-07T06:54:00 - INFO    stopClockUpdates
+2013-05-07T06:54:00 - INFO    Device face up
+2013-05-07T06:54:00 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-05-07T06:54:02 - INFO    Proximity sensor state changed: closeToUser=1
+2013-05-07T06:54:02 - INFO    stopClockUpdates
+2013-05-07T06:54:02 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-05-07T06:56:22 - INFO    Proximity sensor state changed: closeToUser=0
+2013-05-07T06:56:22 - INFO    startClockUpdates
+2013-05-07T06:56:22 - INFO    stopClockUpdates
+2013-05-07T06:56:22 - INFO    Device face up
+2013-05-07T06:56:22 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-05-07T06:56:23 - INFO    Device face up
+2013-05-07T06:56:25 - INFO    Sleep manager state change 2 to 0
+2013-05-07T06:56:25 - INFO    Stop 0 ap=0 0
+2013-05-07T06:56:25 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-05-07T06:56:25 - INFO    AccelerometerThread.stop
+2013-05-07T06:56:25 - INFO    AccelerometerThread.stopAccelerometer
+2013-05-07T06:56:25 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-05-07T06:56:25 - INFO    alarm stop
+2013-05-07T06:56:25 - INFO    Generating sleep report
+2013-05-07T06:56:25 - INFO    alarm stop
+2013-05-07T06:56:25 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-05-07T06:56:25 - INFO    PowerManager stopped
+2013-05-07T06:56:25 - INFO    Run clearBackupNotifications.
+2013-05-07T06:56:25 - INFO    clearBackupNotifications Done
+2013-05-07T06:56:26 - INFO    _sleepState.cepoch: 1110.000000
+2013-05-07T06:56:27 - TRACE   Current token (null)
+2013-05-07T06:56:27 - TRACE   Current token (null)
+2013-05-07T06:56:27 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-05-07T06:56:27 - TRACE   Current token (null)
+2013-05-07T06:56:27 - TRACE   Current token (null)
+2013-05-07T06:56:27 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-05-07T06:56:27 - TRACE   Params {
+    details = "{\"duration\":33334.686432123184}";
+    event = Wakeup;
+    session = F6CD377A17406D2A48E5;
+}
+2013-05-07T06:56:27 - INFO    Calling https://api.azumio.com/v1/events
+2013-05-07T06:56:27 - TRACE   Current token (null)
+2013-05-07T06:56:27 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-05-07T06:56:28 - INFO    Succeeded! Received 22 bytes of data
+2013-05-07T06:56:28 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-05-07T06:56:28 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-05-07T06:56:45 - TRACE   Current token (null)
+2013-05-07T06:56:45 - TRACE   Current token (null)
+2013-05-07T06:56:45 - TRACE   Current token (null)
+2013-05-07T06:56:45 - TRACE   Current token (null)
+2013-05-07T06:56:45 - TRACE   Current token (null)
+2013-05-07T06:56:45 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:46 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:47 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:48 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:50 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:51 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:56:52 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:08 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:09 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:10 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:11 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:12 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:13 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:14 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:15 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:16 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:17 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:18 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:19 - TRACE   Current token (null)
+2013-05-07T06:57:46 - INFO    applicationWillResignActive
+2013-05-07T06:57:47 - INFO    applicationDidEnterBackground
+2013-05-07T06:57:47 - INFO    stopClockUpdates
+2013-05-07T06:57:47 - INFO    stopClockUpdates

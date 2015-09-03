@@ -1,0 +1,296 @@
+Log level: INFO   
+2013-07-29T02:36:39 - INFO    Device info: iPhone 4S iPhone OS 6.0.1 Bryan’s iPhone
+2013-07-29T02:36:39 - INFO    application didFinishLaunchingWithOptions
+2013-07-29T02:36:39 - INFO    started logspecs
+2013-07-29T02:36:39 - INFO    Sleep Time 2.4.4361
+2013-07-29T02:36:39 - INFO    com.azumio.iphone.sleepcycle
+2013-07-29T02:36:39 - INFO    iPhone 4S
+2013-07-29T02:36:39 - INFO    Bryan’s iPhone
+2013-07-29T02:36:39 - INFO    iPhone OS
+2013-07-29T02:36:39 - INFO    6.0.1
+2013-07-29T02:36:39 - INFO    iPhone
+2013-07-29T02:36:39 - INFO    iPhone
+2013-07-29T02:36:39 - INFO    multitaskingSupported=1
+2013-07-29T02:36:39 - INFO    App Settings = {
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-07-29T02:36:39 - INFO    finished logspecs
+2013-07-29T02:36:40 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-07-29T02:36:42 - INFO    startClockUpdates
+2013-07-29T02:36:42 - INFO    stopClockUpdates
+2013-07-29T02:36:43 - INFO    Run clearBackupNotifications.
+2013-07-29T02:36:43 - INFO    clearBackupNotifications Done
+2013-07-29T02:36:43 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2013-07-29T02:36:43 - INFO    applicationDidBecomeActive
+2013-07-29T02:36:43 - INFO    server settings={
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-07-29T02:36:44 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-07-29T02:36:44 - INFO    Succeeded! Received 57 bytes of data
+2013-07-29T02:36:45 - WARNING SleepReportDataPoint:p1 Friday, July 26, 2013, 10:39:44 AM Eastern Daylight Time 0.932000 idx=854
+2013-07-29T02:36:45 - WARNING SleepReportDataPoint:p2 Friday, July 26, 2013, 10:55:46 AM Eastern Daylight Time 0.934000 idx=855
+2013-07-29T02:36:45 - INFO    Succeeded! Received 22 bytes of data
+2013-07-29T02:36:56 - WARNING SleepReportDataPoint:p1 Sunday, May 26, 2013, 10:06:22 AM Eastern Daylight Time 0.454000 idx=885
+2013-07-29T02:36:56 - WARNING SleepReportDataPoint:p2 Sunday, May 26, 2013, 11:45:11 AM Eastern Daylight Time -0.100000 idx=886
+2013-07-29T02:36:56 - WARNING SleepReportDataPoint:p1 Monday, May 27, 2013, 8:06:58 AM Eastern Daylight Time 0.813559 idx=691
+2013-07-29T02:36:56 - WARNING SleepReportDataPoint:p2 Monday, May 27, 2013, 11:02:53 AM Eastern Daylight Time -0.100000 idx=692
+2013-07-29T02:36:56 - WARNING SleepReportDataPoint:p1 Wednesday, May 29, 2013, 10:07:24 AM Eastern Daylight Time 0.932000 idx=969
+2013-07-29T02:36:56 - WARNING SleepReportDataPoint:p2 Wednesday, May 29, 2013, 10:24:20 AM Eastern Daylight Time 0.934000 idx=970
+2013-07-29T02:37:16 - INFO    applicationWillResignActive
+2013-07-29T02:37:16 - INFO    applicationDidEnterBackground
+2013-07-29T02:37:16 - INFO    stopClockUpdates
+2013-07-29T02:37:16 - INFO    stopClockUpdates
+2013-07-29T02:37:51 - INFO    applicationWillEnterForeground
+2013-07-29T02:37:51 - INFO    startClockUpdates
+2013-07-29T02:37:51 - INFO    stopClockUpdates
+2013-07-29T02:37:51 - INFO    applicationDidBecomeActive
+2013-07-29T02:37:56 - INFO    Sleep manager state change 0 to 1
+2013-07-29T02:37:56 - INFO    Sleep manager state change 1 to 2
+2013-07-29T02:37:56 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-07-29T02:37:56 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-07-29T02:37:56 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2013-07-29T02:37:56 - INFO    is silence playing: 1
+2013-07-29T02:37:56 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-07-29T02:37:56 - INFO    AccelerometerThread start.
+2013-07-29T02:37:56 - INFO    alarm start
+2013-07-29T02:37:56 - INFO    Scheduling alarm timer 2013-07-29T10:20:00.000-0400
+2013-07-29T02:37:56 - INFO    Wakup window stats 6.000000 1194.000000 
+2013-07-29T02:37:56 - INFO    PowerManager started
+2013-07-29T02:37:56 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T02:37:56 - INFO    Accelerometer was already on.
+2013-07-29T02:37:56 - INFO    Battery state 1 level = 0.900000
+2013-07-29T02:37:57 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-07-29T02:37:57 - INFO    Succeeded! Received 22 bytes of data
+2013-07-29T02:38:01 - INFO    Sleep manager state change 2 to 0
+2013-07-29T02:38:01 - INFO    Stopped silence.
+2013-07-29T02:38:02 - INFO    turnAudioConfigurationOFF passed.
+2013-07-29T02:38:02 - INFO    Stop 0 ap=0 0
+2013-07-29T02:38:02 - INFO    turnAudioConfigurationOFF passed.
+2013-07-29T02:38:02 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-07-29T02:38:02 - INFO    AccelerometerThread.stop
+2013-07-29T02:38:02 - INFO    AccelerometerThread.stopAccelerometer
+2013-07-29T02:38:02 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-07-29T02:38:02 - INFO    alarm stop
+2013-07-29T02:38:02 - INFO    alarm stop
+2013-07-29T02:38:02 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-07-29T02:38:02 - INFO    PowerManager stopped
+2013-07-29T02:38:02 - INFO    Run clearBackupNotifications.
+2013-07-29T02:38:02 - INFO    stopAllMusic
+2013-07-29T02:38:02 - INFO    clearBackupNotifications Done
+2013-07-29T02:38:07 - INFO    Battery state changed
+2013-07-29T02:38:07 - INFO    Battery state 1 level = 0.900000
+2013-07-29T02:38:07 - INFO    Sleep manager state change 0 to 1
+2013-07-29T02:38:07 - INFO    Sleep manager state change 1 to 2
+2013-07-29T02:38:07 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-07-29T02:38:07 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-07-29T02:38:07 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2013-07-29T02:38:07 - INFO    is silence playing: 1
+2013-07-29T02:38:07 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-07-29T02:38:07 - INFO    AccelerometerThread start.
+2013-07-29T02:38:07 - INFO    alarm start
+2013-07-29T02:38:07 - INFO    Scheduling alarm timer 2013-07-29T10:15:00.000-0400
+2013-07-29T02:38:07 - INFO    Wakup window stats 87.000000 1113.000000 
+2013-07-29T02:38:07 - INFO    PowerManager started
+2013-07-29T02:38:07 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T02:38:07 - INFO    Accelerometer was already on.
+2013-07-29T02:38:07 - INFO    Battery state 1 level = 0.900000
+2013-07-29T02:38:08 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-07-29T02:38:08 - INFO    Succeeded! Received 22 bytes of data
+2013-07-29T02:38:09 - INFO    applicationWillResignActive
+2013-07-29T02:38:10 - INFO    applicationDidEnterBackground
+2013-07-29T02:38:10 - INFO    stopClockUpdates
+2013-07-29T02:38:10 - INFO    stopClockUpdates
+2013-07-29T02:38:26 - INFO    Battery level changed
+2013-07-29T02:38:26 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T02:38:26 - INFO    Accelerometer was already on.
+2013-07-29T02:38:26 - INFO    Battery state 1 level = 0.950000
+2013-07-29T02:38:26 - INFO    Battery level changed
+2013-07-29T02:38:26 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T02:38:26 - INFO    Accelerometer was already on.
+2013-07-29T02:38:26 - INFO    Battery state 1 level = 0.950000
+2013-07-29T02:47:57 - INFO    readAccelerometer counters: Total=58860 Interval=58860 accelerometerActive=1
+2013-07-29T02:57:57 - INFO    readAccelerometer counters: Total=118853 Interval=59993 accelerometerActive=1
+2013-07-29T03:07:57 - INFO    readAccelerometer counters: Total=178846 Interval=59993 accelerometerActive=1
+2013-07-29T03:17:57 - INFO    readAccelerometer counters: Total=238842 Interval=59996 accelerometerActive=1
+2013-07-29T03:27:57 - INFO    readAccelerometer counters: Total=298836 Interval=59994 accelerometerActive=1
+2013-07-29T03:37:57 - INFO    readAccelerometer counters: Total=358831 Interval=59995 accelerometerActive=1
+2013-07-29T03:47:57 - INFO    readAccelerometer counters: Total=418829 Interval=59998 accelerometerActive=1
+2013-07-29T03:57:57 - INFO    readAccelerometer counters: Total=478820 Interval=59991 accelerometerActive=1
+2013-07-29T04:07:57 - INFO    readAccelerometer counters: Total=538811 Interval=59991 accelerometerActive=1
+2013-07-29T04:17:57 - INFO    readAccelerometer counters: Total=598807 Interval=59996 accelerometerActive=1
+2013-07-29T04:27:57 - INFO    readAccelerometer counters: Total=658801 Interval=59994 accelerometerActive=1
+2013-07-29T04:31:57 - INFO    Battery level changed
+2013-07-29T04:31:57 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T04:31:57 - INFO    Accelerometer was already on.
+2013-07-29T04:31:57 - INFO    Battery state 1 level = 0.900000
+2013-07-29T04:31:57 - INFO    Battery level changed
+2013-07-29T04:31:57 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T04:31:57 - INFO    Accelerometer was already on.
+2013-07-29T04:31:57 - INFO    Battery state 1 level = 0.900000
+2013-07-29T04:37:57 - INFO    readAccelerometer counters: Total=718793 Interval=59992 accelerometerActive=1
+2013-07-29T04:47:57 - INFO    readAccelerometer counters: Total=778782 Interval=59989 accelerometerActive=1
+2013-07-29T04:57:57 - INFO    readAccelerometer counters: Total=838774 Interval=59992 accelerometerActive=1
+2013-07-29T05:07:57 - INFO    readAccelerometer counters: Total=898767 Interval=59993 accelerometerActive=1
+2013-07-29T05:17:57 - INFO    readAccelerometer counters: Total=958749 Interval=59982 accelerometerActive=1
+2013-07-29T05:27:57 - INFO    readAccelerometer counters: Total=1018740 Interval=59991 accelerometerActive=1
+2013-07-29T05:37:57 - INFO    readAccelerometer counters: Total=1078732 Interval=59992 accelerometerActive=1
+2013-07-29T05:38:07 - INFO    Battery level changed
+2013-07-29T05:38:07 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T05:38:07 - INFO    Accelerometer was already on.
+2013-07-29T05:38:07 - INFO    Battery state 1 level = 0.850000
+2013-07-29T05:38:07 - INFO    Battery level changed
+2013-07-29T05:38:07 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T05:38:07 - INFO    Accelerometer was already on.
+2013-07-29T05:38:07 - INFO    Battery state 1 level = 0.850000
+2013-07-29T05:47:57 - INFO    readAccelerometer counters: Total=1138719 Interval=59987 accelerometerActive=1
+2013-07-29T05:57:57 - INFO    readAccelerometer counters: Total=1198709 Interval=59990 accelerometerActive=1
+2013-07-29T06:07:57 - INFO    readAccelerometer counters: Total=1258702 Interval=59993 accelerometerActive=1
+2013-07-29T06:17:57 - INFO    readAccelerometer counters: Total=1318695 Interval=59993 accelerometerActive=1
+2013-07-29T06:27:57 - INFO    readAccelerometer counters: Total=1378685 Interval=59990 accelerometerActive=1
+2013-07-29T06:37:57 - INFO    readAccelerometer counters: Total=1438674 Interval=59989 accelerometerActive=1
+2013-07-29T06:47:57 - INFO    readAccelerometer counters: Total=1498668 Interval=59994 accelerometerActive=1
+2013-07-29T06:57:57 - INFO    readAccelerometer counters: Total=1558661 Interval=59993 accelerometerActive=1
+2013-07-29T07:00:24 - INFO    Battery level changed
+2013-07-29T07:00:24 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T07:00:24 - INFO    Accelerometer was already on.
+2013-07-29T07:00:24 - INFO    Battery state 1 level = 0.800000
+2013-07-29T07:00:24 - INFO    Battery level changed
+2013-07-29T07:00:25 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T07:00:25 - INFO    Accelerometer was already on.
+2013-07-29T07:00:25 - INFO    Battery state 1 level = 0.800000
+2013-07-29T07:07:57 - INFO    readAccelerometer counters: Total=1618655 Interval=59994 accelerometerActive=1
+2013-07-29T07:17:57 - INFO    readAccelerometer counters: Total=1678638 Interval=59983 accelerometerActive=1
+2013-07-29T07:27:57 - INFO    readAccelerometer counters: Total=1738633 Interval=59995 accelerometerActive=1
+2013-07-29T07:37:57 - INFO    readAccelerometer counters: Total=1798622 Interval=59989 accelerometerActive=1
+2013-07-29T07:47:57 - INFO    readAccelerometer counters: Total=1858616 Interval=59994 accelerometerActive=1
+2013-07-29T07:57:57 - INFO    readAccelerometer counters: Total=1918606 Interval=59990 accelerometerActive=1
+2013-07-29T08:07:57 - INFO    readAccelerometer counters: Total=1978600 Interval=59994 accelerometerActive=1
+2013-07-29T08:17:57 - INFO    readAccelerometer counters: Total=2038600 Interval=60000 accelerometerActive=1
+2013-07-29T08:27:57 - INFO    readAccelerometer counters: Total=2098595 Interval=59995 accelerometerActive=1
+2013-07-29T08:28:45 - INFO    Battery level changed
+2013-07-29T08:28:45 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T08:28:45 - INFO    Accelerometer was already on.
+2013-07-29T08:28:45 - INFO    Battery state 1 level = 0.750000
+2013-07-29T08:28:45 - INFO    Battery level changed
+2013-07-29T08:28:45 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T08:28:45 - INFO    Accelerometer was already on.
+2013-07-29T08:28:45 - INFO    Battery state 1 level = 0.750000
+2013-07-29T08:37:57 - INFO    readAccelerometer counters: Total=2158583 Interval=59988 accelerometerActive=1
+2013-07-29T08:47:57 - INFO    readAccelerometer counters: Total=2218579 Interval=59996 accelerometerActive=1
+2013-07-29T08:57:57 - INFO    readAccelerometer counters: Total=2278569 Interval=59990 accelerometerActive=1
+2013-07-29T09:07:57 - INFO    readAccelerometer counters: Total=2338565 Interval=59996 accelerometerActive=1
+2013-07-29T09:16:59 - INFO    Device face up
+2013-07-29T09:17:57 - INFO    readAccelerometer counters: Total=2398550 Interval=59985 accelerometerActive=1
+2013-07-29T09:27:57 - INFO    readAccelerometer counters: Total=2458544 Interval=59994 accelerometerActive=1
+2013-07-29T09:30:20 - INFO    Device face up
+2013-07-29T09:37:57 - INFO    readAccelerometer counters: Total=2518539 Interval=59995 accelerometerActive=1
+2013-07-29T09:47:57 - INFO    readAccelerometer counters: Total=2578528 Interval=59989 accelerometerActive=1
+2013-07-29T09:57:57 - INFO    readAccelerometer counters: Total=2638522 Interval=59994 accelerometerActive=1
+2013-07-29T10:02:39 - INFO    Inter 1
+2013-07-29T10:02:59 - INFO    Inter 2: flags=1 url=silence.mp3
+2013-07-29T10:02:59 - INFO    Inter 2: alarm not ringing, restart silence audio.
+2013-07-29T10:02:59 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-07-29T10:02:59 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2013-07-29T10:02:59 - INFO    is silence playing: 1
+2013-07-29T10:04:44 - INFO    Inter 1
+2013-07-29T10:04:48 - INFO    Battery level changed
+2013-07-29T10:04:48 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T10:04:48 - INFO    Accelerometer was already on.
+2013-07-29T10:04:48 - INFO    Battery state 1 level = 0.700000
+2013-07-29T10:04:48 - INFO    Battery level changed
+2013-07-29T10:04:48 - INFO    Alarm is on and device has sufficient power.
+2013-07-29T10:04:48 - INFO    Accelerometer was already on.
+2013-07-29T10:04:48 - INFO    Battery state 1 level = 0.700000
+2013-07-29T10:05:04 - INFO    Inter 2: flags=1 url=silence.mp3
+2013-07-29T10:05:04 - INFO    Inter 2: alarm not ringing, restart silence audio.
+2013-07-29T10:05:04 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-07-29T10:05:04 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2013-07-29T10:05:05 - INFO    is silence playing: 1
+2013-07-29T10:07:57 - INFO    readAccelerometer counters: Total=2695434 Interval=56912 accelerometerActive=1
+2013-07-29T10:08:32 - INFO    Inter 1
+2013-07-29T10:08:53 - INFO    Inter 2: flags=1 url=silence.mp3
+2013-07-29T10:08:53 - INFO    Inter 2: alarm not ringing, restart silence audio.
+2013-07-29T10:08:53 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-07-29T10:08:53 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2013-07-29T10:08:53 - INFO    is silence playing: 1
+2013-07-29T10:10:03 - INFO    Device face up
+2013-07-29T10:10:11 - INFO    Alarm triggered on move 1.000000 into windows -824.046000 210 8 8
+2013-07-29T10:10:11 - INFO    triggerAlarm
+2013-07-29T10:10:11 - INFO    Alarm is triggered...
+2013-07-29T10:10:11 - INFO    Sleep manager state change 2 to 3
+2013-07-29T10:10:11 - INFO    Run clearBackupNotifications.
+2013-07-29T10:10:11 - INFO    stopAllMusic
+2013-07-29T10:10:11 - INFO    Alarm started
+2013-07-29T10:10:11 - INFO    stopAllMusic
+2013-07-29T10:10:11 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-07-29T10:10:11 - INFO    clearBackupNotifications Done
+2013-07-29T10:10:11 - INFO    auxiliarySpeakerConnected=Speaker
+2013-07-29T10:10:11 - INFO    auxiliarySpeakerConnected=0
+
+2013-07-29T10:11:29 - INFO    Snoozing
+2013-07-29T10:11:29 - INFO    Will snooze for s=210.486189 ms=480.000000 alailTime=210.486189 e=1 a=1
+2013-07-29T10:11:29 - INFO    Alarm stopped
+2013-07-29T10:11:29 - INFO    Stop 1 ap=506736368 0
+2013-07-29T10:11:29 - INFO    Sleep manager state change 3 to 4
+2013-07-29T10:11:29 - INFO    handleAlarmStopped for MXAVAudioPlayerFadeOperation
+2013-07-29T10:11:29 - INFO    Run clearBackupNotifications.
+2013-07-29T10:11:29 - INFO    clearBackupNotifications Done
+2013-07-29T10:11:29 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-07-29T10:11:29 - INFO    Device face up
+2013-07-29T10:11:31 - INFO    Succeeded! Received 22 bytes of data
+2013-07-29T10:11:33 - INFO    applicationWillEnterForeground
+2013-07-29T10:11:33 - INFO    startClockUpdates
+2013-07-29T10:11:33 - INFO    stopClockUpdates
+2013-07-29T10:11:33 - INFO    applicationDidBecomeActive
+2013-07-29T10:11:37 - INFO    Sleep manager state change 4 to 0
+2013-07-29T10:11:37 - INFO    Stopped silence.
+2013-07-29T10:11:37 - INFO    turnAudioConfigurationOFF passed.
+2013-07-29T10:11:37 - INFO    Stop 0 ap=0 0
+2013-07-29T10:11:37 - INFO    turnAudioConfigurationOFF passed.
+2013-07-29T10:11:37 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-07-29T10:11:37 - INFO    AccelerometerThread.stop
+2013-07-29T10:11:37 - INFO    AccelerometerThread.stopAccelerometer
+2013-07-29T10:11:37 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-07-29T10:11:37 - INFO    alarm stop
+2013-07-29T10:11:37 - INFO    alarm stop
+2013-07-29T10:11:37 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-07-29T10:11:37 - INFO    PowerManager stopped
+2013-07-29T10:11:37 - INFO    Run clearBackupNotifications.
+2013-07-29T10:11:37 - INFO    stopAllMusic
+2013-07-29T10:11:37 - INFO    clearBackupNotifications Done
+2013-07-29T10:11:37 - INFO    Generating sleep report
+2013-07-29T10:11:37 - INFO    _sleepState.cepoch: 906.000000
+2013-07-29T10:11:38 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-07-29T10:11:38 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-07-29T10:11:38 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-07-29T10:11:39 - INFO    Succeeded! Received 22 bytes of data
+2013-07-29T10:11:45 - INFO    applicationWillResignActive
+2013-07-29T10:11:45 - INFO    applicationDidEnterBackground
+2013-07-29T10:11:45 - INFO    stopClockUpdates
+2013-07-29T10:11:45 - INFO    stopClockUpdates
+2013-07-29T10:22:36 - INFO    applicationWillEnterForeground
+2013-07-29T10:22:36 - INFO    startClockUpdates
+2013-07-29T10:22:36 - INFO    stopClockUpdates
+2013-07-29T10:22:36 - INFO    applicationDidBecomeActive
+2013-07-29T10:22:38 - INFO    applicationWillResignActive
+2013-07-29T10:22:38 - INFO    applicationDidEnterBackground
+2013-07-29T10:22:38 - INFO    stopClockUpdates
+2013-07-29T10:22:38 - INFO    stopClockUpdates

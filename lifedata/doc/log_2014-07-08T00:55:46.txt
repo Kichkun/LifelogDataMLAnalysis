@@ -1,0 +1,57 @@
+Log level: INFO   
+2014-07-08T00:55:47 - INFO    Device info: iPhone 4S iPhone OS 7.1.1 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2014-07-08T00:55:47 - INFO    com.azumio.iphone.sleepcycle 2.10.4958
+2014-07-08T00:55:46 - INFO    application didFinishLaunchingWithOptions
+2014-07-08T00:55:47 - INFO    started logspecs
+2014-07-08T00:55:47 - INFO    RELEASE build
+2014-07-08T00:55:47 - INFO    Sleep Time 2.10.4958
+2014-07-08T00:55:47 - INFO    com.azumio.iphone.sleepcycle
+2014-07-08T00:55:47 - INFO    iPhone 4S
+2014-07-08T00:55:47 - INFO    Bryan’s iPhone
+2014-07-08T00:55:47 - INFO    iPhone OS
+2014-07-08T00:55:47 - INFO    7.1.1
+2014-07-08T00:55:47 - INFO    iPhone
+2014-07-08T00:55:47 - INFO    iPhone
+2014-07-08T00:55:47 - INFO    multitaskingSupported=1
+2014-07-08T00:55:47 - INFO    App Settings = {
+    "_requestedVersion" = 21099;
+    "_returnedVersion" = 20400;
+    "_v" = 21099;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-07-08T00:55:47 - INFO    finished logspecs
+2014-07-08T00:55:47 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2014-07-08T00:55:47 - INFO    applicationDidBecomeActive
+2014-07-08T00:55:47 - INFO    user = AZTimelineOfflineUser AZOnlineOfflineUser
+2014-07-08T00:55:47 - INFO    Loading data
+2014-07-08T00:55:48 - INFO    server settings={
+    "_requestedVersion" = 21099;
+    "_returnedVersion" = 20400;
+    "_v" = 21099;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-07-08T00:55:49 - INFO    Data loaded online:134 offline:134 in -2.133591
+2014-07-08T00:55:49 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/00256B12-07C0-4C53-82E3-9E8D984E80E4
+2014-07-08T00:55:49 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/03ECB756-A117-49C7-807B-8007FEE14A6D
+2014-07-08T00:55:49 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/04252DAD-619F-48D3-A95E-6D96C27409CE
+2014-07-08T00:55:49 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/2117FF42-4A20-4D19-83FB-4F40DB36CD02
+2014-07-08T00:55:49 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/91218C32-0F8E-44CE-96B0-A4B58F234F17
+2014-07-08T00:55:49 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/9131B53D-CE3A-4652-B4B5-85E84B0F8251
+2014-07-08T00:55:49 - INFO    Replayed log files 6ct
+2014-07-08T00:55:49 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-07-08T00:55:50 - INFO    startClockUpdates
+2014-07-08T00:55:50 - INFO    stopClockUpdates

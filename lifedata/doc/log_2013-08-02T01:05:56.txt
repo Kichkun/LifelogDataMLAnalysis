@@ -1,0 +1,49 @@
+Log level: INFO   
+2013-08-02T01:05:56 - INFO    Device info: iPhone 4S iPhone OS 6.0.1 Bryan’s iPhone
+2013-08-02T01:05:56 - INFO    application didFinishLaunchingWithOptions
+2013-08-02T01:05:56 - INFO    started logspecs
+2013-08-02T01:05:56 - INFO    Sleep Time 2.4.4361
+2013-08-02T01:05:56 - INFO    com.azumio.iphone.sleepcycle
+2013-08-02T01:05:56 - INFO    iPhone 4S
+2013-08-02T01:05:56 - INFO    Bryan’s iPhone
+2013-08-02T01:05:56 - INFO    iPhone OS
+2013-08-02T01:05:56 - INFO    6.0.1
+2013-08-02T01:05:56 - INFO    iPhone
+2013-08-02T01:05:56 - INFO    iPhone
+2013-08-02T01:05:56 - INFO    multitaskingSupported=1
+2013-08-02T01:05:56 - INFO    App Settings = {
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-02T01:05:56 - INFO    finished logspecs
+2013-08-02T01:05:57 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-02T01:05:59 - INFO    startClockUpdates
+2013-08-02T01:05:59 - INFO    stopClockUpdates
+2013-08-02T01:06:01 - INFO    Run clearBackupNotifications.
+2013-08-02T01:06:01 - INFO    clearBackupNotifications Done
+2013-08-02T01:06:01 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2013-08-02T01:06:01 - INFO    applicationDidBecomeActive
+2013-08-02T01:06:02 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-02T01:06:02 - WARNING SleepReportDataPoint:p1 Friday, July 26, 2013, 10:39:44 AM Eastern Daylight Time 0.932000 idx=854
+2013-08-02T01:06:02 - WARNING SleepReportDataPoint:p2 Friday, July 26, 2013, 10:55:46 AM Eastern Daylight Time 0.934000 idx=855
+2013-08-02T01:06:02 - INFO    server settings={
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-02T01:06:03 - INFO    Succeeded! Received 57 bytes of data

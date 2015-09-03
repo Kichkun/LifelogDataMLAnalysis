@@ -1,0 +1,197 @@
+Log level: INFO   
+2014-11-26T18:22:58 - INFO    Device info: iPhone7,2 iPhone OS 8.1.1 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2014-11-26T18:22:58 - INFO    com.azumio.iphone.sleepcycle 2.21
+2014-11-26T18:22:58 - INFO    application didFinishLaunchingWithOptions
+2014-11-26T18:22:58 - INFO    started logspecs
+2014-11-26T18:22:58 - INFO    RELEASE build
+2014-11-26T18:22:58 - INFO    Sleep Time 2.21
+2014-11-26T18:22:58 - INFO    com.azumio.iphone.sleepcycle
+2014-11-26T18:22:58 - INFO    iPhone7,2
+2014-11-26T18:22:58 - INFO    Bryan’s iPhone
+2014-11-26T18:22:58 - INFO    iPhone OS
+2014-11-26T18:22:58 - INFO    8.1.1
+2014-11-26T18:22:58 - INFO    iPhone
+2014-11-26T18:22:58 - INFO    iPhone
+2014-11-26T18:22:58 - INFO    multitaskingSupported=1
+2014-11-26T18:22:58 - INFO    App Settings = {
+    "_requestedVersion" = 22100;
+    "_returnedVersion" = 20400;
+    "_v" = 22100;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-11-26T18:22:58 - INFO    finished logspecs
+2014-11-26T18:22:58 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2014-11-26T18:22:59 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-11-26T18:22:59 - INFO    user = AZTimelineOfflineUser AZOnlineOfflineUser
+2014-11-26T18:22:59 - INFO    Loading data
+2014-11-26T18:22:59 - INFO    Data loaded online:213 offline:214 in -0.767826
+2014-11-26T18:22:59 - INFO    Replayed log files 0ct
+2014-11-26T18:22:59 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:00 - INFO    startClockUpdates
+2014-11-26T18:23:00 - INFO    stopClockUpdates
+2014-11-26T18:23:00 - INFO    Preparing overview
+2014-11-26T18:23:00 - INFO    Run clearBackupNotifications.
+2014-11-26T18:23:00 - INFO    clearBackupNotifications Done
+2014-11-26T18:23:00 - INFO    applicationDidBecomeActive
+2014-11-26T18:23:00 - INFO    Succeeded! Received 56 bytes of data
+2014-11-26T18:23:01 - INFO    Succeeded! Received 2 bytes of data
+2014-11-26T18:23:01 - INFO    server settings={
+    "_requestedVersion" = 22100;
+    "_returnedVersion" = 20400;
+    "_v" = 22100;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-11-26T18:23:01 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:01 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15baad00> -- 00256B12-07C0-4C53-82E3-9E8D984E80E4 <2013-07-25 14:51:31 +0000>
+2014-11-26T18:23:01 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:01 - INFO    event: TabBarPressed
+2014-11-26T18:23:01 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-11-26T18:23:01 - INFO    event: pageSwitch
+2014-11-26T18:23:02 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:02 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145bc1a0> -- 003B11AB-D50B-4039-9462-49DBEE21142B <2014-07-30 15:12:14 +0000>
+2014-11-26T18:23:02 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:02 - INFO    Succeeded! Received 2 bytes of data
+2014-11-26T18:23:02 - INFO    Overview ready 1042
+2014-11-26T18:23:02 - INFO    Preparing overview2 5000
+2014-11-26T18:23:02 - INFO    Calling POST https://api.azumio.com/v2/dailyoverview2
+2014-11-26T18:23:02 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:02 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145bc850> -- 02804009-945E-453A-AC95-1222B7ED7C7B <2014-11-11 15:50:48 +0000>
+2014-11-26T18:23:02 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:02 - INFO    Succeeded! Received 2 bytes of data
+2014-11-26T18:23:02 - INFO    Upload success
+2014-11-26T18:23:03 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:03 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145ae530> -- 03ECB756-A117-49C7-807B-8007FEE14A6D <2013-05-20 14:56:48 +0000>
+2014-11-26T18:23:03 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:03 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:03 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14559ab0> -- 04252DAD-619F-48D3-A95E-6D96C27409CE <2013-04-05 14:33:25 +0000>
+2014-11-26T18:23:04 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:04 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:04 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145c8a90> -- 04697745-C0F0-4682-A431-1F0C91EE857E <2013-06-26 14:13:25 +0000>
+2014-11-26T18:23:04 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:05 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:05 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b4e90> -- 06B724DE-5D22-4DA4-8404-494F04426B64 <2014-10-10 13:55:06 +0000>
+2014-11-26T18:23:05 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:05 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:05 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b2160> -- 08A01D6F-3E49-4564-83D8-D75DB30E53F9 <2014-10-11 15:00:04 +0000>
+2014-11-26T18:23:05 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:06 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:06 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b1140> -- 08B7C1E7-662E-4B0D-8D2C-FD9761898593 <2014-07-14 14:27:27 +0000>
+2014-11-26T18:23:06 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:07 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:07 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b07e0> -- 08C181AA-7604-4873-93E0-C64BE26773A2 <2014-06-01 15:53:28 +0000>
+2014-11-26T18:23:07 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:09 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:09 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145baf00> -- 0A569FDE-71F2-4502-8FC4-C47A2085A76D <2014-11-19 14:11:11 +0000>
+2014-11-26T18:23:09 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:09 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:09 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1456b530> -- 0AD66069-67C9-43CE-A80A-48ECC7705A38 <2014-06-18 14:34:00 +0000>
+2014-11-26T18:23:09 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:10 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:10 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b0410> -- 108260C9-6576-45B9-B5B0-80E350C9C30D <2013-06-19 15:24:56 +0000>
+2014-11-26T18:23:10 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:10 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:10 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1456b510> -- 110A2ADB-9D8D-4ACD-8503-CDA2F37EA6F3 <2014-10-29 12:52:51 +0000>
+2014-11-26T18:23:11 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:11 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:11 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b6330> -- 13C22274-E29A-47E7-9379-2E69B954E74A <2013-06-14 15:35:56 +0000>
+2014-11-26T18:23:11 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:11 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:11 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14558c20> -- 18AC703B-BE8A-4F18-9365-ADEAB0A87782 <2013-07-01 15:07:39 +0000>
+2014-11-26T18:23:11 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:12 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:12 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b2e30> -- 19333827-8399-4102-88DC-8110218C1FF6 <2014-06-03 15:08:42 +0000>
+2014-11-26T18:23:12 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:13 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:13 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14597080> -- 1A8F2AC7-3408-40E2-8EEF-75FC6CF057BC <2013-03-29 14:21:16 +0000>
+2014-11-26T18:23:13 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:14 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:14 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14567cb0> -- 1B87B30F-FCDA-4BF4-988A-D9718E4A15EF <2014-07-22 14:49:35 +0000>
+2014-11-26T18:23:14 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:14 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:14 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145c5c30> -- 1CF5EC41-F05F-476B-A336-3F402188E25D <2013-05-29 14:38:01 +0000>
+2014-11-26T18:23:14 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:15 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:15 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14559a50> -- 1D8AE167-96DA-448C-A357-52EDF73B4490 <2013-06-03 15:01:17 +0000>
+2014-11-26T18:23:15 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:16 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:16 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b6f90> -- 1E8CBA4C-F0FC-487E-BC9A-EE2747BFCBE6 <2014-08-30 13:24:59 +0000>
+2014-11-26T18:23:16 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:16 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:16 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145c7f90> -- 1F6A0D2C-B41A-43FE-9845-F36E3A6EFEB7 <2014-08-22 13:12:14 +0000>
+2014-11-26T18:23:16 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:17 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:17 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1458e840> -- 2046C8B3-EA4C-49AA-AE1A-BE36A393FB0E <2014-09-15 15:40:48 +0000>
+2014-11-26T18:23:17 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:17 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:17 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b6200> -- 20A58E6F-245D-41EA-A0EB-C3B90B68B704 <2014-06-06 14:52:51 +0000>
+2014-11-26T18:23:17 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:17 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:17 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b9e80> -- 2117FF42-4A20-4D19-83FB-4F40DB36CD02 <2013-07-08 15:12:14 +0000>
+2014-11-26T18:23:18 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:18 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:18 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15af7460> -- 21194CC9-588D-46FB-8DF5-85448639244D <2014-06-10 15:10:34 +0000>
+2014-11-26T18:23:18 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:19 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:19 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b6a20> -- 21D4CCCA-599D-4C5B-B0D2-939670E85372 <2014-10-15 13:52:15 +0000>
+2014-11-26T18:23:19 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:19 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:19 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145bcf00> -- 259750A5-B2EA-4A7C-B67C-7321CECC1723 <2014-05-28 14:55:34 +0000>
+2014-11-26T18:23:19 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:20 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:20 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b8b60> -- 27AAD9F5-BFA0-4FBA-97E7-6196C8DA86A8 <2013-05-09 14:59:18 +0000>
+2014-11-26T18:23:20 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:20 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:20 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15bab910> -- 2867B93B-3407-46DF-B17F-1F9EFA8CDD3A <2014-10-23 13:43:39 +0000>
+2014-11-26T18:23:20 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:21 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:21 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b0770> -- 29697D47-A120-4A14-8C39-FDAF60B0AE1C <2014-09-14 14:49:37 +0000>
+2014-11-26T18:23:21 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:22 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:22 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b69e0> -- 2A3E269C-D825-4824-A2A2-9B79F83C7C03 <2013-05-12 15:02:55 +0000>
+2014-11-26T18:23:22 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:27 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:27 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b7890> -- 2AF0C26B-1FCA-4890-8005-39DA886D2A7F <2013-06-17 15:09:08 +0000>
+2014-11-26T18:23:27 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:27 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:27 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1455b4f0> -- 2B28B367-7B70-4806-AE52-B6741C978D52 <2014-09-10 12:44:46 +0000>
+2014-11-26T18:23:27 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:28 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:28 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15babb60> -- 2D57BD95-E944-4D78-923E-1C8790606766 <2014-09-05 13:32:26 +0000>
+2014-11-26T18:23:28 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:28 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:28 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145bc180> -- 2DEB86D4-8C73-4B22-AF51-4289AD01E43C <2013-07-12 15:23:30 +0000>
+2014-11-26T18:23:28 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:29 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:29 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15a393b0> -- 2DFCB418-00B9-4F59-8372-0FC59FCFD6CF <2013-04-01 14:15:21 +0000>
+2014-11-26T18:23:29 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:29 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:29 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145b4250> -- 2DFE151D-071C-495E-85A1-9875B4F7007D <2013-05-21 14:53:30 +0000>
+2014-11-26T18:23:29 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:30 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:30 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145bc0e0> -- 2E80C9B4-9915-4B6E-9BAD-709F25AFF652 <2014-07-24 14:46:46 +0000>
+2014-11-26T18:23:30 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:30 - INFO    applicationWillResignActive
+2014-11-26T18:23:30 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-11-26T18:23:30 - INFO    Succeeded! Received 59 bytes of data
+2014-11-26T18:23:30 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x145bdac0> -- 30469A85-36FB-4926-9FF6-45FBCE8E8175 <2014-11-07 14:42:11 +0000>
+2014-11-26T18:23:30 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-11-26T18:23:31 - INFO    Succeeded! Received 2 bytes of data
+2014-11-26T18:23:31 - INFO    applicationDidEnterBackground: loggedIn=0
+2014-11-26T18:23:32 - INFO    stopClockUpdates
+2014-11-26T18:23:32 - INFO    stopClockUpdates
+2014-11-26T18:23:34 - INFO    Persisting data online: 213 offline: 214
+2014-11-26T18:23:35 - INFO    Data persisted: pass=1 in 3.364177 - -2.555685 - 0.808493 0.808208 0.127618 seconds 6929622bytes

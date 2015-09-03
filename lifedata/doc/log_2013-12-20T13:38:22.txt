@@ -1,0 +1,79 @@
+Log level: INFO   
+2013-12-20T13:38:22 - INFO    Device info: iPhone 4S iPhone OS 7.0.4 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2013-12-20T13:38:22 - INFO    com.azumio.iphone.sleepcycle 2.8.4830
+2013-12-20T13:38:22 - INFO    application didFinishLaunchingWithOptions
+2013-12-20T13:38:22 - INFO    started logspecs
+2013-12-20T13:38:22 - INFO    Sleep Time 2.8.4830
+2013-12-20T13:38:22 - INFO    com.azumio.iphone.sleepcycle
+2013-12-20T13:38:22 - INFO    iPhone 4S
+2013-12-20T13:38:22 - INFO    Bryan’s iPhone
+2013-12-20T13:38:22 - INFO    iPhone OS
+2013-12-20T13:38:22 - INFO    7.0.4
+2013-12-20T13:38:22 - INFO    iPhone
+2013-12-20T13:38:22 - INFO    iPhone
+2013-12-20T13:38:22 - INFO    multitaskingSupported=1
+2013-12-20T13:38:22 - INFO    App Settings = {
+    "_requestedVersion" = 20899;
+    "_returnedVersion" = 20400;
+    "_v" = 20899;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-12-20T13:38:22 - INFO    finished logspecs
+2013-12-20T13:38:22 - INFO    startClockUpdates
+2013-12-20T13:38:22 - INFO    stopClockUpdates
+2013-12-20T13:38:23 - INFO    Run clearBackupNotifications.
+2013-12-20T13:38:23 - INFO    clearBackupNotifications Done
+2013-12-20T13:38:23 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2013-12-20T13:38:23 - INFO    applicationDidBecomeActive
+2013-12-20T13:38:24 - INFO    Calling POST https://api.azumio.com/v2/events
+2013-12-20T13:38:25 - INFO    server settings={
+    "_requestedVersion" = 20899;
+    "_returnedVersion" = 20400;
+    "_v" = 20899;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-12-20T13:38:26 - INFO    event: TabBarPressed
+2013-12-20T13:38:26 - INFO    event: pageSwitch
+2013-12-20T13:38:26 - INFO    Succeeded! Received 57 bytes of data
+2013-12-20T13:38:30 - INFO    Data loaded online:96 offline:96 in -3.190311
+2013-12-20T13:38:30 - INFO    Replayed log files 0ct
+2013-12-20T13:38:30 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2013-12-20T13:38:30 - ERROR   _sleepArray wrong type (null) 0
+2013-12-20T13:38:30 - ERROR   _sleepArray wrong type (null) 0
+2013-12-20T13:38:30 - ERROR   _sleepArray wrong type (null) 0
+2013-12-20T13:38:30 - INFO    Succeeded! Received 3 bytes of data
+2013-12-20T13:38:31 - INFO    Succeeded! Received 60 bytes of data
+2013-12-20T13:38:31 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x17dc5c50> -- CE563A6F-A307-4C35-8107-BACF86266EEF <2013-08-16 11:24:37 +0000>
+2013-12-20T13:38:31 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2013-12-20T13:38:31 - INFO    Succeeded! Received 60 bytes of data
+2013-12-20T13:38:31 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x17db87d0> -- 6E7FDE7D-D5EE-45BD-8C66-5DE3360540CC <2013-08-15 12:38:32 +0000>
+2013-12-20T13:38:32 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2013-12-20T13:38:32 - INFO    Succeeded! Received 60 bytes of data
+2013-12-20T13:38:32 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x17dc40b0> -- 6A66099A-92FC-4B45-AE5D-6E364E00BE9D <2013-08-07 13:22:46 +0000>
+2013-12-20T13:38:32 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2013-12-20T13:38:32 - INFO    applicationWillResignActive
+2013-12-20T13:38:32 - INFO    Calling POST https://api.azumio.com/v2/events
+2013-12-20T13:38:32 - INFO    applicationDidEnterBackground
+2013-12-20T13:38:33 - INFO    stopClockUpdates
+2013-12-20T13:38:33 - INFO    stopClockUpdates
+2013-12-20T13:38:33 - INFO    persistFlat: start
+2013-12-20T13:38:33 - INFO    persistFlat: persist the file
+2013-12-20T13:38:33 - INFO    Persisting data online: 96 offline: 96
+2013-12-20T13:38:37 - INFO    Data persisted passed=1 in 3.583163 - -0.005794 - 3.577373 3.576421 0.219654 seconds 6182781bytes
+2013-12-20T13:38:37 - INFO    persistFlat: done
+2013-12-20T13:38:37 - INFO    Succeeded! Received 60 bytes of data
+2013-12-20T13:38:37 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x17db72b0> -- DE7B4247-0C86-48C2-B285-4B293C9991F4 <2013-08-06 12:33:28 +0000>
+2013-12-20T13:38:37 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2013-12-20T13:38:37 - INFO    Succeeded! Received 3 bytes of data

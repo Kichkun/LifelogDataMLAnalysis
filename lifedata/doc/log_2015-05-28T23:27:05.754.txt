@@ -1,0 +1,747 @@
+Log level: INFO   
+2015-05-28T23:27:05.832 - INFO    initLog                                                     :73 Device info: iPhone7,2 iPhone OS 8.1.2 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2015-05-28T23:27:05.832 - INFO    initLog                                                     :74 com.azumio.iphone.sleepcycle 3.6.8 build: Apr 21 2015 20:49:42
+2015-05-28T23:27:05.745 - INFO    -[SleepyAppDelegate application:didFinishLaunchingWithOptions:]:261 application didFinishLaunchingWithOptions
+2015-05-28T23:27:05.906 - INFO    -[SleepyAppDelegate logspecs]                               :139 started logspecs
+2015-05-28T23:27:05.906 - INFO    -[SleepyAppDelegate logspecs]                               :143 RELEASE build
+2015-05-28T23:27:05.906 - INFO    -[SleepyAppDelegate logspecs]                               :148 Sleep Time 3.6.8
+2015-05-28T23:27:05.906 - INFO    -[SleepyAppDelegate logspecs]                               :149 com.azumio.iphone.sleepcycle
+2015-05-28T23:27:05.906 - INFO    -[SleepyAppDelegate logspecs]                               :150 iPhone7,2
+2015-05-28T23:27:05.906 - INFO    -[SleepyAppDelegate logspecs]                               :151 Bryan’s iPhone
+2015-05-28T23:27:05.907 - INFO    -[SleepyAppDelegate logspecs]                               :152 iPhone OS
+2015-05-28T23:27:05.907 - INFO    -[SleepyAppDelegate logspecs]                               :153 8.1.2
+2015-05-28T23:27:05.907 - INFO    -[SleepyAppDelegate logspecs]                               :154 iPhone
+2015-05-28T23:27:05.907 - INFO    -[SleepyAppDelegate logspecs]                               :155 iPhone
+2015-05-28T23:27:05.907 - INFO    -[SleepyAppDelegate logspecs]                               :156 multitaskingSupported=1
+2015-05-28T23:27:05.911 - INFO    -[SleepyAppDelegate logspecs]                               :157 App Settings = {
+    "_requestedVersion" = 30608;
+    "_returnedVersion" = 20400;
+    "_v" = 30608;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2015-05-28T23:27:05.911 - INFO    -[SleepyAppDelegate logspecs]                               :162 finished logspecs
+2015-05-28T23:27:06.073 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling GET https://api.azumio.com/v2/users/me
+2015-05-28T23:27:06.332 - INFO    -[SleepyAppDelegate applicationDidBecomeActive:]            :475 applicationDidBecomeActive
+2015-05-28T23:27:06.374 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-28T23:27:06.377 - INFO    -[AZDataMergeViewController mergeDataStores]                :119 user = AZTimelineOfflineUser AZOnlineOfflineUser
+2015-05-28T23:27:06.380 - INFO    -[AZOnlineTimeline loadFlatMainDB]                          :1413 Loading data
+2015-05-28T23:27:06.620 - INFO    __33-[AZAppSettings loadThenExecute:]_block_invoke          :39 server settings={
+    "_requestedVersion" = 30608;
+    "_returnedVersion" = 20400;
+    "_v" = 30608;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2015-05-28T23:27:07.659 - INFO    -[AZOnlineTimeline loadFlatMainDB]                          :1473 Data loaded online:356 offline:357 in -1.279325
+2015-05-28T23:27:07.660 - INFO    -[AZOnlineTimeline replayFlatLog:]                          :1351 Replayed log files 0ct
+2015-05-28T23:27:07.931 - INFO    -[AZAlarmViewController startClockUpdates]                  :686 startClockUpdates
+2015-05-28T23:27:07.932 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-28T23:27:08.024 - INFO    -[AZM7OverviewUploader uploadOverview]                      :40 Preparing overview
+2015-05-28T23:27:08.038 - INFO    -[AZTabBarController clearBackupNotifications]              :1469 Run clearBackupNotifications.
+2015-05-28T23:27:08.041 - INFO    __46-[AZTabBarController clearBackupNotifications]_block_invoke:1512 clearBackupNotifications Done
+2015-05-28T23:27:08.322 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 56 bytes of data for GET /v2/users/me
+2015-05-28T23:27:08.379 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-28T23:27:18.681 - INFO    __38-[AZM7OverviewUploader uploadOverview]_block_invoke_2   :94 Overview ready 3590
+2015-05-28T23:27:18.688 - INFO    -[AZM7OverviewUploader uploadM7Data:count:]                 :113 Preparing overview2 16517
+2015-05-28T23:27:18.688 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/dailyoverview2
+2015-05-28T23:27:19.365 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/dailyoverview2
+2015-05-28T23:27:19.366 - INFO    __43-[AZM7OverviewUploader uploadM7Data:count:]_block_invoke:119 Upload success
+2015-05-28T23:27:22.768 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:27:22.775 - INFO    -[SleepManagerAccelerometer stateChangedTo:from:]           :690 Sleep manager state change 0 to 1
+2015-05-28T23:27:22.779 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:27:22.781 - INFO    -[SleepManagerAccelerometer stateChangedTo:from:]           :690 Sleep manager state change 1 to 2
+2015-05-28T23:27:22.796 - INFO    +[SoundManager defaultAudioConfigurationAndMixWithOthers:]  :511 defaultAudioConfigurationAndMixWithOthers mix=1
+2015-05-28T23:27:23.069 - INFO    +[SoundManager defaultAudioConfigurationAndMixWithOthers:]  :511 defaultAudioConfigurationAndMixWithOthers mix=1
+2015-05-28T23:27:23.083 - INFO    -[SoundManager playSilence]                                 :148 Scheduling silence loops 8640, loop duration 10.000000 seconds
+2015-05-28T23:27:23.094 - INFO    -[SoundManager playSilence]                                 :153 is silence playing: 1
+2015-05-28T23:27:23.095 - INFO    -[AccelerometerSensorSource setOn:]                         :47 AccelerometerSensorSource: cur state=0 set state to 1
+2015-05-28T23:27:23.096 - INFO    -[AccelerometerSensorSource startAccelerometer]             :35 startAccelerometer Pressed
+2015-05-28T23:27:23.096 - INFO    -[AccelerometerThread start]                                :61 AccelerometerThread start.
+2015-05-28T23:27:23.103 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:27:23.103 - INFO    -[AZTabBarController prepareForStateOn]                     :1328 prepareForStateOn : change State to ON
+2015-05-28T23:27:23.104 - INFO    -[AZTabBarController prepareForStateOn]                     :1329 animateTabBarView : slideToStopView
+2015-05-28T23:27:23.111 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-28T23:27:23.114 - INFO    -[SleepManagerAccelerometer start]                          :503 alarm start
+2015-05-28T23:27:23.117 - INFO    -[SleepManagerAccelerometer scheduleAlarmTimer]             :404 Scheduling alarm timer 2015-05-29T09:10:00.000-0400
+2015-05-28T23:27:23.117 - INFO    -[SleepManagerAccelerometer scheduleAlarmTimer]             :427 Wakup window stats 52.000000 1148.000000 
+2015-05-28T23:27:23.120 - INFO    -[AZPowerManager start]                                     :166 PowerManager started
+2015-05-28T23:27:23.120 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:27:23.121 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:27:23.121 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:27:23.121 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:27:23.122 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:27:23.394 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=14 Interval=14 accelerometerActive=1
+2015-05-28T23:27:23.396 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-28T23:27:25.050 - INFO    -[SleepyAppDelegate applicationWillResignActive:]           :413 applicationWillResignActive
+2015-05-28T23:27:25.054 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: SongSelection StateOn
+2015-05-28T23:27:25.089 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-28T23:27:25.413 - INFO    -[SleepyAppDelegate applicationDidEnterBackground:]         :451 applicationDidEnterBackground: loggedIn=0
+2015-05-28T23:27:26.874 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-28T23:27:26.875 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-28T23:27:30.840 - INFO    -[AZOnlineTimeline persistFlat]                             :1223 Persisting data online: 356 offline: 357
+2015-05-28T23:27:32.114 - INFO    -[AZOnlineTimeline persistFlat]                             :1230 Data persisted: pass=1 in 5.233568 - -3.953522 - 1.280047 1.273113 0.225125 seconds 11279904bytes
+2015-05-28T23:27:32.174 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-28T23:27:32.211 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:28:11.618 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:28:11.623 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:28:11.623 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:28:11.624 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:28:11.624 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:28:11.624 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:28:53.665 - INFO    -[AZTabBarController motionEnded:withEvent:]                :1686 shaking...
+2015-05-28T23:28:54.223 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-28T23:28:55.305 - INFO    -[SleepyAppDelegate applicationWillEnterForeground:]        :463 applicationWillEnterForeground: loggedIn=0
+2015-05-28T23:28:55.418 - INFO    -[AZAlarmViewController startClockUpdates]                  :686 startClockUpdates
+2015-05-28T23:28:55.418 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-28T23:28:55.427 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:28:55.427 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:28:55.428 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:28:55.861 - INFO    -[SleepyAppDelegate applicationDidBecomeActive:]            :475 applicationDidBecomeActive
+2015-05-28T23:28:56.498 - INFO    -[SleepyAppDelegate applicationWillResignActive:]           :413 applicationWillResignActive
+2015-05-28T23:28:56.498 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: SongSelection StateOn
+2015-05-28T23:28:56.499 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-28T23:28:56.851 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-28T23:28:57.085 - INFO    -[SleepyAppDelegate applicationDidEnterBackground:]         :451 applicationDidEnterBackground: loggedIn=0
+2015-05-28T23:28:58.234 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-28T23:28:58.234 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-28T23:29:03.124 - INFO    -[AZOnlineTimeline persistFlat]                             :1223 Persisting data online: 356 offline: 357
+2015-05-28T23:29:04.583 - INFO    -[AZOnlineTimeline persistFlat]                             :1230 Data persisted: pass=1 in 6.342705 - -4.883554 - 1.459151 1.458927 0.228122 seconds 11279904bytes
+2015-05-28T23:29:33.191 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:30:13.997 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:30:14.000 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:30:14.000 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:30:14.000 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:30:14.000 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:30:14.001 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:31:15.181 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:32:16.359 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:32:16.361 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:32:16.364 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:32:16.364 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:32:16.364 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:32:16.365 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:33:17.567 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:33:58.345 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:33:58.346 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:33:58.346 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:33:58.347 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:33:58.347 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:33:58.347 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:35:19.900 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:35:19.902 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:35:19.903 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:35:19.903 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:35:19.903 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:35:19.903 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:36:00.704 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:36:00.706 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:36:00.706 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:36:00.706 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:36:00.708 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:36:00.708 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:36:41.485 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:37:23.395 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=58483 Interval=58469 accelerometerActive=1
+2015-05-28T23:38:23.465 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:38:23.467 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:38:23.468 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:38:23.468 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:38:23.469 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:38:23.469 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:39:04.264 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:39:04.266 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:39:04.267 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:39:04.267 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:39:04.268 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:39:04.268 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:40:05.464 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:41:06.731 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:41:06.733 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:41:06.733 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:41:06.733 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:41:06.734 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:41:06.734 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:42:07.910 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:43:09.080 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:43:09.082 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:43:09.082 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:43:09.083 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:43:09.083 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:43:09.083 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:43:49.886 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:43:49.889 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:43:49.890 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:43:49.890 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:43:49.890 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:43:49.890 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:44:51.063 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:46:12.645 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:46:12.647 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:46:12.647 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:46:12.647 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:46:12.648 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:46:12.648 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:46:53.438 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:47:23.394 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=118456 Interval=59973 accelerometerActive=1
+2015-05-28T23:47:54.627 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:47:54.630 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:47:54.631 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:47:54.631 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:47:54.631 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:47:54.631 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:48:55.801 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:50:17.358 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:50:17.359 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:50:17.360 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:50:17.360 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:50:17.360 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:50:17.360 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:50:58.155 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:50:58.158 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:50:58.159 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:50:58.159 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:50:58.160 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:50:58.160 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:51:59.348 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:53:00.520 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:53:00.522 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:53:00.523 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:53:00.523 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:53:00.523 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:53:00.524 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:54:22.079 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:54:22.080 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:54:22.081 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:54:22.081 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:54:22.081 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:54:22.081 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:55:02.870 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:56:24.440 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:56:24.443 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:56:24.443 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:56:24.444 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:56:24.445 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:56:24.445 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:57:05.234 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:57:05.237 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:57:05.237 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:57:05.237 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:57:05.238 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:57:05.238 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-28T23:57:23.394 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=178432 Interval=59976 accelerometerActive=1
+2015-05-28T23:58:06.512 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:59:07.687 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-28T23:59:07.690 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:59:07.690 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-28T23:59:07.690 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-28T23:59:07.693 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-28T23:59:07.694 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:00:08.887 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:01:10.729 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:01:10.739 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:01:10.740 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:01:10.740 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:01:10.741 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:01:10.741 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:02:11.833 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:03:33.470 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:03:33.473 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:03:33.473 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:03:33.474 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:03:33.475 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:03:33.475 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:04:34.672 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:04:34.674 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:04:34.674 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:04:34.674 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:04:34.674 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:04:34.675 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:05:15.439 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:06:37.021 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:06:37.023 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:06:37.023 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:06:37.024 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:06:37.024 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:06:37.025 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:07:23.405 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=238391 Interval=59959 accelerometerActive=1
+2015-05-29T00:07:38.212 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:07:38.214 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:07:38.214 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:07:38.215 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:07:38.215 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:07:38.215 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:08:19.009 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:09:20.184 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:09:20.186 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:09:20.186 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:09:20.186 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:09:20.187 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:09:20.187 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:10:21.366 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:10:21.368 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:10:21.368 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:10:21.368 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:10:21.369 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:10:21.370 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:11:42.947 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:12:23.721 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:12:23.724 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:12:23.725 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:12:23.726 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:12:23.727 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:12:23.728 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:13:24.911 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:14:26.090 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:14:26.092 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:14:26.093 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:14:26.093 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:14:26.093 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:14:26.093 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:15:27.396 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:15:27.398 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:15:27.399 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:15:27.400 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:15:27.400 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:15:27.401 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:16:28.564 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:17:23.415 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=298371 Interval=59980 accelerometerActive=1
+2015-05-29T00:17:29.747 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:17:29.749 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:17:29.750 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:17:29.750 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:17:29.751 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:17:29.751 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:18:30.925 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:19:32.151 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:19:32.158 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:19:32.159 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:19:32.159 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:19:32.159 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:19:32.160 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:20:33.331 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:21:34.542 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:21:34.544 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:21:34.544 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:21:34.545 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:21:34.545 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:21:34.546 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:22:35.731 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:23:36.890 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:23:36.892 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:23:36.892 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:23:36.893 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:23:36.894 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:23:36.895 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:24:38.070 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:25:39.243 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:25:39.246 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:25:39.246 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:25:39.246 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:25:39.247 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:25:39.247 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:26:40.481 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:27:23.414 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=358346 Interval=59975 accelerometerActive=1
+2015-05-29T00:27:41.661 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:27:41.663 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:27:41.663 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:27:41.663 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:27:41.665 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:27:41.665 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:28:42.839 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:29:44.049 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:29:44.052 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:29:44.053 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:29:44.054 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:29:44.055 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:29:44.055 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:30:45.228 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:31:46.414 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:31:46.416 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:31:46.417 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:31:46.417 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:31:46.417 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:31:46.418 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:32:47.710 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:33:48.870 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:33:48.872 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:33:48.872 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:33:48.872 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:33:48.872 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:33:48.873 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:34:50.076 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:35:51.308 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:35:51.310 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:35:51.312 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:35:51.312 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:35:51.312 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:35:51.313 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:36:52.487 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:37:23.424 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=418320 Interval=59974 accelerometerActive=1
+2015-05-29T00:38:14.070 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:38:14.074 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:38:14.074 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:38:14.074 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:38:14.075 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:38:14.075 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:39:15.291 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:40:16.478 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:40:16.480 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:40:16.480 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:40:16.481 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:40:16.481 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:40:16.481 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:41:17.660 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:41:17.662 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:41:17.662 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:41:17.662 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:41:17.663 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:41:17.663 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:42:18.883 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:43:19.739 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:43:19.750 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:43:19.750 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:43:19.751 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:43:19.751 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:43:19.752 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:44:20.957 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:45:42.644 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:45:42.646 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:45:42.647 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:45:42.648 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:45:42.648 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:45:42.649 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:46:43.857 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:47:23.041 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=478283 Interval=59963 accelerometerActive=1
+2015-05-29T00:47:45.110 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:47:45.114 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:47:45.114 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:47:45.114 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:47:45.115 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:47:45.115 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:48:46.332 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:49:47.552 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:49:47.555 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:49:47.556 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:49:47.556 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:49:47.557 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:49:47.557 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:50:48.773 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:51:50.001 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:51:50.004 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:51:50.005 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:51:50.006 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:51:50.007 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:51:50.007 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:53:11.637 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:54:12.843 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:54:12.844 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:54:12.845 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:54:12.845 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:54:12.846 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:54:12.847 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:55:34.440 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:56:56.028 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:56:56.031 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:56:56.031 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:56:56.031 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:56:56.032 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:56:56.032 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T00:57:23.051 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=538262 Interval=59979 accelerometerActive=1
+2015-05-29T00:58:17.605 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:59:59.556 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T00:59:59.558 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:59:59.558 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T00:59:59.558 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T00:59:59.559 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T00:59:59.559 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T01:02:02.355 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T01:04:04.685 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T01:04:04.687 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T01:04:04.688 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T01:04:04.688 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T01:04:04.692 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T01:04:04.692 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T01:06:47.793 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T01:07:23.051 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=598242 Interval=59980 accelerometerActive=1
+2015-05-29T01:10:11.754 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T01:10:11.757 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T01:10:11.757 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T01:10:11.757 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T01:10:11.757 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T01:10:11.758 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T01:14:16.434 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T01:17:23.051 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=658224 Interval=59982 accelerometerActive=1
+2015-05-29T01:27:23.061 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=718212 Interval=59988 accelerometerActive=1
+2015-05-29T01:37:23.060 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=778203 Interval=59991 accelerometerActive=1
+2015-05-29T01:38:08.835 - INFO    -[AZOnlineTimeline persistFlat]                             :1223 Persisting data online: 356 offline: 357
+2015-05-29T01:38:10.089 - INFO    -[AZOnlineTimeline persistFlat]                             :1230 Data persisted: pass=1 in 5.584026 - -4.330046 - 1.253980 1.253092 0.200024 seconds 11279904bytes
+2015-05-29T01:47:23.004 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=837630 Interval=59427 accelerometerActive=1
+2015-05-29T01:49:36.545 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T01:49:36.550 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T01:49:36.551 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T01:49:36.551 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T01:49:36.551 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T01:49:36.553 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T01:55:26.878 - INFO    -[AZOnlineTimeline persistFlat]                             :1223 Persisting data online: 356 offline: 357
+2015-05-29T01:55:28.100 - INFO    -[AZOnlineTimeline persistFlat]                             :1230 Data persisted: pass=1 in 5.201089 - -3.979386 - 1.221703 1.221501 0.173663 seconds 11279904bytes
+2015-05-29T01:57:23.015 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=897103 Interval=59473 accelerometerActive=1
+2015-05-29T02:07:23.024 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=957092 Interval=59989 accelerometerActive=1
+2015-05-29T02:17:23.024 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1017087 Interval=59995 accelerometerActive=1
+2015-05-29T02:27:23.024 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1077082 Interval=59995 accelerometerActive=1
+2015-05-29T02:37:23.035 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1137077 Interval=59995 accelerometerActive=1
+2015-05-29T02:47:23.034 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1197072 Interval=59995 accelerometerActive=1
+2015-05-29T02:57:23.043 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1257070 Interval=59998 accelerometerActive=1
+2015-05-29T03:07:23.043 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1317060 Interval=59990 accelerometerActive=1
+2015-05-29T03:17:22.955 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1377048 Interval=59988 accelerometerActive=1
+2015-05-29T03:27:22.955 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1437044 Interval=59996 accelerometerActive=1
+2015-05-29T03:37:22.967 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1497038 Interval=59994 accelerometerActive=1
+2015-05-29T03:47:22.975 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1557034 Interval=59996 accelerometerActive=1
+2015-05-29T03:57:22.976 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1617027 Interval=59993 accelerometerActive=1
+2015-05-29T04:07:22.976 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1677022 Interval=59995 accelerometerActive=1
+2015-05-29T04:17:22.915 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1737019 Interval=59997 accelerometerActive=1
+2015-05-29T04:27:22.914 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1797011 Interval=59992 accelerometerActive=1
+2015-05-29T04:37:22.914 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1857011 Interval=60000 accelerometerActive=1
+2015-05-29T04:47:22.923 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1917001 Interval=59990 accelerometerActive=1
+2015-05-29T04:57:22.924 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=1976994 Interval=59993 accelerometerActive=1
+2015-05-29T05:07:22.934 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2036991 Interval=59997 accelerometerActive=1
+2015-05-29T05:17:22.934 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2096986 Interval=59995 accelerometerActive=1
+2015-05-29T05:27:22.934 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2156983 Interval=59997 accelerometerActive=1
+2015-05-29T05:32:12.935 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T05:32:12.951 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T05:32:12.952 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T05:32:12.952 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T05:32:12.953 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T05:32:12.953 - INFO    -[AZPowerManager handleBatteryChange:state:]                :135 Battery state 1 level = 1.000000
+2015-05-29T05:32:12.953 - INFO    +[AZPowerManager criticalBatteryLevel]                      :98 creitical battery threshold = 0.150000
+2015-05-29T05:32:12.953 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T05:32:16.539 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T05:32:16.540 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T05:32:16.541 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T05:32:16.541 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T05:32:16.541 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T05:32:16.541 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T05:32:16.654 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T05:32:16.656 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T05:32:16.656 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T05:32:16.656 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T05:32:16.656 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T05:32:16.656 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T05:32:29.498 - INFO    -[AZOnlineTimeline persistFlat]                             :1223 Persisting data online: 356 offline: 357
+2015-05-29T05:32:30.754 - INFO    -[AZOnlineTimeline persistFlat]                             :1230 Data persisted: pass=1 in 5.431670 - -4.175610 - 1.256060 1.252872 0.202227 seconds 11279904bytes
+2015-05-29T05:37:22.866 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2216394 Interval=59411 accelerometerActive=1
+2015-05-29T05:47:22.865 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2276385 Interval=59991 accelerometerActive=1
+2015-05-29T05:57:22.865 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2336377 Interval=59992 accelerometerActive=1
+2015-05-29T06:07:22.865 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2396370 Interval=59993 accelerometerActive=1
+2015-05-29T06:17:22.875 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2456361 Interval=59991 accelerometerActive=1
+2015-05-29T06:27:22.884 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2516356 Interval=59995 accelerometerActive=1
+2015-05-29T06:32:25.390 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T06:32:25.394 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T06:32:25.395 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T06:32:25.395 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T06:32:25.395 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T06:32:25.396 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T06:37:22.828 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2576339 Interval=59983 accelerometerActive=1
+2015-05-29T06:47:22.828 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2636323 Interval=59984 accelerometerActive=1
+2015-05-29T06:57:22.837 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2696311 Interval=59988 accelerometerActive=1
+2015-05-29T06:57:28.935 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T06:57:28.937 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T06:57:28.938 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T06:57:28.938 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T06:57:28.938 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T06:57:28.938 - INFO    -[AZPowerManager handleBatteryChange:state:]                :148 Battery Charging
+2015-05-29T07:07:22.857 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2756302 Interval=59991 accelerometerActive=1
+2015-05-29T07:17:22.858 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2816290 Interval=59988 accelerometerActive=1
+2015-05-29T07:27:22.858 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2876276 Interval=59986 accelerometerActive=1
+2015-05-29T07:37:22.868 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2936268 Interval=59992 accelerometerActive=1
+2015-05-29T07:40:07.711 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T07:42:55.926 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T07:47:22.802 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=2995892 Interval=59624 accelerometerActive=1
+2015-05-29T07:57:22.810 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=3055397 Interval=59505 accelerometerActive=1
+2015-05-29T08:03:32.997 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:05:58.675 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T08:05:58.753 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:05:58.754 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T08:05:58.755 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T08:05:58.759 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:05:58.759 - INFO    -[AZPowerManager handleBatteryChange:state:]                :135 Battery state 1 level = 1.000000
+2015-05-29T08:05:58.759 - INFO    +[AZPowerManager criticalBatteryLevel]                      :98 creitical battery threshold = 0.150000
+2015-05-29T08:05:58.760 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:07:22.812 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=3115161 Interval=59764 accelerometerActive=1
+2015-05-29T08:11:16.632 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:17:22.821 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=3175033 Interval=59872 accelerometerActive=1
+2015-05-29T08:17:55.072 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:27:22.831 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=3235006 Interval=59973 accelerometerActive=1
+2015-05-29T08:30:14.663 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:30:54.720 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:32:00.615 - INFO    -[AZOnlineTimeline persistFlat]                             :1223 Persisting data online: 356 offline: 357
+2015-05-29T08:32:02.128 - INFO    -[AZOnlineTimeline persistFlat]                             :1230 Data persisted: pass=1 in 7.311543 - -5.798376 - 1.513168 1.512922 0.223609 seconds 11279904bytes
+2015-05-29T08:32:52.992 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T08:34:03.601 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:34:52.451 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:35:15.801 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T08:35:15.807 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:35:15.808 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T08:35:15.809 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T08:35:15.811 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:35:15.812 - INFO    -[AZPowerManager handleBatteryChange:state:]                :135 Battery state 1 level = 0.980000
+2015-05-29T08:35:15.812 - INFO    +[AZPowerManager criticalBatteryLevel]                      :98 creitical battery threshold = 0.150000
+2015-05-29T08:35:15.812 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:37:22.834 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=3294004 Interval=58998 accelerometerActive=1
+2015-05-29T08:38:19.666 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T08:38:22.137 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:41:23.843 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T08:41:23.860 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:41:23.864 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T08:41:23.865 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T08:41:23.868 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:41:23.868 - INFO    -[AZPowerManager handleBatteryChange:state:]                :135 Battery state 1 level = 0.960000
+2015-05-29T08:41:23.869 - INFO    +[AZPowerManager criticalBatteryLevel]                      :98 creitical battery threshold = 0.150000
+2015-05-29T08:41:23.869 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:44:27.459 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T08:46:11.219 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:47:22.841 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=3353771 Interval=59767 accelerometerActive=1
+2015-05-29T08:47:52.061 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T08:47:52.065 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:47:52.065 - INFO    -[AZTabBarController restartDataCollection]                 :452 Alarm is on and device has sufficient power.
+2015-05-29T08:47:52.067 - INFO    -[AZTabBarController restartDataCollection]                 :460 Accelerometer was already on.
+2015-05-29T08:47:52.067 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:47:52.072 - INFO    -[AZPowerManager handleBatteryChange:state:]                :135 Battery state 1 level = 0.940000
+2015-05-29T08:47:52.073 - INFO    +[AZPowerManager criticalBatteryLevel]                      :98 creitical battery threshold = 0.150000
+2015-05-29T08:47:52.074 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T08:49:20.549 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:51:40.761 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T08:57:22.850 - INFO    -[AccelerometerThread readAccelerometer]                    :154 readAccelerometer counters: Total=3413702 Interval=59931 accelerometerActive=1
+2015-05-29T09:01:07.261 - INFO    __23-[AZPowerManager start]_block_invoke91                  :175 Battery level changed
+2015-05-29T09:02:43.392 - INFO    -[AZTabBarController deviceFaceUp:]                         :389 Device face up
+2015-05-29T09:03:39.684 - INFO    -[SleepManagerAccelerometer moveSize:index:at:]             :647 Alarm triggered on move 1.000000 into windows -768.353000 748 49 49
+2015-05-29T09:03:39.686 - INFO    -[SleepManagerAccelerometer triggerAlarm]                   :479 triggerAlarm
+2015-05-29T09:03:39.686 - INFO    -[SleepManagerAccelerometer triggerAlarm]                   :491 Alarm is triggered...
+2015-05-29T09:03:39.687 - INFO    -[SleepManagerAccelerometer stateChangedTo:from:]           :690 Sleep manager state change 2 to 3
+2015-05-29T09:03:39.730 - INFO    -[AZTabBarController clearBackupNotifications]              :1469 Run clearBackupNotifications.
+2015-05-29T09:03:39.748 - INFO    -[SoundscapePlayer stopAllMusic]                            :329 stopAllMusic
+2015-05-29T09:03:39.749 - INFO    -[AZTabBarController startNormalAlarm:]                     :1703 Alarm started
+2015-05-29T09:03:39.749 - INFO    -[SoundscapePlayer stopAllMusic]                            :329 stopAllMusic
+2015-05-29T09:03:39.753 - INFO    +[SoundManager defaultAudioConfigurationAndMixWithOthers:]  :511 defaultAudioConfigurationAndMixWithOthers mix=1
+2015-05-29T09:03:39.804 - INFO    __46-[AZTabBarController clearBackupNotifications]_block_invoke:1512 clearBackupNotifications Done
+2015-05-29T09:03:39.812 - INFO    +[SoundManager auxiliarySpeakerConnected]                   :600 auxiliarySpeakerConnected=Speaker
+2015-05-29T09:03:39.813 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: Audio Configuration Speaker
+2015-05-29T09:03:39.831 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-29T09:03:39.847 - INFO    +[SoundManager auxiliarySpeakerConnected]                   :649 auxiliarySpeakerConnected=0
+
+2015-05-29T09:03:40.433 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-29T09:04:29.521 - INFO    -[SleepyAppDelegate applicationWillEnterForeground:]        :463 applicationWillEnterForeground: loggedIn=0
+2015-05-29T09:04:29.855 - INFO    -[AZAlarmViewController startClockUpdates]                  :686 startClockUpdates
+2015-05-29T09:04:29.855 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-29T09:04:30.024 - INFO    -[SleepyAppDelegate applicationDidBecomeActive:]            :475 applicationDidBecomeActive
+2015-05-29T09:04:30.085 - INFO    -[SleepyAppDelegate application:didReceiveLocalNotification:]:132 didReceiveLocalNotification: (null):Wake up! fireDate=(null) repeatInterval=0
+2015-05-29T09:04:33.057 - INFO    -[SleepManagerAccelerometer stateChangedTo:from:]           :690 Sleep manager state change 3 to 0
+2015-05-29T09:04:33.059 - INFO    -[SleepManagerAccelerometer stop]                           :517 alarm stop
+2015-05-29T09:04:33.076 - INFO    __32-[AZTabBarController commitToDB]_block_invoke_2         :1131 sleepdur: 34629.962290
+2015-05-29T09:04:33.080 - INFO    -[SleepManagerAccelerometer sleepReport]                    :199 Generating sleep report
+2015-05-29T09:04:33.082 - INFO    -[AZM7OverviewUploader uploadOverview]                      :40 Preparing overview
+2015-05-29T09:04:33.159 - INFO    -[SoundManager stopSilence]                                 :166 Stopped silence.
+2015-05-29T09:04:33.159 - INFO    -[SoundManager stop]                                        :366 Stop 1 ap=383192736 0
+2015-05-29T09:04:33.207 - INFO    -[SleepManagerAccelerometer sleepReport]                    :214 _sleepState.cepoch: 1153.000000
+2015-05-29T09:04:33.213 - INFO    -[SleepManagerAccelerometer sleepReport]                    :382 sleepReport gen time=0
+2015-05-29T09:04:33.250 - INFO    +[SoundManager turnAudioConfigurationOFF]                   :504 turnAudioConfigurationOFF passed.
+2015-05-29T09:04:33.251 - INFO    -[AccelerometerSensorSource setOn:]                         :47 AccelerometerSensorSource: cur state=1 set state to 0
+2015-05-29T09:04:33.251 - INFO    -[AccelerometerThread stop]                                 :119 AccelerometerThread.stop
+2015-05-29T09:04:33.251 - INFO    -[AccelerometerThread stopAccelerometer]                    :31 AccelerometerThread.stopAccelerometer
+2015-05-29T09:04:33.255 - INFO    -[AccelerometerSensorSource setOn:]                         :58 AccelerometerSensorSource state = 0, turned it off.
+2015-05-29T09:04:33.255 - INFO    -[SleepManagerAccelerometer stop]                           :517 alarm stop
+2015-05-29T09:04:33.289 - INFO    -[AZTabBarController stateChangedTo:from:]                  :1560 stateChangedTo StateOff: idleTimerDisabled=0
+2015-05-29T09:04:33.289 - INFO    -[MXAVAudioPlayerFadeOperation handleAlarmStopped]          :182 handleAlarmStopped for MXAVAudioPlayerFadeOperation
+2015-05-29T09:04:33.290 - INFO    -[AZPowerManager stop]                                      :195 PowerManager stopped
+2015-05-29T09:04:33.290 - INFO    -[AZTabBarController clearBackupNotifications]              :1469 Run clearBackupNotifications.
+2015-05-29T09:04:33.291 - INFO    -[SoundscapePlayer stopAllMusic]                            :329 stopAllMusic
+2015-05-29T09:04:33.293 - INFO    __46-[AZTabBarController clearBackupNotifications]_block_invoke:1512 clearBackupNotifications Done
+2015-05-29T09:04:33.297 - INFO    __32-[AZTabBarController commitToDB]_block_invoke_3         :1153 sleep report={
+    alarmRingTimes =     (
+                {
+            source = move;
+            time = 1432904619684;
+        }
+    );
+    alarmTime = 1432905000000;
+    awakeDuration = "6427.442085522108";
+    deepDuration = "25469.49013328387";
+    duration = "34630.0968439579";
+    efficiency = "81.43972246313965";
+    end = 1432904673210;
+    endBatteryLevel = "0.9399999976158142";
+    firstAlarmRingTime = 1432904619686;
+    heartRate = 0;
+    lightDuration = "2733.164625151925";
+    meta =     {
+        12HourMode = 1;
+        AirPlayIsOn = 0;
+        AlarmStopOption = "Hold for off";
+        alarmAZTitle = "Morning Dew";
+        alarmVibrates = 1;
+        alarmVolume = "0.536765";
+        alarmWakeUpPhaseTimeMinutes = 20;
+        applicationStateAtAlarmTime = 2;
+        deviceModelName = "iPhone7,2";
+        deviceOrientationAtAlarmTime = 1;
+        snoozeAuto = 1;
+        snoozeIsOn = 1;
+        snoozeTime = 8;
+        soundscapeAZTitle = "Gentle Waves";
+        soundscapeDuration = 45;
+        soundscapeOn = 0;
+        soundscapeVolume = "0.18593";
+        statCyclelength = 45;
+        statDuration = 936;
+        statEnd = 984;
+        statQuality = "0.9904761904761905";
+        statStart = 49;
+        statWakeups = 0;
+    };
+    newRecord = 1;
+    quality = "0.9904761904761905";
+    snoozeCount = 0;
+    start = 1432870043113;
+    startBatteryLevel = "0.05000000074505806";
+}
+2015-05-29T09:04:33.300 - INFO    __50-[AZSleepLabViewController processNewSleepRecords]_block_invoke1275:3406 AZOnlineTimeline data changed observer called.
+2015-05-29T09:04:33.337 - INFO    __32-[AZTabBarController commitToDB]_block_invoke_3         :1157 finished saving sleep report
+2015-05-29T09:04:33.361 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: TabBarPressed Sleep Lab
+2015-05-29T09:04:33.362 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-29T09:04:33.368 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: pageSwitch UINavigationController
+2015-05-29T09:04:33.387 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: Wakeup duration
+2015-05-29T09:04:33.393 - INFO    __32-[AZTabBarController commitToDB]_block_invoke_4         :1164 finished logging to healthkit
+2015-05-29T09:04:33.888 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: show detail sleep 
+2015-05-29T09:04:34.091 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-29T09:04:35.229 - INFO    __38-[AZM7OverviewUploader uploadOverview]_block_invoke_2   :94 Overview ready 409
+2015-05-29T09:04:35.230 - INFO    -[AZM7OverviewUploader uploadM7Data:count:]                 :113 Preparing overview2 1823
+2015-05-29T09:04:35.230 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/dailyoverview2
+2015-05-29T09:04:35.387 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/dailyoverview2
+2015-05-29T09:04:35.387 - INFO    __43-[AZM7OverviewUploader uploadM7Data:count:]_block_invoke:119 Upload success
+2015-05-29T09:04:41.308 - INFO    -[SleepyAppDelegate applicationWillResignActive:]           :413 applicationWillResignActive
+2015-05-29T09:04:41.341 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-29T09:04:41.354 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T09:04:41.355 - INFO    -[AZPowerManager handleBatteryChange:state:]                :135 Battery state 1 level = 0.930000
+2015-05-29T09:04:41.355 - INFO    +[AZPowerManager criticalBatteryLevel]                      :98 creitical battery threshold = 0.150000
+2015-05-29T09:04:41.356 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T09:04:41.367 - INFO    __23-[AZPowerManager start]_block_invoke                    :170 Battery state changed
+2015-05-29T09:04:41.368 - INFO    -[AZPowerManager handleBatteryChange:state:]                :135 Battery state 1 level = 0.930000
+2015-05-29T09:04:41.368 - INFO    +[AZPowerManager criticalBatteryLevel]                      :98 creitical battery threshold = 0.150000
+2015-05-29T09:04:41.368 - INFO    +[AZPowerManager lowBatteryLevel]                           :90 low battery threshold = 0.250000
+2015-05-29T09:04:41.538 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-29T09:04:41.965 - INFO    -[SleepyAppDelegate applicationDidEnterBackground:]         :451 applicationDidEnterBackground: loggedIn=0
+2015-05-29T09:04:45.007 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-29T09:04:45.008 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-29T09:04:53.168 - INFO    -[AZOnlineTimeline persistFlat]                             :1223 Persisting data online: 357 offline: 358
+2015-05-29T09:04:56.909 - INFO    -[AZOnlineTimeline persistFlat]                             :1230 Data persisted: pass=1 in 11.888421 - -8.147283 - 3.741140 3.740655 0.205671 seconds 11320644bytes

@@ -1,0 +1,115 @@
+Log level: INFO   
+2015-04-24T00:02:31 - INFO    Device info: iPhone7,2 iPhone OS 8.1.2 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2015-04-24T00:02:31 - INFO    com.azumio.iphone.sleepcycle 3.2.0
+2015-04-24T00:02:31 - INFO    application didFinishLaunchingWithOptions
+2015-04-24T00:02:31 - INFO    started logspecs
+2015-04-24T00:02:31 - INFO    RELEASE build
+2015-04-24T00:02:31 - INFO    Sleep Time 3.2.0
+2015-04-24T00:02:31 - INFO    com.azumio.iphone.sleepcycle
+2015-04-24T00:02:31 - INFO    iPhone7,2
+2015-04-24T00:02:31 - INFO    Bryan’s iPhone
+2015-04-24T00:02:31 - INFO    iPhone OS
+2015-04-24T00:02:31 - INFO    8.1.2
+2015-04-24T00:02:31 - INFO    iPhone
+2015-04-24T00:02:31 - INFO    iPhone
+2015-04-24T00:02:31 - INFO    multitaskingSupported=1
+2015-04-24T00:02:31 - INFO    App Settings = {
+    "_requestedVersion" = 30200;
+    "_returnedVersion" = 20400;
+    "_v" = 30200;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2015-04-24T00:02:31 - INFO    finished logspecs
+2015-04-24T00:02:32 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2015-04-24T00:02:32 - INFO    Calling POST https://api.azumio.com/v2/events
+2015-04-24T00:02:32 - INFO    user = AZTimelineOfflineUser AZOnlineOfflineUser
+2015-04-24T00:02:32 - INFO    Loading data
+2015-04-24T00:02:33 - INFO    server settings={
+    "_requestedVersion" = 30200;
+    "_returnedVersion" = 20400;
+    "_v" = 30200;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2015-04-24T00:02:33 - INFO    Data loaded online:330 offline:331 in -1.292565
+2015-04-24T00:02:33 - INFO    Replayed log files 0ct
+2015-04-24T00:02:33 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:34 - INFO    startClockUpdates
+2015-04-24T00:02:34 - INFO    stopClockUpdates
+2015-04-24T00:02:34 - INFO    Preparing overview
+2015-04-24T00:02:34 - INFO    Run clearBackupNotifications.
+2015-04-24T00:02:34 - INFO    clearBackupNotifications Done
+2015-04-24T00:02:34 - INFO    applicationDidBecomeActive
+2015-04-24T00:02:34 - INFO    Succeeded! Received 56 bytes of data
+2015-04-24T00:02:34 - INFO    Succeeded! Received 2 bytes of data
+2015-04-24T00:02:34 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:34 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1882c600> -- 20A58E6F-245D-41EA-A0EB-C3B90B68B704 <2014-06-06 14:52:51 +0000>
+2015-04-24T00:02:34 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:35 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:35 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1872cd60> -- 37CC3997-589E-4175-A8DC-651C80B5DB15 <2014-07-11 14:47:49 +0000>
+2015-04-24T00:02:35 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:35 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:35 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16de7ca0> -- 40014239-710E-4BB1-82A8-6053C4310781 <2014-06-25 15:14:27 +0000>
+2015-04-24T00:02:35 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:35 - INFO    event: TabBarPressed
+2015-04-24T00:02:35 - INFO    Calling POST https://api.azumio.com/v2/events
+2015-04-24T00:02:35 - INFO    event: pageSwitch
+2015-04-24T00:02:36 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:36 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16dd4860> -- 4244B521-F8F0-4E7D-B6BF-8FBD742355EA <2014-07-21 14:46:44 +0000>
+2015-04-24T00:02:36 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:36 - INFO    Succeeded! Received 2 bytes of data
+2015-04-24T00:02:36 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:36 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16deecc0> -- 46039C50-CC2C-45A8-B58F-20285096BDD0 <2014-06-29 14:53:02 +0000>
+2015-04-24T00:02:36 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:36 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:36 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16de4ad0> -- 46540860-D0A9-48B6-A174-B5D3DA650AFF <2014-06-26 13:55:45 +0000>
+2015-04-24T00:02:36 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:37 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:37 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x182e1900> -- 47B8E7D9-86BF-4977-B462-13828CEE9B71 <2014-11-05 12:21:55 +0000>
+2015-04-24T00:02:37 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:37 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:37 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16df8810> -- 4B3E4C2B-6B11-4048-B468-387A270DE930 <2013-07-23 15:10:10 +0000>
+2015-04-24T00:02:37 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:38 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:38 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16d86320> -- 4C5E15B3-4A7E-4F35-AE3F-2CD6F8C01DB5 <2014-05-21 14:02:13 +0000>
+2015-04-24T00:02:38 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:38 - INFO    applicationWillResignActive
+2015-04-24T00:02:38 - INFO    Calling POST https://api.azumio.com/v2/events
+2015-04-24T00:02:38 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:38 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x183bee30> -- 4C90A05B-8D46-41C3-A602-F2325C6E7CB2 <2013-05-17 14:55:01 +0000>
+2015-04-24T00:02:38 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:02:38 - INFO    Succeeded! Received 2 bytes of data
+2015-04-24T00:02:39 - INFO    applicationDidEnterBackground: loggedIn=0
+2015-04-24T00:02:40 - INFO    stopClockUpdates
+2015-04-24T00:02:40 - INFO    stopClockUpdates
+2015-04-24T00:02:44 - INFO    Persisting data online: 330 offline: 331
+2015-04-24T00:02:46 - INFO    Data persisted: pass=1 in 5.657160 - -4.402484 - 1.254676 1.254439 0.254718 seconds 10522178bytes
+2015-04-24T00:02:46 - INFO    Succeeded! Received 59 bytes of data
+2015-04-24T00:02:46 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1835e9e0> -- 528E8ABC-7B4B-4972-A494-0B388F8F15EE <2014-05-26 15:50:36 +0000>
+2015-04-24T00:02:46 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-04-24T00:06:41 - ERROR   Error preparing overview2 Error Domain=CMErrorDomain Code=103 "The operation couldn’t be completed. (CMErrorDomain error 103.)"
+2015-04-24T00:06:41 - INFO    applicationWillEnterForeground: loggedIn=0
+2015-04-24T00:06:41 - INFO    startClockUpdates
+2015-04-24T00:06:41 - INFO    stopClockUpdates
+2015-04-24T00:06:42 - ERROR   Put error Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo=0x19b3ee20 {NSErrorFailingURLStringKey=https://api.azumio.com/v2/checkins, NSErrorFailingURLKey=https://api.azumio.com/v2/checkins, NSLocalizedDescription=The request timed out., NSUnderlyingError=0x187ac5b0 "The request timed out."}
+2015-04-24T00:06:42 - ERROR   Connection failed! Error - The request timed out. https://api.azumio.com/v2/checkins
+2015-04-24T00:06:42 - INFO    applicationDidBecomeActive
+2015-04-24T00:06:43 - INFO    applicationWillResignActive
+2015-04-24T00:06:44 - INFO    applicationDidEnterBackground: loggedIn=0
+2015-04-24T00:06:46 - INFO    stopClockUpdates
+2015-04-24T00:06:46 - INFO    stopClockUpdates
+2015-04-24T00:06:50 - INFO    Persisting data online: 330 offline: 331
+2015-04-24T00:06:52 - INFO    Data persisted: pass=1 in 5.523420 - -4.163094 - 1.360326 1.360072 0.218513 seconds 10522178bytes

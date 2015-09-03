@@ -1,0 +1,67 @@
+Log level: INFO   
+2014-10-01T14:40:18 - INFO    Device info: iPhone 4S iPhone OS 7.1.2 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2014-10-01T14:40:18 - INFO    com.azumio.iphone.sleepcycle 2.11.5001
+2014-10-01T14:40:17 - INFO    application didFinishLaunchingWithOptions
+2014-10-01T14:40:18 - INFO    started logspecs
+2014-10-01T14:40:18 - INFO    RELEASE build
+2014-10-01T14:40:18 - INFO    Sleep Time 2.11.5001
+2014-10-01T14:40:18 - INFO    com.azumio.iphone.sleepcycle
+2014-10-01T14:40:18 - INFO    iPhone 4S
+2014-10-01T14:40:18 - INFO    Bryan’s iPhone
+2014-10-01T14:40:18 - INFO    iPhone OS
+2014-10-01T14:40:18 - INFO    7.1.2
+2014-10-01T14:40:18 - INFO    iPhone
+2014-10-01T14:40:18 - INFO    iPhone
+2014-10-01T14:40:18 - INFO    multitaskingSupported=1
+2014-10-01T14:40:18 - INFO    App Settings = {
+    "_requestedVersion" = 21199;
+    "_returnedVersion" = 20400;
+    "_v" = 21199;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-10-01T14:40:18 - INFO    finished logspecs
+2014-10-01T14:40:18 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2014-10-01T14:40:19 - INFO    applicationDidBecomeActive
+2014-10-01T14:40:19 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-10-01T14:40:19 - INFO    user = AZTimelineOfflineUser AZOnlineOfflineUser
+2014-10-01T14:40:19 - INFO    Loading data
+2014-10-01T14:40:20 - INFO    server settings={
+    "_requestedVersion" = 21199;
+    "_returnedVersion" = 20400;
+    "_v" = 21199;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-10-01T14:40:22 - INFO    Data loaded online:184 offline:185 in -2.835868
+2014-10-01T14:40:22 - INFO    Replaying file /var/mobile/Applications/4729922D-4ECE-4547-B65D-3E6878DDA15C/Documents/timeline.AZOnlineOfflineUser.log/A23E0817-14B4-4305-ABD8-E45F7A6674C8
+2014-10-01T14:40:22 - INFO    Replayed log files 1ct
+2014-10-01T14:40:22 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-10-01T14:40:22 - INFO    startClockUpdates
+2014-10-01T14:40:22 - INFO    stopClockUpdates
+2014-10-01T14:40:23 - INFO    Run clearBackupNotifications.
+2014-10-01T14:40:23 - INFO    clearBackupNotifications Done
+2014-10-01T14:40:24 - INFO    Succeeded! Received 2 bytes of data
+2014-10-01T14:40:24 - INFO    Succeeded! Received 56 bytes of data
+2014-10-01T14:40:25 - INFO    Succeeded! Received 59 bytes of data
+2014-10-01T14:40:25 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1823a770> -- 108260C9-6576-45B9-B5B0-80E350C9C30D <2013-06-19 15:24:56 +0000>
+2014-10-01T14:40:25 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-10-01T14:40:25 - INFO    Succeeded! Received 59 bytes of data
+2014-10-01T14:40:25 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16ea5130> -- F3EE0A2C-183F-4029-A5AF-1ACDE72E6406 <2014-07-04 14:40:34 +0000>
+2014-10-01T14:40:26 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-10-01T14:40:26 - INFO    applicationWillResignActive
+2014-10-01T14:40:26 - INFO    applicationDidEnterBackground: loggedIn=0
+2014-10-01T14:40:32 - INFO    stopClockUpdates
+2014-10-01T14:40:32 - INFO    stopClockUpdates

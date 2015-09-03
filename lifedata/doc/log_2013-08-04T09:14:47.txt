@@ -1,0 +1,62 @@
+Log level: INFO   
+2013-08-04T09:14:48 - INFO    Device info: iPhone 4S iPhone OS 6.0.1 Bryan’s iPhone
+2013-08-04T09:14:47 - INFO    application didFinishLaunchingWithOptions
+2013-08-04T09:14:48 - INFO    started logspecs
+2013-08-04T09:14:48 - INFO    Sleep Time 2.4.4361
+2013-08-04T09:14:48 - INFO    com.azumio.iphone.sleepcycle
+2013-08-04T09:14:48 - INFO    iPhone 4S
+2013-08-04T09:14:48 - INFO    Bryan’s iPhone
+2013-08-04T09:14:48 - INFO    iPhone OS
+2013-08-04T09:14:48 - INFO    6.0.1
+2013-08-04T09:14:48 - INFO    iPhone
+2013-08-04T09:14:48 - INFO    iPhone
+2013-08-04T09:14:48 - INFO    multitaskingSupported=1
+2013-08-04T09:14:48 - INFO    App Settings = {
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-04T09:14:48 - INFO    finished logspecs
+2013-08-04T09:14:49 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-04T09:14:51 - INFO    startClockUpdates
+2013-08-04T09:14:51 - INFO    stopClockUpdates
+2013-08-04T09:14:51 - INFO    Run clearBackupNotifications.
+2013-08-04T09:14:51 - INFO    clearBackupNotifications Done
+2013-08-04T09:14:52 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2013-08-04T09:14:52 - INFO    applicationDidBecomeActive
+2013-08-04T09:14:54 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-04T09:14:54 - INFO    server settings={
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-04T09:14:54 - WARNING SleepReportDataPoint:p1 Friday, July 26, 2013, 10:39:44 AM Eastern Daylight Time 0.932000 idx=854
+2013-08-04T09:14:54 - WARNING SleepReportDataPoint:p2 Friday, July 26, 2013, 10:55:46 AM Eastern Daylight Time 0.934000 idx=855
+2013-08-04T09:14:54 - INFO    Succeeded! Received 57 bytes of data
+2013-08-04T09:14:55 - INFO    Succeeded! Received 22 bytes of data
+2013-08-04T09:15:28 - INFO    applicationWillResignActive
+2013-08-04T09:15:28 - INFO    applicationDidEnterBackground
+2013-08-04T09:15:28 - INFO    stopClockUpdates
+2013-08-04T09:15:28 - INFO    stopClockUpdates
+2013-08-04T09:17:56 - INFO    applicationWillEnterForeground
+2013-08-04T09:17:56 - INFO    startClockUpdates
+2013-08-04T09:17:56 - INFO    stopClockUpdates
+2013-08-04T09:17:56 - INFO    applicationDidBecomeActive
+2013-08-04T09:17:58 - INFO    applicationWillResignActive
+2013-08-04T09:17:58 - INFO    applicationDidEnterBackground
+2013-08-04T09:17:58 - INFO    stopClockUpdates
+2013-08-04T09:17:58 - INFO    stopClockUpdates

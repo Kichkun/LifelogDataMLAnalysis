@@ -1,0 +1,318 @@
+Log level: INFO   
+2013-08-16T00:36:29 - INFO    Device info: iPhone 4S iPhone OS 6.0.1 Bryan’s iPhone
+2013-08-16T00:36:29 - INFO    application didFinishLaunchingWithOptions
+2013-08-16T00:36:29 - INFO    started logspecs
+2013-08-16T00:36:29 - INFO    Sleep Time 2.4.4361
+2013-08-16T00:36:29 - INFO    com.azumio.iphone.sleepcycle
+2013-08-16T00:36:29 - INFO    iPhone 4S
+2013-08-16T00:36:29 - INFO    Bryan’s iPhone
+2013-08-16T00:36:29 - INFO    iPhone OS
+2013-08-16T00:36:29 - INFO    6.0.1
+2013-08-16T00:36:29 - INFO    iPhone
+2013-08-16T00:36:29 - INFO    iPhone
+2013-08-16T00:36:29 - INFO    multitaskingSupported=1
+2013-08-16T00:36:29 - INFO    App Settings = {
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-16T00:36:29 - INFO    finished logspecs
+2013-08-16T00:36:30 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-16T00:36:32 - INFO    startClockUpdates
+2013-08-16T00:36:32 - INFO    stopClockUpdates
+2013-08-16T00:36:33 - INFO    Run clearBackupNotifications.
+2013-08-16T00:36:33 - INFO    clearBackupNotifications Done
+2013-08-16T00:36:33 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2013-08-16T00:36:33 - INFO    applicationDidBecomeActive
+2013-08-16T00:36:34 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-16T00:36:35 - INFO    server settings={
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-16T00:36:35 - INFO    Succeeded! Received 57 bytes of data
+2013-08-16T00:36:35 - WARNING SleepReportDataPoint:p1 Thursday, August 15, 2013, 12:40:11 AM Eastern Daylight Time -0.100000 idx=1
+2013-08-16T00:36:35 - WARNING SleepReportDataPoint:p2 Thursday, August 15, 2013, 8:38:29 AM Eastern Daylight Time 0.000000 idx=2
+2013-08-16T00:36:36 - WARNING SleepReportDataPoint:p1 Sunday, August 4, 2013, 10:56:47 PM Eastern Daylight Time -0.100000 idx=1
+2013-08-16T00:36:36 - WARNING SleepReportDataPoint:p2 Monday, August 5, 2013, 9:41:32 AM Eastern Daylight Time 0.000000 idx=2
+2013-08-16T00:36:36 - WARNING SleepReportDataPoint:p1 Tuesday, August 6, 2013, 4:47:35 AM Eastern Daylight Time 0.649000 idx=521
+2013-08-16T00:36:36 - WARNING SleepReportDataPoint:p2 Tuesday, August 6, 2013, 8:33:28 AM Eastern Daylight Time -0.100000 idx=522
+2013-08-16T00:36:36 - WARNING SleepReportDataPoint:p1 Wednesday, August 7, 2013, 4:04:51 AM Eastern Daylight Time 0.825000 idx=438
+2013-08-16T00:36:36 - WARNING SleepReportDataPoint:p2 Wednesday, August 7, 2013, 9:22:46 AM Eastern Daylight Time -0.100000 idx=439
+2013-08-16T00:36:37 - INFO    Succeeded! Received 22 bytes of data
+2013-08-16T00:36:38 - INFO    Sleep manager state change 0 to 1
+2013-08-16T00:36:38 - INFO    Sleep manager state change 1 to 2
+2013-08-16T00:36:38 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-08-16T00:36:38 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-08-16T00:36:38 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2013-08-16T00:36:38 - INFO    is silence playing: 1
+2013-08-16T00:36:38 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-08-16T00:36:38 - INFO    AccelerometerThread start.
+2013-08-16T00:36:38 - INFO    alarm start
+2013-08-16T00:36:38 - INFO    Scheduling alarm timer 2013-08-16T11:00:00.000-0400
+2013-08-16T00:36:38 - INFO    Wakup window stats 13.000000 1187.000000 
+2013-08-16T00:36:38 - INFO    PowerManager started
+2013-08-16T00:36:38 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T00:36:38 - INFO    Accelerometer was already on.
+2013-08-16T00:36:38 - INFO    Battery Charging
+2013-08-16T00:36:39 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-16T00:36:39 - INFO    Succeeded! Received 22 bytes of data
+2013-08-16T00:36:40 - INFO    Proximity sensor state changed: closeToUser=1
+2013-08-16T00:36:40 - INFO    stopClockUpdates
+2013-08-16T00:36:40 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-08-16T00:38:15 - INFO    Battery level changed
+2013-08-16T00:38:15 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T00:38:15 - INFO    Accelerometer was already on.
+2013-08-16T00:38:15 - INFO    Battery Charging
+2013-08-16T00:42:57 - INFO    Battery level changed
+2013-08-16T00:42:57 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T00:42:57 - INFO    Accelerometer was already on.
+2013-08-16T00:42:57 - INFO    Battery Charging
+2013-08-16T00:46:39 - INFO    readAccelerometer counters: Total=59994 Interval=59994 accelerometerActive=1
+2013-08-16T00:47:19 - INFO    Battery level changed
+2013-08-16T00:47:19 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T00:47:19 - INFO    Accelerometer was already on.
+2013-08-16T00:47:19 - INFO    Battery Charging
+2013-08-16T00:51:41 - INFO    Battery level changed
+2013-08-16T00:51:41 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T00:51:41 - INFO    Accelerometer was already on.
+2013-08-16T00:51:41 - INFO    Battery Charging
+2013-08-16T00:56:03 - INFO    Battery level changed
+2013-08-16T00:56:03 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T00:56:03 - INFO    Accelerometer was already on.
+2013-08-16T00:56:03 - INFO    Battery Charging
+2013-08-16T00:56:39 - INFO    readAccelerometer counters: Total=119995 Interval=60001 accelerometerActive=1
+2013-08-16T01:00:25 - INFO    Battery level changed
+2013-08-16T01:00:25 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:00:25 - INFO    Accelerometer was already on.
+2013-08-16T01:00:25 - INFO    Battery Charging
+2013-08-16T01:05:07 - INFO    Battery level changed
+2013-08-16T01:05:07 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:05:07 - INFO    Accelerometer was already on.
+2013-08-16T01:05:07 - INFO    Battery Charging
+2013-08-16T01:06:39 - INFO    readAccelerometer counters: Total=179996 Interval=60001 accelerometerActive=1
+2013-08-16T01:09:29 - INFO    Battery level changed
+2013-08-16T01:09:29 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:09:29 - INFO    Accelerometer was already on.
+2013-08-16T01:09:29 - INFO    Battery Charging
+2013-08-16T01:13:51 - INFO    Battery level changed
+2013-08-16T01:13:51 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:13:51 - INFO    Accelerometer was already on.
+2013-08-16T01:13:51 - INFO    Battery Charging
+2013-08-16T01:16:39 - INFO    readAccelerometer counters: Total=239997 Interval=60001 accelerometerActive=1
+2013-08-16T01:18:13 - INFO    Battery level changed
+2013-08-16T01:18:13 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:18:13 - INFO    Accelerometer was already on.
+2013-08-16T01:18:13 - INFO    Battery Charging
+2013-08-16T01:22:35 - INFO    Battery level changed
+2013-08-16T01:22:35 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:22:35 - INFO    Accelerometer was already on.
+2013-08-16T01:22:35 - INFO    Battery Charging
+2013-08-16T01:26:39 - INFO    readAccelerometer counters: Total=299997 Interval=60000 accelerometerActive=1
+2013-08-16T01:26:57 - INFO    Battery level changed
+2013-08-16T01:26:57 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:26:57 - INFO    Accelerometer was already on.
+2013-08-16T01:26:57 - INFO    Battery Charging
+2013-08-16T01:31:39 - INFO    Battery level changed
+2013-08-16T01:31:39 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:31:39 - INFO    Accelerometer was already on.
+2013-08-16T01:31:39 - INFO    Battery Charging
+2013-08-16T01:36:02 - INFO    Battery level changed
+2013-08-16T01:36:02 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:36:02 - INFO    Accelerometer was already on.
+2013-08-16T01:36:02 - INFO    Battery Charging
+2013-08-16T01:36:39 - INFO    readAccelerometer counters: Total=359998 Interval=60001 accelerometerActive=1
+2013-08-16T01:40:44 - INFO    Battery level changed
+2013-08-16T01:40:44 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:40:44 - INFO    Accelerometer was already on.
+2013-08-16T01:40:44 - INFO    Battery Charging
+2013-08-16T01:46:06 - INFO    Battery level changed
+2013-08-16T01:46:06 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:46:06 - INFO    Accelerometer was already on.
+2013-08-16T01:46:06 - INFO    Battery Charging
+2013-08-16T01:46:39 - INFO    readAccelerometer counters: Total=419998 Interval=60000 accelerometerActive=1
+2013-08-16T01:53:30 - INFO    Battery level changed
+2013-08-16T01:53:30 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T01:53:30 - INFO    Accelerometer was already on.
+2013-08-16T01:53:30 - INFO    Battery Charging
+2013-08-16T01:56:39 - INFO    readAccelerometer counters: Total=479999 Interval=60001 accelerometerActive=1
+2013-08-16T02:04:55 - INFO    Battery level changed
+2013-08-16T02:04:55 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T02:04:55 - INFO    Accelerometer was already on.
+2013-08-16T02:04:55 - INFO    Battery Charging
+2013-08-16T02:06:39 - INFO    readAccelerometer counters: Total=539999 Interval=60000 accelerometerActive=1
+2013-08-16T02:16:39 - INFO    readAccelerometer counters: Total=600000 Interval=60001 accelerometerActive=1
+2013-08-16T02:26:39 - INFO    readAccelerometer counters: Total=660000 Interval=60000 accelerometerActive=1
+2013-08-16T02:36:39 - INFO    readAccelerometer counters: Total=720001 Interval=60001 accelerometerActive=1
+2013-08-16T02:46:39 - INFO    readAccelerometer counters: Total=780002 Interval=60001 accelerometerActive=1
+2013-08-16T02:56:39 - INFO    readAccelerometer counters: Total=840002 Interval=60000 accelerometerActive=1
+2013-08-16T03:06:39 - INFO    readAccelerometer counters: Total=900002 Interval=60000 accelerometerActive=1
+2013-08-16T03:10:24 - INFO    Battery state changed
+2013-08-16T03:10:24 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T03:10:24 - INFO    Accelerometer was already on.
+2013-08-16T03:10:24 - INFO    Battery Charging
+2013-08-16T03:16:39 - INFO    readAccelerometer counters: Total=960003 Interval=60001 accelerometerActive=1
+2013-08-16T03:26:39 - INFO    readAccelerometer counters: Total=1020003 Interval=60000 accelerometerActive=1
+2013-08-16T03:35:06 - INFO    Battery state changed
+2013-08-16T03:35:06 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T03:35:06 - INFO    Accelerometer was already on.
+2013-08-16T03:35:06 - INFO    Battery Charging
+2013-08-16T03:36:39 - INFO    readAccelerometer counters: Total=1080003 Interval=60000 accelerometerActive=1
+2013-08-16T03:46:39 - INFO    readAccelerometer counters: Total=1140004 Interval=60001 accelerometerActive=1
+2013-08-16T03:48:41 - INFO    Battery state changed
+2013-08-16T03:48:41 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T03:48:41 - INFO    Accelerometer was already on.
+2013-08-16T03:48:41 - INFO    Battery Charging
+2013-08-16T03:56:39 - INFO    readAccelerometer counters: Total=1200005 Interval=60001 accelerometerActive=1
+2013-08-16T04:06:39 - INFO    readAccelerometer counters: Total=1260005 Interval=60000 accelerometerActive=1
+2013-08-16T04:16:39 - INFO    readAccelerometer counters: Total=1320006 Interval=60001 accelerometerActive=1
+2013-08-16T04:26:39 - INFO    readAccelerometer counters: Total=1380006 Interval=60000 accelerometerActive=1
+2013-08-16T04:36:39 - INFO    readAccelerometer counters: Total=1440007 Interval=60001 accelerometerActive=1
+2013-08-16T04:43:25 - INFO    Battery state changed
+2013-08-16T04:43:25 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T04:43:25 - INFO    Accelerometer was already on.
+2013-08-16T04:43:25 - INFO    Battery Charging
+2013-08-16T04:46:39 - INFO    readAccelerometer counters: Total=1500007 Interval=60000 accelerometerActive=1
+2013-08-16T04:56:39 - INFO    readAccelerometer counters: Total=1560007 Interval=60000 accelerometerActive=1
+2013-08-16T04:58:32 - INFO    Battery state changed
+2013-08-16T04:58:32 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T04:58:32 - INFO    Accelerometer was already on.
+2013-08-16T04:58:32 - INFO    Battery Charging
+2013-08-16T05:06:39 - INFO    readAccelerometer counters: Total=1620008 Interval=60001 accelerometerActive=1
+2013-08-16T05:16:39 - INFO    readAccelerometer counters: Total=1680009 Interval=60001 accelerometerActive=1
+2013-08-16T05:26:39 - INFO    readAccelerometer counters: Total=1740010 Interval=60001 accelerometerActive=1
+2013-08-16T05:26:44 - INFO    Battery state changed
+2013-08-16T05:26:44 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T05:26:44 - INFO    Accelerometer was already on.
+2013-08-16T05:26:44 - INFO    Battery Charging
+2013-08-16T05:34:27 - INFO    Battery state changed
+2013-08-16T05:34:27 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T05:34:27 - INFO    Accelerometer was already on.
+2013-08-16T05:34:27 - INFO    Battery Charging
+2013-08-16T05:35:08 - INFO    Battery state changed
+2013-08-16T05:35:08 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T05:35:08 - INFO    Accelerometer was already on.
+2013-08-16T05:35:08 - INFO    Battery Charging
+2013-08-16T05:36:37 - INFO    Battery state changed
+2013-08-16T05:36:37 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T05:36:37 - INFO    Accelerometer was already on.
+2013-08-16T05:36:37 - INFO    Battery Charging
+2013-08-16T05:36:39 - INFO    readAccelerometer counters: Total=1800010 Interval=60000 accelerometerActive=1
+2013-08-16T05:43:32 - INFO    Battery state changed
+2013-08-16T05:43:32 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T05:43:32 - INFO    Accelerometer was already on.
+2013-08-16T05:43:32 - INFO    Battery Charging
+2013-08-16T05:46:33 - INFO    Battery state changed
+2013-08-16T05:46:33 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T05:46:33 - INFO    Accelerometer was already on.
+2013-08-16T05:46:33 - INFO    Battery Charging
+2013-08-16T05:46:39 - INFO    readAccelerometer counters: Total=1860009 Interval=59999 accelerometerActive=1
+2013-08-16T05:56:39 - INFO    readAccelerometer counters: Total=1920010 Interval=60001 accelerometerActive=1
+2013-08-16T06:06:39 - INFO    readAccelerometer counters: Total=1980011 Interval=60001 accelerometerActive=1
+2013-08-16T06:16:39 - INFO    readAccelerometer counters: Total=2040011 Interval=60000 accelerometerActive=1
+2013-08-16T06:26:39 - INFO    readAccelerometer counters: Total=2100012 Interval=60001 accelerometerActive=1
+2013-08-16T06:35:15 - INFO    Battery state changed
+2013-08-16T06:35:15 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T06:35:15 - INFO    Accelerometer was already on.
+2013-08-16T06:35:15 - INFO    Battery Charging
+2013-08-16T06:36:39 - INFO    readAccelerometer counters: Total=2160012 Interval=60000 accelerometerActive=1
+2013-08-16T06:46:39 - INFO    readAccelerometer counters: Total=2220013 Interval=60001 accelerometerActive=1
+2013-08-16T06:48:06 - INFO    Proximity sensor state changed: closeToUser=0
+2013-08-16T06:48:06 - INFO    startClockUpdates
+2013-08-16T06:48:06 - INFO    stopClockUpdates
+2013-08-16T06:48:06 - INFO    Device face up
+2013-08-16T06:48:06 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-08-16T06:48:06 - INFO    Proximity sensor state changed: closeToUser=1
+2013-08-16T06:48:06 - INFO    stopClockUpdates
+2013-08-16T06:48:06 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-08-16T06:48:07 - INFO    Device face up
+2013-08-16T06:50:27 - INFO    Battery state changed
+2013-08-16T06:50:27 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T06:50:27 - INFO    Accelerometer was already on.
+2013-08-16T06:50:27 - INFO    Battery Charging
+2013-08-16T06:50:42 - INFO    Battery state changed
+2013-08-16T06:50:42 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T06:50:42 - INFO    Accelerometer was already on.
+2013-08-16T06:50:42 - INFO    Battery Charging
+2013-08-16T06:52:22 - INFO    Battery state changed
+2013-08-16T06:52:22 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T06:52:22 - INFO    Accelerometer was already on.
+2013-08-16T06:52:22 - INFO    Battery Charging
+2013-08-16T06:52:37 - INFO    Battery state changed
+2013-08-16T06:52:37 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T06:52:37 - INFO    Accelerometer was already on.
+2013-08-16T06:52:37 - INFO    Battery Charging
+2013-08-16T06:53:43 - INFO    Battery state changed
+2013-08-16T06:53:43 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T06:53:43 - INFO    Accelerometer was already on.
+2013-08-16T06:53:43 - INFO    Battery Charging
+2013-08-16T06:56:39 - INFO    readAccelerometer counters: Total=2280012 Interval=59999 accelerometerActive=1
+2013-08-16T07:06:39 - INFO    readAccelerometer counters: Total=2340012 Interval=60000 accelerometerActive=1
+2013-08-16T07:16:39 - INFO    readAccelerometer counters: Total=2400012 Interval=60000 accelerometerActive=1
+2013-08-16T07:24:21 - INFO    Proximity sensor state changed: closeToUser=0
+2013-08-16T07:24:21 - INFO    startClockUpdates
+2013-08-16T07:24:21 - INFO    stopClockUpdates
+2013-08-16T07:24:21 - INFO    Device face up
+2013-08-16T07:24:21 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-08-16T07:24:21 - INFO    Battery state changed
+2013-08-16T07:24:21 - INFO    Alarm is on and device has sufficient power.
+2013-08-16T07:24:21 - INFO    Accelerometer was already on.
+2013-08-16T07:24:21 - INFO    Battery state 1 level = 1.000000
+2013-08-16T07:24:23 - INFO    Device face up
+2013-08-16T07:24:27 - INFO    Proximity sensor state changed: closeToUser=1
+2013-08-16T07:24:27 - INFO    stopClockUpdates
+2013-08-16T07:24:27 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-08-16T07:24:28 - INFO    Device face up
+2013-08-16T07:24:28 - INFO    Proximity sensor state changed: closeToUser=0
+2013-08-16T07:24:28 - INFO    startClockUpdates
+2013-08-16T07:24:28 - INFO    stopClockUpdates
+2013-08-16T07:24:28 - INFO    Device face up
+2013-08-16T07:24:28 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-08-16T07:24:30 - INFO    applicationWillResignActive
+2013-08-16T07:24:30 - INFO    applicationDidEnterBackground
+2013-08-16T07:24:30 - INFO    stopClockUpdates
+2013-08-16T07:24:30 - INFO    stopClockUpdates
+2013-08-16T07:24:33 - INFO    applicationWillEnterForeground
+2013-08-16T07:24:33 - INFO    startClockUpdates
+2013-08-16T07:24:33 - INFO    stopClockUpdates
+2013-08-16T07:24:33 - INFO    applicationDidBecomeActive
+2013-08-16T07:24:36 - INFO    Sleep manager state change 2 to 0
+2013-08-16T07:24:36 - INFO    Stopped silence.
+2013-08-16T07:24:36 - INFO    turnAudioConfigurationOFF passed.
+2013-08-16T07:24:36 - INFO    Stop 0 ap=0 0
+2013-08-16T07:24:36 - INFO    turnAudioConfigurationOFF passed.
+2013-08-16T07:24:36 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-08-16T07:24:36 - INFO    AccelerometerThread.stop
+2013-08-16T07:24:36 - INFO    AccelerometerThread.stopAccelerometer
+2013-08-16T07:24:36 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-08-16T07:24:36 - INFO    alarm stop
+2013-08-16T07:24:36 - INFO    alarm stop
+2013-08-16T07:24:36 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-08-16T07:24:36 - INFO    PowerManager stopped
+2013-08-16T07:24:36 - INFO    Run clearBackupNotifications.
+2013-08-16T07:24:36 - INFO    Generating sleep report
+2013-08-16T07:24:36 - INFO    stopAllMusic
+2013-08-16T07:24:36 - INFO    clearBackupNotifications Done
+2013-08-16T07:24:37 - INFO    _sleepState.cepoch: 815.000000
+2013-08-16T07:24:38 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-16T07:24:38 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-16T07:24:38 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-16T07:24:39 - INFO    Succeeded! Received 22 bytes of data
+2013-08-16T07:24:48 - INFO    applicationWillResignActive
+2013-08-16T07:24:48 - INFO    applicationDidEnterBackground
+2013-08-16T07:24:48 - INFO    stopClockUpdates
+2013-08-16T07:24:48 - INFO    stopClockUpdates

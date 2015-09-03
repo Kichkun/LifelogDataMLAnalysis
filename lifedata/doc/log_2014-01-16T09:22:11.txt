@@ -1,0 +1,88 @@
+Log level: INFO   
+2014-01-16T09:22:12 - INFO    Device info: iPhone 4S iPhone OS 7.0.4 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2014-01-16T09:22:12 - INFO    com.azumio.iphone.sleepcycle 2.8.4830
+2014-01-16T09:22:11 - INFO    application didFinishLaunchingWithOptions
+2014-01-16T09:22:12 - INFO    started logspecs
+2014-01-16T09:22:12 - INFO    Sleep Time 2.8.4830
+2014-01-16T09:22:12 - INFO    com.azumio.iphone.sleepcycle
+2014-01-16T09:22:12 - INFO    iPhone 4S
+2014-01-16T09:22:12 - INFO    Bryan’s iPhone
+2014-01-16T09:22:12 - INFO    iPhone OS
+2014-01-16T09:22:12 - INFO    7.0.4
+2014-01-16T09:22:12 - INFO    iPhone
+2014-01-16T09:22:12 - INFO    iPhone
+2014-01-16T09:22:12 - INFO    multitaskingSupported=1
+2014-01-16T09:22:12 - INFO    App Settings = {
+    "_requestedVersion" = 20899;
+    "_returnedVersion" = 20400;
+    "_v" = 20899;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-01-16T09:22:12 - INFO    finished logspecs
+2014-01-16T09:22:13 - INFO    startClockUpdates
+2014-01-16T09:22:13 - INFO    stopClockUpdates
+2014-01-16T09:22:13 - INFO    Run clearBackupNotifications.
+2014-01-16T09:22:14 - INFO    clearBackupNotifications Done
+2014-01-16T09:22:14 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2014-01-16T09:22:14 - INFO    applicationDidBecomeActive
+2014-01-16T09:22:16 - INFO    server settings={
+    "_requestedVersion" = 20899;
+    "_returnedVersion" = 20400;
+    "_v" = 20899;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-01-16T09:22:18 - INFO    applicationWillResignActive
+2014-01-16T09:22:20 - INFO    applicationDidEnterBackground
+2014-01-16T09:22:23 - INFO    stopClockUpdates
+2014-01-16T09:22:23 - INFO    stopClockUpdates
+2014-01-16T09:22:23 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-01-16T09:22:24 - INFO    applicationWillEnterForeground
+2014-01-16T09:22:24 - INFO    startClockUpdates
+2014-01-16T09:22:24 - INFO    stopClockUpdates
+2014-01-16T09:22:24 - INFO    applicationDidBecomeActive
+2014-01-16T09:22:24 - INFO    Succeeded! Received 57 bytes of data
+2014-01-16T09:22:24 - INFO    Succeeded! Received 3 bytes of data
+2014-01-16T09:22:24 - INFO    applicationWillResignActive
+2014-01-16T09:22:24 - INFO    applicationDidEnterBackground
+2014-01-16T09:22:25 - INFO    stopClockUpdates
+2014-01-16T09:22:25 - INFO    stopClockUpdates
+2014-01-16T09:22:26 - INFO    applicationWillEnterForeground
+2014-01-16T09:22:26 - INFO    startClockUpdates
+2014-01-16T09:22:26 - INFO    stopClockUpdates
+2014-01-16T09:22:26 - INFO    applicationDidBecomeActive
+2014-01-16T09:22:26 - INFO    applicationWillResignActive
+2014-01-16T09:22:26 - INFO    applicationDidEnterBackground
+2014-01-16T09:22:27 - INFO    stopClockUpdates
+2014-01-16T09:22:27 - INFO    stopClockUpdates
+2014-01-16T09:22:28 - INFO    applicationWillEnterForeground
+2014-01-16T09:22:28 - INFO    startClockUpdates
+2014-01-16T09:22:28 - INFO    stopClockUpdates
+2014-01-16T09:22:28 - INFO    applicationDidBecomeActive
+2014-01-16T09:22:28 - INFO    applicationWillResignActive
+2014-01-16T09:22:28 - INFO    applicationDidEnterBackground
+2014-01-16T09:22:30 - INFO    stopClockUpdates
+2014-01-16T09:22:30 - INFO    stopClockUpdates
+2014-01-16T09:22:30 - INFO    applicationWillEnterForeground
+2014-01-16T09:22:30 - INFO    startClockUpdates
+2014-01-16T09:22:30 - INFO    stopClockUpdates
+2014-01-16T09:22:30 - INFO    applicationDidBecomeActive
+2014-01-16T09:22:32 - INFO    applicationWillResignActive
+2014-01-16T09:22:32 - INFO    applicationDidEnterBackground
+2014-01-16T09:22:36 - INFO    stopClockUpdates
+2014-01-16T09:22:36 - INFO    stopClockUpdates
+2014-01-16T09:22:38 - INFO    applicationDidEnterBackground
+2014-01-16T09:22:41 - INFO    stopClockUpdates
+2014-01-16T09:22:41 - INFO    stopClockUpdates
+2014-01-16T09:22:41 - INFO    applicationWillTerminate

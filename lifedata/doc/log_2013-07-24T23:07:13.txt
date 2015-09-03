@@ -1,0 +1,446 @@
+2013-07-24T23:07:13 - INFO    application didFinishLaunchingWithOptions
+2013-07-24T23:07:13 - INFO    started logspecs
+2013-07-24T23:07:13 - INFO    Sleep Time 2.2.1.1010
+2013-07-24T23:07:14 - INFO    iPhone 4S
+2013-07-24T23:07:14 - INFO    Bryan’s iPhone
+2013-07-24T23:07:14 - INFO    iPhone OS
+2013-07-24T23:07:14 - INFO    6.0.1
+2013-07-24T23:07:14 - INFO    iPhone
+2013-07-24T23:07:14 - INFO    iPhone
+2013-07-24T23:07:14 - INFO    multitaskingSupported=1
+2013-07-24T23:07:14 - INFO    App Settings = {
+    "_requestedVersion" = 20299;
+    "_returnedVersion" = 10000;
+    "_v" = 20299;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 1;
+}
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key1/30=BedtimeMasterVolumeValue value=0.185930
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key2/30=_soundscape_on value=NO
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key3/30=TableSectionSettings value=3
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key4/30=AlarmStopRowNumber value=1
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key5/30=WebKitShrinksStandaloneImagesToFit value=1
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key6/30=ShowIntroScreen value=NO
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key7/30=neverShowRatePromptAgain value=
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key8/30=WebKitOfflineWebApplicationCacheEnabled value=1
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key9/30=installedAppsListHash value=DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key10/30=appsListHash value=DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key11/30=SnoozeOptionRowNumber value=1
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key12/30=AlarmTimeHour value=32.841667
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key13/30=showedDragDownHint value=31
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key14/30=WebKitDiskImageCacheSavedCacheDirectory value=
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key15/30=WebKitLocalStorageDatabasePathPreferenceKey value=/var/mobile/Applications/3DEB4E00-B306-4F67-AB8A-7AF1EDF42862/Library/Caches
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key16/30=bundleVersion value=2.2.1.1010
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key17/30=useCount value=90
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key18/30=OpenUDID value={
+    OpenUDID = d40a5093f38d5806e60772dfccfad4513a4f8c2a;
+    "OpenUDID_createdTS" = "2013-03-20 22:59:43 +0000";
+    "OpenUDID_guuid" = "F3B53371-307A-40AD-B47E-FDD5A283B07B";
+    "OpenUDID_slot" = "org.OpenUDID.slot.7";
+}
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key19/30=TableRowSettings value=14
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key20/30=Use12hSettings value=NO
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key21/30=SnoozeIntervalTime value=8
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key22/30=SlideToStop value=NO
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key23/30=baseServerURL value=https://api.azumio.com
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key24/30=DoNotShowInstructionsScreen value=YES
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key25/30=appsListTime value=1363820391.412373
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key26/30=MasterVolumeValue value=0.536765
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key27/30=FirstUseReminder value=YES
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key28/30=VibrationIsOn value=YES
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key29/30=WakeUpPhaseTime value=2
+2013-07-24T23:07:14 - INFO    PreferencesBase setting: key30/30=WebDatabaseDirectory value=/var/mobile/Applications/3DEB4E00-B306-4F67-AB8A-7AF1EDF42862/Library/Caches
+2013-07-24T23:07:14 - INFO    finished logspecs
+2013-07-24T23:07:15 - TRACE   fetchCheckIns END
+2013-07-24T23:07:15 - TRACE   Current token (null)
+2013-07-24T23:07:15 - TRACE   Current token (null)
+2013-07-24T23:07:15 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-07-24T23:07:15 - TRACE   Current token (null)
+2013-07-24T23:07:17 - TRACE   Current token (null)
+2013-07-24T23:07:17 - INFO    startClockUpdates
+2013-07-24T23:07:17 - INFO    stopClockUpdates
+2013-07-24T23:07:19 - TRACE   Current token (null)
+2013-07-24T23:07:19 - INFO    Run clearBackupNotifications.
+2013-07-24T23:07:19 - INFO    clearBackupNotifications Done
+2013-07-24T23:07:19 - TRACE   Current token (null)
+2013-07-24T23:07:19 - TRACE   Params {
+}
+2013-07-24T23:07:19 - INFO    Calling https://api.azumio.com/v2/users/me?
+2013-07-24T23:07:19 - TRACE   Current token (null)
+2013-07-24T23:07:19 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-07-24T23:07:19 - INFO    applicationDidBecomeActive
+2013-07-24T23:07:20 - TRACE   Params {
+    details = "{\"processes\":[{\"pid\":\"0\",\"name\":\"kernel_task\"},{\"pid\":\"1\",\"name\":\"launchd\"},{\"pid\":\"13\",\"name\":\"UserEventAgent\"},{\"pid\":\"14\",\"name\":\"wifid\"},{\"pid\":\"18\",\"name\":\"syslogd\"},{\"pid\":\"20\",\"name\":\"powerd\"},{\"pid\":\"29\",\"name\":\"lockdownd\"},{\"pid\":\"37\",\"name\":\"mediaserverd\"},{\"pid\":\"39\",\"name\":\"mDNSResponder\"},{\"pid\":\"41\",\"name\":\"locationd\"},{\"pid\":\"43\",\"name\":\"imagent\"},{\"pid\":\"44\",\"name\":\"iaptransportd\"},{\"pid\":\"46\",\"name\":\"fseventsd\"},{\"pid\":\"47\",\"name\":\"fairplayd.N94\"},{\"pid\":\"50\",\"name\":\"configd\"},{\"pid\":\"52\",\"name\":\"backboardd\"},{\"pid\":\"57\",\"name\":\"kbd\"},{\"pid\":\"62\",\"name\":\"CommCenter\"},{\"pid\":\"63\",\"name\":\"BTServer\"},{\"pid\":\"65\",\"name\":\"notifyd\"},{\"pid\":\"67\",\"name\":\"SpringBoard\"},{\"pid\":\"68\",\"name\":\"aggregated\"},{\"pid\":\"72\",\"name\":\"networkd\"},{\"pid\":\"74\",\"name\":\"apsd\"},{\"pid\":\"84\",\"name\":\"dataaccessd\"},{\"pid\":\"86\",\"name\":\"aosnotifyd\"},{\"pid\":\"89\",\"name\":\"distnoted\"},{\"pid\":\"93\",\"name\":\"tccd\"},{\"pid\":\"99\",\"name\":\"absinthed.N94\"},{\"pid\":\"106\",\"name\":\"filecoordination\"},{\"pid\":\"117\",\"name\":\"MobileSMS\"},{\"pid\":\"2620\",\"name\":\"MobileMail\"},{\"pid\":\"2623\",\"name\":\"MobilePhone\"},{\"pid\":\"4121\",\"name\":\"softwareupdatese\"},{\"pid\":\"4131\",\"name\":\"installd\"},{\"pid\":\"4134\",\"name\":\"itunesstored\"},{\"pid\":\"4151\",\"name\":\"xpcd\"},{\"pid\":\"4194\",\"name\":\"recentsd\"},{\"pid\":\"4210\",\"name\":\"lsd\"},{\"pid\":\"4503\",\"name\":\"ubd\"},{\"pid\":\"4640\",\"name\":\"calaccessd\"},{\"pid\":\"4654\",\"name\":\"networkd_privile\"},{\"pid\":\"4664\",\"name\":\"notification_pro\"},{\"pid\":\"4704\",\"name\":\"afcd\"},{\"pid\":\"4745\",\"name\":\"accountsd\"},{\"pid\":\"4752\",\"name\":\"timed\"},{\"pid\":\"4798\",\"name\":\"ptpd\"},{\"pid\":\"4845\",\"name\":\"geod\"},{\"pid\":\"4861\",\"name\":\"GroupMe\"},{\"pid\":\"4893\",\"name\":\"librariand\"},{\"pid\":\"4896\",\"name\":\"IMRemoteURLConne\"},{\"pid\":\"4898\",\"name\":\"IMDMessageServic\"},{\"pid\":\"4899\",\"name\":\"sandboxd\"},{\"pid\":\"4900\",\"name\":\"MySleepCycle\"},{\"pid\":\"4901\",\"name\":\"pasteboardd\"},{\"pid\":\"4902\",\"name\":\"mediaremoted\"},{\"pid\":\"4903\",\"name\":\"Music~iphone\"},{\"pid\":\"4904\",\"name\":\"searchd\"},{\"pid\":\"4905\",\"name\":\"AppIndexer\"}]}";
+    event = runningProcesses;
+    session = 1B4FC19AE5C060C432B8;
+}
+2013-07-24T23:07:20 - INFO    Calling https://api.azumio.com/v1/events
+2013-07-24T23:07:20 - TRACE   Current token (null)
+2013-07-24T23:07:20 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-07-24T23:07:20 - INFO    applicationWillResignActive
+2013-07-24T23:07:20 - INFO    applicationDidEnterBackground
+2013-07-24T23:07:20 - INFO    stopClockUpdates
+2013-07-24T23:07:20 - INFO    stopClockUpdates
+2013-07-24T23:07:23 - INFO    Succeeded! Received 57 bytes of data
+2013-07-24T23:07:24 - TRACE   responseWithData:{"error":{"errorDetail":"Restricted access","code":401}}
+
+2013-07-24T23:07:24 - TRACE   AZHCIApiResponse {
+    error =     {
+        code = 401;
+        errorDetail = "Restricted access";
+    };
+}
+2013-07-24T23:07:25 - TRACE   Current token (null)
+2013-07-24T23:07:42 - INFO    Succeeded! Received 22 bytes of data
+2013-07-24T23:07:42 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-07-24T23:07:42 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-07-24T23:07:43 - INFO    applicationWillEnterForeground
+2013-07-24T23:07:43 - INFO    startClockUpdates
+2013-07-24T23:07:43 - INFO    stopClockUpdates
+2013-07-24T23:07:43 - INFO    applicationDidBecomeActive
+2013-07-24T23:07:43 - INFO    didRegisterForRemoteNotificationsWithDeviceToken
+2013-07-24T23:07:43 - TRACE   Params {
+    token = b9b9182c29064aa0a4ca93038503edd326d61511abbcc2e2c1d2537b97aa295c;
+}
+2013-07-24T23:07:43 - INFO    Calling https://api.azumio.com/v1/registerforpush
+2013-07-24T23:07:43 - TRACE   Current token (null)
+2013-07-24T23:07:43 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-07-24T23:07:43 - TRACE   Current token (null)
+2013-07-24T23:07:43 - INFO    Succeeded! Received 22 bytes of data
+2013-07-24T23:07:43 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-07-24T23:07:43 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-07-24T23:07:44 - INFO    Sleep manager state change 0 to 1
+2013-07-24T23:07:44 - INFO    Sleep manager state change 1 to 2
+2013-07-24T23:07:45 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-07-24T23:07:45 - INFO    AccelerometerThread start.
+2013-07-24T23:07:45 - INFO    alarm start
+2013-07-24T23:07:45 - INFO    Scheduling alarm timer 2013-07-25T08:50:00.000-0700
+2013-07-24T23:07:45 - INFO    Wakup window stats 82.000000 1118.000000 
+2013-07-24T23:07:45 - INFO    PowerManager started
+2013-07-24T23:07:45 - INFO    Alarm is on and device has sufficient power.
+2013-07-24T23:07:45 - INFO    Accelerometer was already on.
+2013-07-24T23:07:45 - INFO    Battery Charging
+2013-07-24T23:07:45 - TRACE   Params {
+    details = "{\"alarm\":\"Morning Dew\"}";
+    event = GoneToBed;
+    session = 1B4FC19AE5C060C432B8;
+}
+2013-07-24T23:07:45 - INFO    Calling https://api.azumio.com/v1/events
+2013-07-24T23:07:45 - TRACE   Current token (null)
+2013-07-24T23:07:45 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-07-24T23:07:45 - INFO    Succeeded! Received 22 bytes of data
+2013-07-24T23:07:45 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-07-24T23:07:45 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-07-24T23:07:47 - INFO    Proximity sensor state changed: closeToUser=1
+2013-07-24T23:07:47 - INFO    stopClockUpdates
+2013-07-24T23:07:47 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-07-24T23:08:10 - INFO    Proximity sensor state changed: closeToUser=0
+2013-07-24T23:08:10 - INFO    startClockUpdates
+2013-07-24T23:08:10 - INFO    stopClockUpdates
+2013-07-24T23:08:10 - INFO    Device face up
+2013-07-24T23:08:10 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-07-24T23:08:11 - INFO    Proximity sensor state changed: closeToUser=1
+2013-07-24T23:08:11 - INFO    stopClockUpdates
+2013-07-24T23:08:11 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-07-24T23:08:11 - INFO    Proximity sensor state changed: closeToUser=0
+2013-07-24T23:08:11 - INFO    startClockUpdates
+2013-07-24T23:08:11 - INFO    stopClockUpdates
+2013-07-24T23:08:11 - INFO    Device face up
+2013-07-24T23:08:11 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-07-24T23:08:13 - INFO    Device face up
+2013-07-24T23:08:13 - INFO    Proximity sensor state changed: closeToUser=1
+2013-07-24T23:08:13 - INFO    stopClockUpdates
+2013-07-24T23:08:13 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-07-24T23:08:15 - INFO    applicationWillResignActive
+2013-07-24T23:08:15 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-07-24T23:08:15 - INFO    is silence playing: 1
+2013-07-24T23:08:15 - INFO    applicationDidEnterBackground
+2013-07-24T23:08:15 - INFO    stopClockUpdates
+2013-07-24T23:08:15 - INFO    stopClockUpdates
+2013-07-24T23:11:47 - INFO    Battery level changed
+2013-07-24T23:11:47 - INFO    Alarm is on and device has sufficient power.
+2013-07-24T23:11:47 - INFO    Accelerometer was already on.
+2013-07-24T23:11:47 - INFO    Battery Charging
+2013-07-24T23:17:45 - INFO    readAccelerometer counters: Total=59912 Interval=59912 accelerometerActive=1
+2013-07-24T23:20:31 - INFO    Battery level changed
+2013-07-24T23:20:31 - INFO    Alarm is on and device has sufficient power.
+2013-07-24T23:20:31 - INFO    Accelerometer was already on.
+2013-07-24T23:20:31 - INFO    Battery Charging
+2013-07-24T23:27:45 - INFO    readAccelerometer counters: Total=119901 Interval=59989 accelerometerActive=1
+2013-07-24T23:28:55 - INFO    Battery level changed
+2013-07-24T23:28:55 - INFO    Alarm is on and device has sufficient power.
+2013-07-24T23:28:55 - INFO    Accelerometer was already on.
+2013-07-24T23:28:55 - INFO    Battery Charging
+2013-07-24T23:37:18 - INFO    Battery level changed
+2013-07-24T23:37:18 - INFO    Alarm is on and device has sufficient power.
+2013-07-24T23:37:18 - INFO    Accelerometer was already on.
+2013-07-24T23:37:18 - INFO    Battery Charging
+2013-07-24T23:37:45 - INFO    readAccelerometer counters: Total=179894 Interval=59993 accelerometerActive=1
+2013-07-24T23:46:02 - INFO    Battery level changed
+2013-07-24T23:46:02 - INFO    Alarm is on and device has sufficient power.
+2013-07-24T23:46:02 - INFO    Accelerometer was already on.
+2013-07-24T23:46:02 - INFO    Battery Charging
+2013-07-24T23:47:45 - INFO    readAccelerometer counters: Total=239888 Interval=59994 accelerometerActive=1
+2013-07-24T23:54:26 - INFO    Battery level changed
+2013-07-24T23:54:26 - INFO    Alarm is on and device has sufficient power.
+2013-07-24T23:54:26 - INFO    Accelerometer was already on.
+2013-07-24T23:54:26 - INFO    Battery Charging
+2013-07-24T23:57:45 - INFO    readAccelerometer counters: Total=299882 Interval=59994 accelerometerActive=1
+2013-07-25T00:03:10 - INFO    Battery level changed
+2013-07-25T00:03:10 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T00:03:10 - INFO    Accelerometer was already on.
+2013-07-25T00:03:10 - INFO    Battery Charging
+2013-07-25T00:07:45 - INFO    readAccelerometer counters: Total=359872 Interval=59990 accelerometerActive=1
+2013-07-25T00:11:54 - INFO    Battery level changed
+2013-07-25T00:11:54 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T00:11:54 - INFO    Accelerometer was already on.
+2013-07-25T00:11:54 - INFO    Battery Charging
+2013-07-25T00:17:45 - INFO    readAccelerometer counters: Total=419864 Interval=59992 accelerometerActive=1
+2013-07-25T00:21:18 - INFO    Battery level changed
+2013-07-25T00:21:18 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T00:21:18 - INFO    Accelerometer was already on.
+2013-07-25T00:21:18 - INFO    Battery Charging
+2013-07-25T00:27:45 - INFO    readAccelerometer counters: Total=479861 Interval=59997 accelerometerActive=1
+2013-07-25T00:30:22 - INFO    Battery level changed
+2013-07-25T00:30:22 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T00:30:22 - INFO    Accelerometer was already on.
+2013-07-25T00:30:22 - INFO    Battery Charging
+2013-07-25T00:37:45 - INFO    readAccelerometer counters: Total=539857 Interval=59996 accelerometerActive=1
+2013-07-25T00:44:08 - INFO    Battery level changed
+2013-07-25T00:44:08 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T00:44:08 - INFO    Accelerometer was already on.
+2013-07-25T00:44:08 - INFO    Battery Charging
+2013-07-25T00:47:45 - INFO    readAccelerometer counters: Total=599853 Interval=59996 accelerometerActive=1
+2013-07-25T00:57:45 - INFO    readAccelerometer counters: Total=659849 Interval=59996 accelerometerActive=1
+2013-07-25T01:07:45 - INFO    readAccelerometer counters: Total=719844 Interval=59995 accelerometerActive=1
+2013-07-25T01:17:45 - INFO    readAccelerometer counters: Total=779837 Interval=59993 accelerometerActive=1
+2013-07-25T01:27:45 - INFO    readAccelerometer counters: Total=839835 Interval=59998 accelerometerActive=1
+2013-07-25T01:37:45 - INFO    readAccelerometer counters: Total=899831 Interval=59996 accelerometerActive=1
+2013-07-25T01:47:45 - INFO    readAccelerometer counters: Total=959828 Interval=59997 accelerometerActive=1
+2013-07-25T01:57:45 - INFO    readAccelerometer counters: Total=1019827 Interval=59999 accelerometerActive=1
+2013-07-25T02:07:45 - INFO    readAccelerometer counters: Total=1079826 Interval=59999 accelerometerActive=1
+2013-07-25T02:17:45 - INFO    readAccelerometer counters: Total=1139826 Interval=60000 accelerometerActive=1
+2013-07-25T02:27:45 - INFO    readAccelerometer counters: Total=1199825 Interval=59999 accelerometerActive=1
+2013-07-25T02:37:45 - INFO    readAccelerometer counters: Total=1259822 Interval=59997 accelerometerActive=1
+2013-07-25T02:47:45 - INFO    readAccelerometer counters: Total=1319817 Interval=59995 accelerometerActive=1
+2013-07-25T02:57:45 - INFO    readAccelerometer counters: Total=1379815 Interval=59998 accelerometerActive=1
+2013-07-25T03:05:10 - INFO    Battery state changed
+2013-07-25T03:05:10 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T03:05:10 - INFO    Accelerometer was already on.
+2013-07-25T03:05:10 - INFO    Battery Charging
+2013-07-25T03:07:45 - INFO    readAccelerometer counters: Total=1439813 Interval=59998 accelerometerActive=1
+2013-07-25T03:17:45 - INFO    readAccelerometer counters: Total=1499807 Interval=59994 accelerometerActive=1
+2013-07-25T03:27:45 - INFO    readAccelerometer counters: Total=1559805 Interval=59998 accelerometerActive=1
+2013-07-25T03:37:45 - INFO    readAccelerometer counters: Total=1619801 Interval=59996 accelerometerActive=1
+2013-07-25T03:38:45 - INFO    Battery state changed
+2013-07-25T03:38:45 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T03:38:45 - INFO    Accelerometer was already on.
+2013-07-25T03:38:45 - INFO    Battery Charging
+2013-07-25T03:47:45 - INFO    readAccelerometer counters: Total=1679797 Interval=59996 accelerometerActive=1
+2013-07-25T03:49:50 - INFO    Battery state changed
+2013-07-25T03:49:50 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T03:49:50 - INFO    Accelerometer was already on.
+2013-07-25T03:49:50 - INFO    Battery Charging
+2013-07-25T03:57:45 - INFO    readAccelerometer counters: Total=1739793 Interval=59996 accelerometerActive=1
+2013-07-25T04:07:45 - INFO    readAccelerometer counters: Total=1799775 Interval=59982 accelerometerActive=1
+2013-07-25T04:17:45 - INFO    readAccelerometer counters: Total=1859770 Interval=59995 accelerometerActive=1
+2013-07-25T04:27:45 - INFO    readAccelerometer counters: Total=1919769 Interval=59999 accelerometerActive=1
+2013-07-25T04:37:45 - INFO    readAccelerometer counters: Total=1979765 Interval=59996 accelerometerActive=1
+2013-07-25T04:47:45 - INFO    readAccelerometer counters: Total=2039761 Interval=59996 accelerometerActive=1
+2013-07-25T04:57:45 - INFO    readAccelerometer counters: Total=2099757 Interval=59996 accelerometerActive=1
+2013-07-25T05:07:45 - INFO    readAccelerometer counters: Total=2159753 Interval=59996 accelerometerActive=1
+2013-07-25T05:17:45 - INFO    readAccelerometer counters: Total=2219740 Interval=59987 accelerometerActive=1
+2013-07-25T05:27:45 - INFO    readAccelerometer counters: Total=2279733 Interval=59993 accelerometerActive=1
+2013-07-25T05:37:45 - INFO    readAccelerometer counters: Total=2339730 Interval=59997 accelerometerActive=1
+2013-07-25T05:47:02 - INFO    Battery state changed
+2013-07-25T05:47:02 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T05:47:02 - INFO    Accelerometer was already on.
+2013-07-25T05:47:02 - INFO    Battery Charging
+2013-07-25T05:47:22 - INFO    Battery level changed
+2013-07-25T05:47:22 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T05:47:22 - INFO    Accelerometer was already on.
+2013-07-25T05:47:22 - INFO    Battery Charging
+2013-07-25T05:47:45 - INFO    readAccelerometer counters: Total=2399725 Interval=59995 accelerometerActive=1
+2013-07-25T05:57:45 - INFO    readAccelerometer counters: Total=2459721 Interval=59996 accelerometerActive=1
+2013-07-25T05:58:27 - INFO    Battery level changed
+2013-07-25T05:58:27 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T05:58:27 - INFO    Accelerometer was already on.
+2013-07-25T05:58:27 - INFO    Battery Charging
+2013-07-25T06:07:45 - INFO    readAccelerometer counters: Total=2519708 Interval=59987 accelerometerActive=1
+2013-07-25T06:17:45 - INFO    readAccelerometer counters: Total=2579705 Interval=59997 accelerometerActive=1
+2013-07-25T06:27:45 - INFO    readAccelerometer counters: Total=2639702 Interval=59997 accelerometerActive=1
+2013-07-25T06:37:45 - INFO    readAccelerometer counters: Total=2699701 Interval=59999 accelerometerActive=1
+2013-07-25T06:47:45 - INFO    readAccelerometer counters: Total=2759690 Interval=59989 accelerometerActive=1
+2013-07-25T06:57:45 - INFO    readAccelerometer counters: Total=2819681 Interval=59991 accelerometerActive=1
+2013-07-25T07:07:45 - INFO    readAccelerometer counters: Total=2879680 Interval=59999 accelerometerActive=1
+2013-07-25T07:13:00 - INFO    Battery state changed
+2013-07-25T07:13:00 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T07:13:00 - INFO    Accelerometer was already on.
+2013-07-25T07:13:00 - INFO    Battery Charging
+2013-07-25T07:17:45 - INFO    readAccelerometer counters: Total=2939679 Interval=59999 accelerometerActive=1
+2013-07-25T07:18:22 - INFO    Battery state changed
+2013-07-25T07:18:22 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T07:18:22 - INFO    Accelerometer was already on.
+2013-07-25T07:18:22 - INFO    Battery Charging
+2013-07-25T07:27:45 - INFO    readAccelerometer counters: Total=2999675 Interval=59996 accelerometerActive=1
+2013-07-25T07:35:50 - INFO    Battery state changed
+2013-07-25T07:35:50 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T07:35:50 - INFO    Accelerometer was already on.
+2013-07-25T07:35:50 - INFO    Battery Charging
+2013-07-25T07:36:21 - INFO    Device face up
+2013-07-25T07:37:45 - INFO    readAccelerometer counters: Total=3059671 Interval=59996 accelerometerActive=1
+2013-07-25T07:47:45 - INFO    readAccelerometer counters: Total=3119668 Interval=59997 accelerometerActive=1
+2013-07-25T07:48:15 - INFO    Battery state changed
+2013-07-25T07:48:15 - INFO    Alarm is on and device has sufficient power.
+2013-07-25T07:48:15 - INFO    Accelerometer was already on.
+2013-07-25T07:48:15 - INFO    Battery Charging
+2013-07-25T07:51:07 - INFO    Device face up
+2013-07-25T07:51:26 - INFO    applicationWillEnterForeground
+2013-07-25T07:51:26 - INFO    Stopped silence.
+2013-07-25T07:51:26 - INFO    startClockUpdates
+2013-07-25T07:51:26 - INFO    stopClockUpdates
+2013-07-25T07:51:26 - INFO    applicationDidBecomeActive
+2013-07-25T07:51:26 - INFO    Silence audio was already off.
+2013-07-25T07:51:26 - TRACE   Current token (null)
+2013-07-25T07:51:28 - INFO    applicationWillResignActive
+2013-07-25T07:51:28 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-07-25T07:51:28 - INFO    is silence playing: 1
+2013-07-25T07:51:28 - INFO    applicationDidEnterBackground
+2013-07-25T07:51:28 - INFO    stopClockUpdates
+2013-07-25T07:51:28 - INFO    stopClockUpdates
+2013-07-25T07:51:28 - INFO    applicationWillEnterForeground
+2013-07-25T07:51:28 - INFO    Stopped silence.
+2013-07-25T07:51:28 - INFO    startClockUpdates
+2013-07-25T07:51:28 - INFO    stopClockUpdates
+2013-07-25T07:51:28 - INFO    applicationDidBecomeActive
+2013-07-25T07:51:28 - INFO    Silence audio was already off.
+2013-07-25T07:51:29 - TRACE   Current token (null)
+2013-07-25T07:51:31 - INFO    Sleep manager state change 2 to 0
+2013-07-25T07:51:31 - INFO    Stop 0 ap=0 0
+2013-07-25T07:51:31 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-07-25T07:51:31 - INFO    AccelerometerThread.stop
+2013-07-25T07:51:31 - INFO    AccelerometerThread.stopAccelerometer
+2013-07-25T07:51:31 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-07-25T07:51:31 - INFO    alarm stop
+2013-07-25T07:51:31 - INFO    Generating sleep report
+2013-07-25T07:51:31 - INFO    alarm stop
+2013-07-25T07:51:31 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-07-25T07:51:31 - INFO    PowerManager stopped
+2013-07-25T07:51:31 - INFO    Run clearBackupNotifications.
+2013-07-25T07:51:31 - INFO    clearBackupNotifications Done
+2013-07-25T07:51:31 - INFO    _sleepState.cepoch: 1047.000000
+2013-07-25T07:51:32 - TRACE   Current token (null)
+2013-07-25T07:51:32 - TRACE   Current token (null)
+2013-07-25T07:51:32 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-07-25T07:51:32 - TRACE   Current token (null)
+2013-07-25T07:51:32 - TRACE   Current token (null)
+2013-07-25T07:51:32 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-07-25T07:51:32 - TRACE   Params {
+    details = "{\"duration\":31426.789096832275}";
+    event = Wakeup;
+    session = 1B4FC19AE5C060C432B8;
+}
+2013-07-25T07:51:32 - INFO    Calling https://api.azumio.com/v1/events
+2013-07-25T07:51:32 - TRACE   Current token (null)
+2013-07-25T07:51:32 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-07-25T07:51:34 - INFO    Succeeded! Received 22 bytes of data
+2013-07-25T07:51:34 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-07-25T07:51:34 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:42 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:43 - TRACE   Current token (null)
+2013-07-25T07:51:45 - INFO    applicationWillResignActive
+2013-07-25T07:51:45 - INFO    applicationDidEnterBackground
+2013-07-25T07:51:45 - INFO    stopClockUpdates
+2013-07-25T07:51:45 - INFO    stopClockUpdates

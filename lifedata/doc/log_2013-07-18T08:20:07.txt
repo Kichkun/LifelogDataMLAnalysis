@@ -1,0 +1,123 @@
+2013-07-18T08:20:07 - INFO    application didFinishLaunchingWithOptions
+2013-07-18T08:20:07 - INFO    started logspecs
+2013-07-18T08:20:07 - INFO    Sleep Time 2.2.1.1010
+2013-07-18T08:20:07 - INFO    iPhone 4S
+2013-07-18T08:20:07 - INFO    Bryan’s iPhone
+2013-07-18T08:20:07 - INFO    iPhone OS
+2013-07-18T08:20:07 - INFO    6.0.1
+2013-07-18T08:20:07 - INFO    iPhone
+2013-07-18T08:20:07 - INFO    iPhone
+2013-07-18T08:20:07 - INFO    multitaskingSupported=1
+2013-07-18T08:20:07 - INFO    App Settings = {
+    "_requestedVersion" = 20299;
+    "_returnedVersion" = 10000;
+    "_v" = 20299;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 1;
+}
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key1/30=BedtimeMasterVolumeValue value=0.185930
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key2/30=WakeUpPhaseTime value=2
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key3/30=TableSectionSettings value=3
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key4/30=SlideToStop value=NO
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key5/30=WebKitShrinksStandaloneImagesToFit value=1
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key6/30=ShowIntroScreen value=NO
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key7/30=neverShowRatePromptAgain value=
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key8/30=WebKitOfflineWebApplicationCacheEnabled value=1
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key9/30=installedAppsListHash value=DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key10/30=appsListHash value=DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key11/30=SnoozeOptionRowNumber value=1
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key12/30=AlarmTimeHour value=32.341667
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key13/30=showedDragDownHint value=31
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key14/30=WebKitDiskImageCacheSavedCacheDirectory value=
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key15/30=WebKitLocalStorageDatabasePathPreferenceKey value=/var/mobile/Applications/3DEB4E00-B306-4F67-AB8A-7AF1EDF42862/Library/Caches
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key16/30=bundleVersion value=2.2.1.1010
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key17/30=useCount value=86
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key18/30=OpenUDID value={
+    OpenUDID = d40a5093f38d5806e60772dfccfad4513a4f8c2a;
+    "OpenUDID_createdTS" = "2013-03-20 22:59:43 +0000";
+    "OpenUDID_guuid" = "F3B53371-307A-40AD-B47E-FDD5A283B07B";
+    "OpenUDID_slot" = "org.OpenUDID.slot.7";
+}
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key19/30=TableRowSettings value=14
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key20/30=SnoozeIntervalTime value=8
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key21/30=DoNotShowInstructionsScreen value=YES
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key22/30=WebDatabaseDirectory value=/var/mobile/Applications/3DEB4E00-B306-4F67-AB8A-7AF1EDF42862/Library/Caches
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key23/30=_soundscape_on value=NO
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key24/30=baseServerURL value=https://api.azumio.com
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key25/30=appsListTime value=1363820391.412373
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key26/30=FirstUseReminder value=YES
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key27/30=AlarmStopRowNumber value=1
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key28/30=MasterVolumeValue value=0.536765
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key29/30=Use12hSettings value=NO
+2013-07-18T08:20:07 - INFO    PreferencesBase setting: key30/30=VibrationIsOn value=YES
+2013-07-18T08:20:07 - INFO    finished logspecs
+2013-07-18T08:20:08 - TRACE   fetchCheckIns END
+2013-07-18T08:20:08 - TRACE   Current token (null)
+2013-07-18T08:20:08 - TRACE   Current token (null)
+2013-07-18T08:20:08 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-07-18T08:20:08 - TRACE   Current token (null)
+2013-07-18T08:20:10 - TRACE   Current token (null)
+2013-07-18T08:20:10 - INFO    startClockUpdates
+2013-07-18T08:20:10 - INFO    stopClockUpdates
+2013-07-18T08:20:10 - TRACE   Current token (null)
+2013-07-18T08:20:10 - INFO    Run clearBackupNotifications.
+2013-07-18T08:20:11 - INFO    clearBackupNotifications Done
+2013-07-18T08:20:11 - TRACE   Current token (null)
+2013-07-18T08:20:11 - TRACE   Params {
+}
+2013-07-18T08:20:11 - INFO    Calling https://api.azumio.com/v2/users/me?
+2013-07-18T08:20:11 - TRACE   Current token (null)
+2013-07-18T08:20:11 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-07-18T08:20:11 - INFO    applicationDidBecomeActive
+2013-07-18T08:20:12 - TRACE   Params {
+    details = "{\"processes\":[{\"pid\":\"0\",\"name\":\"kernel_task\"},{\"pid\":\"1\",\"name\":\"launchd\"},{\"pid\":\"13\",\"name\":\"UserEventAgent\"},{\"pid\":\"14\",\"name\":\"wifid\"},{\"pid\":\"18\",\"name\":\"syslogd\"},{\"pid\":\"20\",\"name\":\"powerd\"},{\"pid\":\"29\",\"name\":\"lockdownd\"},{\"pid\":\"37\",\"name\":\"mediaserverd\"},{\"pid\":\"39\",\"name\":\"mDNSResponder\"},{\"pid\":\"41\",\"name\":\"locationd\"},{\"pid\":\"43\",\"name\":\"imagent\"},{\"pid\":\"44\",\"name\":\"iaptransportd\"},{\"pid\":\"46\",\"name\":\"fseventsd\"},{\"pid\":\"47\",\"name\":\"fairplayd.N94\"},{\"pid\":\"50\",\"name\":\"configd\"},{\"pid\":\"52\",\"name\":\"backboardd\"},{\"pid\":\"57\",\"name\":\"kbd\"},{\"pid\":\"62\",\"name\":\"CommCenter\"},{\"pid\":\"63\",\"name\":\"BTServer\"},{\"pid\":\"65\",\"name\":\"notifyd\"},{\"pid\":\"68\",\"name\":\"SpringBoard\"},{\"pid\":\"69\",\"name\":\"itunesstored\"},{\"pid\":\"70\",\"name\":\"aggregated\"},{\"pid\":\"71\",\"name\":\"networkd\"},{\"pid\":\"74\",\"name\":\"apsd\"},{\"pid\":\"81\",\"name\":\"gamed\"},{\"pid\":\"83\",\"name\":\"dataaccessd\"},{\"pid\":\"85\",\"name\":\"aosnotifyd\"},{\"pid\":\"89\",\"name\":\"geod\"},{\"pid\":\"90\",\"name\":\"distnoted\"},{\"pid\":\"94\",\"name\":\"tccd\"},{\"pid\":\"97\",\"name\":\"softwareupdatese\"},{\"pid\":\"98\",\"name\":\"MobilePhone\"},{\"pid\":\"99\",\"name\":\"MobileMail\"},{\"pid\":\"102\",\"name\":\"absinthed.N94\"},{\"pid\":\"117\",\"name\":\"filecoordination\"},{\"pid\":\"120\",\"name\":\"MobileSMS\"},{\"pid\":\"393\",\"name\":\"quicklookd\"},{\"pid\":\"1385\",\"name\":\"recentsd\"},{\"pid\":\"1634\",\"name\":\"lsd\"},{\"pid\":\"1637\",\"name\":\"installd\"},{\"pid\":\"1735\",\"name\":\"timed\"},{\"pid\":\"1875\",\"name\":\"afcd\"},{\"pid\":\"1886\",\"name\":\"mediaremoted\"},{\"pid\":\"1887\",\"name\":\"Music~iphone\"},{\"pid\":\"1893\",\"name\":\"ptpd\"},{\"pid\":\"1997\",\"name\":\"ubd\"},{\"pid\":\"2000\",\"name\":\"AppleIDAuthAgent\"},{\"pid\":\"2003\",\"name\":\"feedly\"},{\"pid\":\"2007\",\"name\":\"calaccessd\"},{\"pid\":\"2014\",\"name\":\"Facebook\"},{\"pid\":\"2016\",\"name\":\"librariand\"},{\"pid\":\"2020\",\"name\":\"securityd\"},{\"pid\":\"2021\",\"name\":\"MySleepCycle\"},{\"pid\":\"2022\",\"name\":\"pasteboardd\"},{\"pid\":\"2023\",\"name\":\"sandboxd\"}]}";
+    event = runningProcesses;
+    session = AA211BDA85EEB5633CBB;
+}
+2013-07-18T08:20:12 - INFO    Calling https://api.azumio.com/v1/events
+2013-07-18T08:20:12 - TRACE   Current token (null)
+2013-07-18T08:20:12 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-07-18T08:20:13 - INFO    Succeeded! Received 22 bytes of data
+2013-07-18T08:20:13 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-07-18T08:20:13 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-07-18T08:20:13 - INFO    Succeeded! Received 57 bytes of data
+2013-07-18T08:20:13 - TRACE   responseWithData:{"error":{"errorDetail":"Restricted access","code":401}}
+
+2013-07-18T08:20:13 - TRACE   AZHCIApiResponse {
+    error =     {
+        code = 401;
+        errorDetail = "Restricted access";
+    };
+}
+2013-07-18T08:20:13 - TRACE   Current token (null)
+2013-07-18T08:20:13 - INFO    didRegisterForRemoteNotificationsWithDeviceToken
+2013-07-18T08:20:13 - TRACE   Params {
+    token = b9b9182c29064aa0a4ca93038503edd326d61511abbcc2e2c1d2537b97aa295c;
+}
+2013-07-18T08:20:13 - INFO    Calling https://api.azumio.com/v1/registerforpush
+2013-07-18T08:20:13 - TRACE   Current token (null)
+2013-07-18T08:20:13 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-07-18T08:20:14 - INFO    Succeeded! Received 22 bytes of data
+2013-07-18T08:20:14 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-07-18T08:20:14 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-07-18T08:20:16 - TRACE   Current token (null)
+2013-07-18T08:20:20 - TRACE   Current token (null)
+2013-07-18T08:20:27 - INFO    applicationWillResignActive
+2013-07-18T08:20:27 - INFO    applicationDidEnterBackground
+2013-07-18T08:20:27 - INFO    stopClockUpdates
+2013-07-18T08:20:27 - INFO    stopClockUpdates

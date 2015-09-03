@@ -1,0 +1,82 @@
+Log level: INFO   
+2015-05-20T21:25:28.257 - INFO    initLog                                                     :73 Device info: iPhone7,2 iPhone OS 8.1.2 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2015-05-20T21:25:28.258 - INFO    initLog                                                     :74 com.azumio.iphone.sleepcycle 3.6.8 build: Apr 21 2015 20:49:42
+2015-05-20T21:25:28.135 - INFO    -[SleepyAppDelegate application:didFinishLaunchingWithOptions:]:261 application didFinishLaunchingWithOptions
+2015-05-20T21:25:28.370 - INFO    -[SleepyAppDelegate logspecs]                               :139 started logspecs
+2015-05-20T21:25:28.370 - INFO    -[SleepyAppDelegate logspecs]                               :143 RELEASE build
+2015-05-20T21:25:28.370 - INFO    -[SleepyAppDelegate logspecs]                               :148 Sleep Time 3.6.8
+2015-05-20T21:25:28.370 - INFO    -[SleepyAppDelegate logspecs]                               :149 com.azumio.iphone.sleepcycle
+2015-05-20T21:25:28.370 - INFO    -[SleepyAppDelegate logspecs]                               :150 iPhone7,2
+2015-05-20T21:25:28.371 - INFO    -[SleepyAppDelegate logspecs]                               :151 Bryan’s iPhone
+2015-05-20T21:25:28.371 - INFO    -[SleepyAppDelegate logspecs]                               :152 iPhone OS
+2015-05-20T21:25:28.371 - INFO    -[SleepyAppDelegate logspecs]                               :153 8.1.2
+2015-05-20T21:25:28.371 - INFO    -[SleepyAppDelegate logspecs]                               :154 iPhone
+2015-05-20T21:25:28.371 - INFO    -[SleepyAppDelegate logspecs]                               :155 iPhone
+2015-05-20T21:25:28.372 - INFO    -[SleepyAppDelegate logspecs]                               :156 multitaskingSupported=1
+2015-05-20T21:25:28.375 - INFO    -[SleepyAppDelegate logspecs]                               :157 App Settings = {
+    "_requestedVersion" = 30608;
+    "_returnedVersion" = 20400;
+    "_v" = 30608;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2015-05-20T21:25:28.375 - INFO    -[SleepyAppDelegate logspecs]                               :162 finished logspecs
+2015-05-20T21:25:28.544 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling GET https://api.azumio.com/v2/users/me
+2015-05-20T21:25:28.944 - INFO    -[SleepyAppDelegate applicationDidBecomeActive:]            :475 applicationDidBecomeActive
+2015-05-20T21:25:29.092 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-20T21:25:29.096 - INFO    -[AZDataMergeViewController mergeDataStores]                :119 user = AZTimelineOfflineUser AZOnlineOfflineUser
+2015-05-20T21:25:29.102 - INFO    -[AZOnlineTimeline loadFlatMainDB]                          :1413 Loading data
+2015-05-20T21:25:29.302 - INFO    __33-[AZAppSettings loadThenExecute:]_block_invoke          :39 server settings={
+    "_requestedVersion" = 30608;
+    "_returnedVersion" = 20400;
+    "_v" = 30608;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2015-05-20T21:25:30.489 - INFO    -[AZOnlineTimeline loadFlatMainDB]                          :1473 Data loaded online:350 offline:351 in -1.387254
+2015-05-20T21:25:30.490 - INFO    -[AZOnlineTimeline replayFlatLog:]                          :1351 Replayed log files 0ct
+2015-05-20T21:25:30.803 - INFO    -[AZAlarmViewController startClockUpdates]                  :686 startClockUpdates
+2015-05-20T21:25:30.803 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-20T21:25:30.898 - INFO    -[AZM7OverviewUploader uploadOverview]                      :40 Preparing overview
+2015-05-20T21:25:30.909 - INFO    -[AZTabBarController clearBackupNotifications]              :1469 Run clearBackupNotifications.
+2015-05-20T21:25:30.919 - INFO    __46-[AZTabBarController clearBackupNotifications]_block_invoke:1512 clearBackupNotifications Done
+2015-05-20T21:25:31.161 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 56 bytes of data for GET /v2/users/me
+2015-05-20T21:25:31.232 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-20T21:25:32.698 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: TabBarPressed Sleep Lab
+2015-05-20T21:25:32.701 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-20T21:25:32.708 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: pageSwitch UINavigationController
+2015-05-20T21:25:33.071 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-20T21:25:35.561 - INFO    __38-[AZM7OverviewUploader uploadOverview]_block_invoke_2   :94 Overview ready 893
+2015-05-20T21:25:35.563 - INFO    -[AZM7OverviewUploader uploadM7Data:count:]                 :113 Preparing overview2 4305
+2015-05-20T21:25:35.563 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/dailyoverview2
+2015-05-20T21:25:36.036 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/dailyoverview2
+2015-05-20T21:25:36.036 - INFO    __43-[AZM7OverviewUploader uploadM7Data:count:]_block_invoke:119 Upload success
+2015-05-20T21:26:15.210 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: show detail sleep 
+2015-05-20T21:26:15.212 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-20T21:26:15.481 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-20T21:26:41.729 - INFO    -[SleepyAppDelegate applicationWillResignActive:]           :413 applicationWillResignActive
+2015-05-20T21:26:42.998 - INFO    -[SleepyAppDelegate applicationDidBecomeActive:]            :475 applicationDidBecomeActive
+2015-05-20T21:26:45.999 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: show detail sleep 
+2015-05-20T21:26:46.000 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-20T21:26:46.538 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-20T21:26:59.293 - INFO    +[Analytics event:withDetails:andNumber:]                   :153 event: show detail sleep 
+2015-05-20T21:26:59.295 - INFO    +[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]:276 Calling POST https://api.azumio.com/v2/events
+2015-05-20T21:26:59.683 - INFO    __75+[AZHCIApi asyncJsonCall:withMethod:parameters:receiver:onSuccess:onError:]_block_invoke:350 Succeeded! Received 2 bytes of data for POST /v2/events
+2015-05-20T21:27:04.118 - INFO    -[SleepyAppDelegate applicationWillResignActive:]           :413 applicationWillResignActive
+2015-05-20T21:27:04.790 - INFO    -[SleepyAppDelegate applicationDidEnterBackground:]         :451 applicationDidEnterBackground: loggedIn=0
+2015-05-20T21:27:06.227 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-20T21:27:06.227 - INFO    -[AZAlarmViewController stopClockUpdates]                   :695 stopClockUpdates
+2015-05-20T21:27:12.021 - INFO    -[AZOnlineTimeline persistFlat]                             :1223 Persisting data online: 350 offline: 351
+2015-05-20T21:27:15.966 - INFO    -[AZOnlineTimeline persistFlat]                             :1230 Data persisted: pass=1 in 9.730554 - -5.786104 - 3.944451 3.943562 0.242367 seconds 11076659bytes

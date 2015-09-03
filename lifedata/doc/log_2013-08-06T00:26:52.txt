@@ -1,0 +1,170 @@
+Log level: INFO   
+2013-08-06T00:26:52 - INFO    Device info: iPhone 4S iPhone OS 6.0.1 Bryan’s iPhone
+2013-08-06T00:26:52 - INFO    application didFinishLaunchingWithOptions
+2013-08-06T00:26:52 - INFO    started logspecs
+2013-08-06T00:26:52 - INFO    Sleep Time 2.4.4361
+2013-08-06T00:26:52 - INFO    com.azumio.iphone.sleepcycle
+2013-08-06T00:26:52 - INFO    iPhone 4S
+2013-08-06T00:26:52 - INFO    Bryan’s iPhone
+2013-08-06T00:26:52 - INFO    iPhone OS
+2013-08-06T00:26:52 - INFO    6.0.1
+2013-08-06T00:26:52 - INFO    iPhone
+2013-08-06T00:26:52 - INFO    iPhone
+2013-08-06T00:26:52 - INFO    multitaskingSupported=1
+2013-08-06T00:26:52 - INFO    App Settings = {
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-06T00:26:52 - INFO    finished logspecs
+2013-08-06T00:26:53 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-06T00:26:55 - INFO    startClockUpdates
+2013-08-06T00:26:55 - INFO    stopClockUpdates
+2013-08-06T00:26:56 - INFO    Run clearBackupNotifications.
+2013-08-06T00:26:56 - INFO    clearBackupNotifications Done
+2013-08-06T00:26:56 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2013-08-06T00:26:56 - INFO    applicationDidBecomeActive
+2013-08-06T00:26:57 - INFO    server settings={
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-06T00:26:57 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-06T00:26:58 - INFO    Succeeded! Received 57 bytes of data
+2013-08-06T00:26:58 - INFO    Succeeded! Received 22 bytes of data
+2013-08-06T00:26:58 - WARNING SleepReportDataPoint:p1 Sunday, August 4, 2013, 10:56:47 PM Eastern Daylight Time -0.100000 idx=1
+2013-08-06T00:26:58 - WARNING SleepReportDataPoint:p2 Monday, August 5, 2013, 9:41:32 AM Eastern Daylight Time 0.000000 idx=2
+2013-08-06T00:26:58 - WARNING SleepReportDataPoint:p1 Friday, July 26, 2013, 10:39:44 AM Eastern Daylight Time 0.932000 idx=854
+2013-08-06T00:26:58 - WARNING SleepReportDataPoint:p2 Friday, July 26, 2013, 10:55:46 AM Eastern Daylight Time 0.934000 idx=855
+2013-08-06T00:27:01 - INFO    Sleep manager state change 0 to 1
+2013-08-06T00:27:01 - INFO    Sleep manager state change 1 to 2
+2013-08-06T00:27:02 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-08-06T00:27:02 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-08-06T00:27:02 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2013-08-06T00:27:02 - INFO    is silence playing: 1
+2013-08-06T00:27:02 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-08-06T00:27:02 - INFO    AccelerometerThread start.
+2013-08-06T00:27:02 - INFO    alarm start
+2013-08-06T00:27:02 - INFO    Scheduling alarm timer 2013-08-06T10:00:00.000-0400
+2013-08-06T00:27:02 - INFO    Wakup window stats 72.000000 1128.000000 
+2013-08-06T00:27:02 - INFO    PowerManager started
+2013-08-06T00:27:02 - INFO    Alarm is on and device has sufficient power.
+2013-08-06T00:27:02 - INFO    Accelerometer was already on.
+2013-08-06T00:27:02 - INFO    Battery state 1 level = 0.400000
+2013-08-06T00:27:03 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-06T00:27:03 - INFO    Succeeded! Received 22 bytes of data
+2013-08-06T00:27:03 - INFO    Battery level changed
+2013-08-06T00:27:03 - INFO    Alarm is on and device has sufficient power.
+2013-08-06T00:27:03 - INFO    Accelerometer was already on.
+2013-08-06T00:27:03 - INFO    Battery state 1 level = 0.450000
+2013-08-06T00:27:05 - INFO    applicationWillResignActive
+2013-08-06T00:27:05 - INFO    applicationDidEnterBackground
+2013-08-06T00:27:05 - INFO    stopClockUpdates
+2013-08-06T00:27:05 - INFO    stopClockUpdates
+2013-08-06T00:33:26 - INFO    Battery level changed
+2013-08-06T00:33:26 - INFO    Alarm is on and device has sufficient power.
+2013-08-06T00:33:26 - INFO    Accelerometer was already on.
+2013-08-06T00:33:26 - INFO    Battery state 1 level = 0.400000
+2013-08-06T00:37:03 - INFO    readAccelerometer counters: Total=59940 Interval=59940 accelerometerActive=1
+2013-08-06T00:47:03 - INFO    readAccelerometer counters: Total=119932 Interval=59992 accelerometerActive=1
+2013-08-06T00:57:03 - INFO    readAccelerometer counters: Total=179926 Interval=59994 accelerometerActive=1
+2013-08-06T01:07:03 - INFO    readAccelerometer counters: Total=239920 Interval=59994 accelerometerActive=1
+2013-08-06T01:17:03 - INFO    readAccelerometer counters: Total=299917 Interval=59997 accelerometerActive=1
+2013-08-06T01:27:03 - INFO    readAccelerometer counters: Total=359910 Interval=59993 accelerometerActive=1
+2013-08-06T01:37:03 - INFO    readAccelerometer counters: Total=419906 Interval=59996 accelerometerActive=1
+2013-08-06T01:47:03 - INFO    readAccelerometer counters: Total=479904 Interval=59998 accelerometerActive=1
+2013-08-06T01:57:03 - INFO    readAccelerometer counters: Total=539900 Interval=59996 accelerometerActive=1
+2013-08-06T02:03:07 - INFO    Battery level changed
+2013-08-06T02:03:07 - INFO    Alarm is on and device has sufficient power.
+2013-08-06T02:03:07 - INFO    Accelerometer was already on.
+2013-08-06T02:03:07 - INFO    Battery state 1 level = 0.350000
+2013-08-06T02:07:03 - INFO    readAccelerometer counters: Total=599896 Interval=59996 accelerometerActive=1
+2013-08-06T02:17:03 - INFO    readAccelerometer counters: Total=659890 Interval=59994 accelerometerActive=1
+2013-08-06T02:27:03 - INFO    readAccelerometer counters: Total=719884 Interval=59994 accelerometerActive=1
+2013-08-06T02:37:03 - INFO    readAccelerometer counters: Total=779883 Interval=59999 accelerometerActive=1
+2013-08-06T02:47:03 - INFO    readAccelerometer counters: Total=839881 Interval=59998 accelerometerActive=1
+2013-08-06T02:57:03 - INFO    readAccelerometer counters: Total=899876 Interval=59995 accelerometerActive=1
+2013-08-06T03:07:03 - INFO    readAccelerometer counters: Total=959874 Interval=59998 accelerometerActive=1
+2013-08-06T03:17:03 - INFO    readAccelerometer counters: Total=1019870 Interval=59996 accelerometerActive=1
+2013-08-06T03:23:43 - INFO    Battery level changed
+2013-08-06T03:23:43 - INFO    Alarm is on and device has sufficient power.
+2013-08-06T03:23:43 - INFO    Accelerometer was already on.
+2013-08-06T03:23:43 - INFO    Battery state 1 level = 0.300000
+2013-08-06T03:27:03 - INFO    readAccelerometer counters: Total=1079865 Interval=59995 accelerometerActive=1
+2013-08-06T03:37:03 - INFO    readAccelerometer counters: Total=1139861 Interval=59996 accelerometerActive=1
+2013-08-06T03:47:03 - INFO    readAccelerometer counters: Total=1199853 Interval=59992 accelerometerActive=1
+2013-08-06T03:57:03 - INFO    readAccelerometer counters: Total=1259849 Interval=59996 accelerometerActive=1
+2013-08-06T04:07:03 - INFO    readAccelerometer counters: Total=1319846 Interval=59997 accelerometerActive=1
+2013-08-06T04:17:03 - INFO    readAccelerometer counters: Total=1379842 Interval=59996 accelerometerActive=1
+2013-08-06T04:27:03 - INFO    readAccelerometer counters: Total=1439838 Interval=59996 accelerometerActive=1
+2013-08-06T04:37:03 - INFO    readAccelerometer counters: Total=1499835 Interval=59997 accelerometerActive=1
+2013-08-06T04:47:03 - INFO    readAccelerometer counters: Total=1559829 Interval=59994 accelerometerActive=1
+2013-08-06T04:47:41 - INFO    Battery level changed
+2013-08-06T04:47:41 - INFO    Battery state 1 level = 0.250000
+2013-08-06T04:47:41 - INFO    Battery lowBatteryLevel
+2013-08-06T04:47:41 - INFO    Power is low
+2013-08-06T04:47:41 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-08-06T04:47:41 - INFO    AccelerometerThread.stop
+2013-08-06T04:47:41 - INFO    AccelerometerThread.stopAccelerometer
+2013-08-06T04:47:41 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-08-06T04:47:41 - INFO    stopAllMusic
+2013-08-06T06:31:07 - INFO    Battery level changed
+2013-08-06T06:31:07 - INFO    Battery state 1 level = 0.200000
+2013-08-06T06:31:07 - INFO    Battery lowBatteryLevel
+2013-08-06T06:31:07 - INFO    Power is low
+2013-08-06T06:31:07 - INFO    AccelerometerSensorSource: cur state=0 set state to 0
+2013-08-06T06:31:07 - INFO    stopAllMusic
+2013-08-06T08:14:53 - INFO    Battery level changed
+2013-08-06T08:14:53 - INFO    Battery state 1 level = 0.150000
+2013-08-06T08:14:53 - INFO    Battery criticalBatteryLevel
+2013-08-06T08:14:53 - INFO    Power is critical
+2013-08-06T08:14:53 - INFO    AccelerometerSensorSource: cur state=0 set state to 0
+2013-08-06T08:14:53 - INFO    idleTimerDisabled=0
+2013-08-06T08:14:53 - INFO    Stopped silence.
+2013-08-06T08:14:53 - INFO    turnAudioConfigurationOFF passed.
+2013-08-06T08:14:53 - INFO    stopAllMusic
+2013-08-06T08:33:22 - INFO    applicationWillEnterForeground
+2013-08-06T08:33:22 - INFO    startClockUpdates
+2013-08-06T08:33:22 - INFO    stopClockUpdates
+2013-08-06T08:33:23 - INFO    applicationDidBecomeActive
+2013-08-06T08:33:23 - INFO    applicationWillResignActive
+2013-08-06T08:33:24 - INFO    applicationDidBecomeActive
+2013-08-06T08:33:27 - INFO    Sleep manager state change 2 to 0
+2013-08-06T08:33:27 - INFO    Silence audio was already off.
+2013-08-06T08:33:27 - INFO    turnAudioConfigurationOFF passed.
+2013-08-06T08:33:27 - INFO    Stop 0 ap=0 0
+2013-08-06T08:33:27 - INFO    turnAudioConfigurationOFF passed.
+2013-08-06T08:33:27 - INFO    AccelerometerSensorSource: cur state=0 set state to 0
+2013-08-06T08:33:27 - INFO    alarm stop
+2013-08-06T08:33:27 - INFO    Generating sleep report
+2013-08-06T08:33:27 - INFO    alarm stop
+2013-08-06T08:33:27 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-08-06T08:33:27 - INFO    PowerManager stopped
+2013-08-06T08:33:27 - INFO    Run clearBackupNotifications.
+2013-08-06T08:33:27 - INFO    stopAllMusic
+2013-08-06T08:33:27 - INFO    clearBackupNotifications Done
+2013-08-06T08:33:27 - INFO    _sleepState.cepoch: 521.000000
+2013-08-06T08:33:28 - WARNING SleepReportDataPoint:p1 Tuesday, August 6, 2013, 4:47:35 AM Eastern Daylight Time 0.649000 idx=521
+2013-08-06T08:33:28 - WARNING SleepReportDataPoint:p2 Tuesday, August 6, 2013, 8:33:28 AM Eastern Daylight Time -0.100000 idx=522
+2013-08-06T08:33:28 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-06T08:33:28 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-06T08:33:28 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-06T08:33:29 - INFO    Succeeded! Received 22 bytes of data
+2013-08-06T08:33:31 - INFO    applicationWillResignActive
+2013-08-06T08:33:31 - INFO    applicationDidEnterBackground
+2013-08-06T08:33:31 - INFO    stopClockUpdates
+2013-08-06T08:33:31 - INFO    stopClockUpdates

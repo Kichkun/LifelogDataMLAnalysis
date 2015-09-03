@@ -1,0 +1,317 @@
+Log level: INFO   
+2015-01-20T01:27:42 - INFO    Device info: iPhone7,2 iPhone OS 8.1.2 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2015-01-20T01:27:42 - INFO    com.azumio.iphone.sleepcycle 3.2.0
+2015-01-20T01:27:42 - INFO    application didFinishLaunchingWithOptions
+2015-01-20T01:27:42 - INFO    started logspecs
+2015-01-20T01:27:42 - INFO    RELEASE build
+2015-01-20T01:27:42 - INFO    Sleep Time 3.2.0
+2015-01-20T01:27:42 - INFO    com.azumio.iphone.sleepcycle
+2015-01-20T01:27:42 - INFO    iPhone7,2
+2015-01-20T01:27:42 - INFO    Bryan’s iPhone
+2015-01-20T01:27:42 - INFO    iPhone OS
+2015-01-20T01:27:42 - INFO    8.1.2
+2015-01-20T01:27:42 - INFO    iPhone
+2015-01-20T01:27:42 - INFO    iPhone
+2015-01-20T01:27:42 - INFO    multitaskingSupported=1
+2015-01-20T01:27:42 - INFO    App Settings = {
+    "_requestedVersion" = 30200;
+    "_returnedVersion" = 20400;
+    "_v" = 30200;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2015-01-20T01:27:42 - INFO    finished logspecs
+2015-01-20T01:27:43 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2015-01-20T01:27:43 - INFO    Calling POST https://api.azumio.com/v2/events
+2015-01-20T01:27:43 - INFO    user = AZTimelineOfflineUser AZOnlineOfflineUser
+2015-01-20T01:27:43 - INFO    Loading data
+2015-01-20T01:27:44 - INFO    Data loaded online:251 offline:252 in -0.943586
+2015-01-20T01:27:44 - INFO    Replayed log files 0ct
+2015-01-20T01:27:44 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T01:27:44 - INFO    startClockUpdates
+2015-01-20T01:27:44 - INFO    stopClockUpdates
+2015-01-20T01:27:44 - INFO    Preparing overview
+2015-01-20T01:27:44 - INFO    Run clearBackupNotifications.
+2015-01-20T01:27:44 - INFO    clearBackupNotifications Done
+2015-01-20T01:27:44 - INFO    applicationDidBecomeActive
+2015-01-20T01:27:44 - INFO    server settings={
+    "_requestedVersion" = 30200;
+    "_returnedVersion" = 20400;
+    "_v" = 30200;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2015-01-20T01:27:44 - INFO    Succeeded! Received 56 bytes of data
+2015-01-20T01:27:45 - INFO    Succeeded! Received 2 bytes of data
+2015-01-20T01:27:46 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T01:27:46 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16e52650> -- 1A8F2AC7-3408-40E2-8EEF-75FC6CF057BC <2013-03-29 14:21:16 +0000>
+2015-01-20T01:27:46 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T01:27:48 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T01:27:48 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f1160> -- 1B87B30F-FCDA-4BF4-988A-D9718E4A15EF <2014-07-22 14:49:35 +0000>
+2015-01-20T01:27:48 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T01:27:50 - INFO    low battery threshold = 0.250000
+2015-01-20T01:27:50 - INFO    Sleep manager state change 0 to 1
+2015-01-20T01:27:50 - INFO    low battery threshold = 0.250000
+2015-01-20T01:27:50 - INFO    Sleep manager state change 1 to 2
+2015-01-20T01:27:50 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2015-01-20T01:27:50 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2015-01-20T01:27:50 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2015-01-20T01:27:51 - INFO    is silence playing: 1
+2015-01-20T01:27:51 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2015-01-20T01:27:51 - INFO    AccelerometerThread start.
+2015-01-20T01:27:51 - INFO    low battery threshold = 0.250000
+2015-01-20T01:27:51 - INFO    Calling POST https://api.azumio.com/v2/events
+2015-01-20T01:27:51 - INFO    alarm start
+2015-01-20T01:27:51 - INFO    Scheduling alarm timer 2015-01-20T11:10:00.000-0500
+2015-01-20T01:27:51 - INFO    Wakup window stats 2.000000 1198.000000 
+2015-01-20T01:27:51 - INFO    PowerManager started
+2015-01-20T01:27:51 - INFO    low battery threshold = 0.250000
+2015-01-20T01:27:51 - INFO    low battery threshold = 0.250000
+2015-01-20T01:27:51 - INFO    Battery state 1 level = 0.100000
+2015-01-20T01:27:51 - INFO    creitical battery threshold = 0.150000
+2015-01-20T01:27:51 - INFO    Battery criticalBatteryLevel
+2015-01-20T01:27:51 - INFO    Power is critical
+2015-01-20T01:27:51 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2015-01-20T01:27:51 - INFO    AccelerometerThread.stop
+2015-01-20T01:27:51 - INFO    AccelerometerThread.stopAccelerometer
+2015-01-20T01:27:51 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2015-01-20T01:27:51 - INFO    idleTimerDisabled=0
+2015-01-20T01:27:51 - INFO    Stopped silence.
+2015-01-20T01:27:51 - INFO    turnAudioConfigurationOFF passed.
+2015-01-20T01:27:51 - INFO    stopAllMusic
+2015-01-20T01:27:51 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T01:27:51 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f1f90> -- 1CF5EC41-F05F-476B-A336-3F402188E25D <2013-05-29 14:38:01 +0000>
+2015-01-20T01:27:51 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T01:27:51 - INFO    Succeeded! Received 2 bytes of data
+2015-01-20T01:27:52 - INFO    applicationWillResignActive
+2015-01-20T01:27:52 - INFO    event: SongSelection
+2015-01-20T01:27:52 - INFO    Calling POST https://api.azumio.com/v2/events
+2015-01-20T01:27:52 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T01:27:52 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156133a0> -- 1D8AE167-96DA-448C-A357-52EDF73B4490 <2013-06-03 15:01:17 +0000>
+2015-01-20T01:27:52 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T01:27:53 - INFO    Overview ready 2445
+2015-01-20T01:27:53 - INFO    Preparing overview2 10474
+2015-01-20T01:27:53 - INFO    Calling POST https://api.azumio.com/v2/dailyoverview2
+2015-01-20T01:27:53 - INFO    applicationDidEnterBackground: loggedIn=0
+2015-01-20T01:27:54 - INFO    stopClockUpdates
+2015-01-20T01:27:54 - INFO    stopClockUpdates
+2015-01-20T01:27:57 - INFO    Persisting data online: 251 offline: 252
+2015-01-20T01:27:58 - INFO    Data persisted: pass=1 in 4.657533 - -3.581884 - 1.075650 1.072882 0.212147 seconds 8153586bytes
+2015-01-20T01:27:59 - INFO    Succeeded! Received 2 bytes of data
+2015-01-20T01:27:59 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T01:27:59 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156fbe60> -- 1E8CBA4C-F0FC-487E-BC9A-EE2747BFCBE6 <2014-08-30 13:24:59 +0000>
+2015-01-20T08:43:23 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:23 - INFO    Succeeded! Received 2 bytes of data
+2015-01-20T08:43:23 - INFO    Upload success
+2015-01-20T08:43:23 - INFO    applicationWillEnterForeground: loggedIn=0
+2015-01-20T08:43:23 - INFO    startClockUpdates
+2015-01-20T08:43:23 - INFO    stopClockUpdates
+2015-01-20T08:43:23 - INFO    low battery threshold = 0.250000
+2015-01-20T08:43:24 - INFO    Battery level changed
+2015-01-20T08:43:24 - INFO    low battery threshold = 0.250000
+2015-01-20T08:43:24 - INFO    Alarm is on and device has sufficient power.
+2015-01-20T08:43:24 - INFO    Restart accelerometer.
+2015-01-20T08:43:24 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2015-01-20T08:43:24 - INFO    AccelerometerThread start.
+2015-01-20T08:43:24 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2015-01-20T08:43:24 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2015-01-20T08:43:24 - INFO    is silence playing: 1
+2015-01-20T08:43:24 - INFO    low battery threshold = 0.250000
+2015-01-20T08:43:24 - INFO    Battery state 1 level = 1.000000
+2015-01-20T08:43:24 - INFO    creitical battery threshold = 0.150000
+2015-01-20T08:43:24 - INFO    low battery threshold = 0.250000
+2015-01-20T08:43:24 - INFO    Battery state changed
+2015-01-20T08:43:24 - INFO    low battery threshold = 0.250000
+2015-01-20T08:43:24 - INFO    Alarm is on and device has sufficient power.
+2015-01-20T08:43:24 - INFO    Accelerometer was already on.
+2015-01-20T08:43:24 - INFO    low battery threshold = 0.250000
+2015-01-20T08:43:24 - INFO    Battery Charging
+2015-01-20T08:43:24 - INFO    applicationDidBecomeActive
+2015-01-20T08:43:25 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:25 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156fa060> -- 1F6A0D2C-B41A-43FE-9845-F36E3A6EFEB7 <2014-08-22 13:12:14 +0000>
+2015-01-20T08:43:25 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:25 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:25 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f02a0> -- 2046C8B3-EA4C-49AA-AE1A-BE36A393FB0E <2014-09-15 15:40:48 +0000>
+2015-01-20T08:43:26 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:26 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:26 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15614510> -- 20A58E6F-245D-41EA-A0EB-C3B90B68B704 <2014-06-06 14:52:51 +0000>
+2015-01-20T08:43:26 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:26 - INFO    Sleep manager state change 2 to 0
+2015-01-20T08:43:26 - INFO    alarm stop
+2015-01-20T08:43:26 - INFO    Preparing overview
+2015-01-20T08:43:26 - INFO    sleepdur: 26135.749263
+2015-01-20T08:43:26 - INFO    Generating sleep report
+2015-01-20T08:43:26 - INFO    _sleepState.cepoch: 0.000000
+2015-01-20T08:43:26 - INFO    sleepReport gen time=0
+2015-01-20T08:43:26 - INFO    Stopped silence.
+2015-01-20T08:43:26 - INFO    Stop 0 ap=0 0
+2015-01-20T08:43:26 - INFO    turnAudioConfigurationOFF passed.
+2015-01-20T08:43:26 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2015-01-20T08:43:26 - INFO    AccelerometerThread.stop
+2015-01-20T08:43:26 - INFO    AccelerometerThread.stopAccelerometer
+2015-01-20T08:43:26 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2015-01-20T08:43:26 - INFO    alarm stop
+2015-01-20T08:43:26 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2015-01-20T08:43:26 - INFO    PowerManager stopped
+2015-01-20T08:43:26 - INFO    Run clearBackupNotifications.
+2015-01-20T08:43:26 - INFO    stopAllMusic
+2015-01-20T08:43:26 - INFO    sleep report={
+    alarmRingTimes =     (
+    );
+    alarmTime = 1421770200000;
+    awakeDuration = "26135.75367712975";
+    deepDuration = 0;
+    duration = "26135.75367712975";
+    efficiency = 0;
+    end = 1421761406783;
+    endBatteryLevel = 1;
+    firstAlarmRingTime = 0;
+    heartRate = 0;
+    lightDuration = 0;
+    meta =     {
+        12HourMode = 0;
+        AirPlayIsOn = 0;
+        AlarmStopOption = "Hold for off";
+        alarmAZTitle = "Morning Dew";
+        alarmVibrates = 1;
+        alarmVolume = "0.536765";
+        alarmWakeUpPhaseTimeMinutes = 20;
+        applicationStateAtAlarmTime = 0;
+        deviceModelName = "iPhone7,2";
+        deviceOrientationAtAlarmTime = 0;
+        snoozeAuto = 1;
+        snoozeIsOn = 1;
+        snoozeTime = 8;
+        soundscapeAZTitle = "Gentle Waves";
+        soundscapeDuration = 45;
+        soundscapeOn = 0;
+        soundscapeVolume = "0.18593";
+        statCyclelength = 0;
+        statDuration = 0;
+        statEnd = 0;
+        statQuality = 0;
+        statStart = 0;
+        statWakeups = 0;
+    };
+    newRecord = 1;
+    quality = 0;
+    snoozeCount = 0;
+    start = 1421735271029;
+    startBatteryLevel = "0.1000000014901161";
+}
+2015-01-20T08:43:26 - INFO    AZOnlineTimeline data changed observer called.
+2015-01-20T08:43:26 - INFO    clearBackupNotifications Done
+2015-01-20T08:43:26 - INFO    finished saving sleep report
+2015-01-20T08:43:26 - INFO    event: TabBarPressed
+2015-01-20T08:43:26 - INFO    Calling POST https://api.azumio.com/v2/events
+2015-01-20T08:43:26 - INFO    event: pageSwitch
+2015-01-20T08:43:26 - INFO    finished logging to healthkit
+2015-01-20T08:43:26 - INFO    event: Wakeup
+2015-01-20T08:43:27 - INFO    Overview ready 200
+2015-01-20T08:43:27 - INFO    Preparing overview2 938
+2015-01-20T08:43:27 - INFO    Calling POST https://api.azumio.com/v2/dailyoverview2
+2015-01-20T08:43:27 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:27 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f28c0> -- 2117FF42-4A20-4D19-83FB-4F40DB36CD02 <2013-07-08 15:12:14 +0000>
+2015-01-20T08:43:27 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:27 - INFO    Succeeded! Received 2 bytes of data
+2015-01-20T08:43:27 - INFO    Upload success
+2015-01-20T08:43:27 - INFO    Succeeded! Received 2 bytes of data
+2015-01-20T08:43:27 - INFO    event: show detail sleep
+2015-01-20T08:43:27 - INFO    Calling POST https://api.azumio.com/v2/events
+2015-01-20T08:43:27 - INFO    low battery threshold = 0.250000
+2015-01-20T08:43:27 - INFO    low battery threshold = 0.250000
+2015-01-20T08:43:27 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:27 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f54f0> -- 21194CC9-588D-46FB-8DF5-85448639244D <2014-06-10 15:10:34 +0000>
+2015-01-20T08:43:28 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:28 - INFO    Succeeded! Received 2 bytes of data
+2015-01-20T08:43:28 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:28 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156fa3b0> -- 21D4CCCA-599D-4C5B-B0D2-939670E85372 <2014-10-15 13:52:15 +0000>
+2015-01-20T08:43:28 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:29 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:29 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15644040> -- 259750A5-B2EA-4A7C-B67C-7321CECC1723 <2014-05-28 14:55:34 +0000>
+2015-01-20T08:43:29 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:29 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:29 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16b3d7f0> -- 27AAD9F5-BFA0-4FBA-97E7-6196C8DA86A8 <2013-05-09 14:59:18 +0000>
+2015-01-20T08:43:29 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:30 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:30 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156cc590> -- 2867B93B-3407-46DF-B17F-1F9EFA8CDD3A <2014-10-23 13:43:39 +0000>
+2015-01-20T08:43:30 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:30 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:30 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f9d80> -- 29697D47-A120-4A14-8C39-FDAF60B0AE1C <2014-09-14 14:49:37 +0000>
+2015-01-20T08:43:30 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:31 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:31 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1563a3a0> -- 2A3E269C-D825-4824-A2A2-9B79F83C7C03 <2013-05-12 15:02:55 +0000>
+2015-01-20T08:43:31 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:31 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:31 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f3a60> -- 31E8BFC8-7BED-47F2-BBB2-D12C7913928A <2013-05-31 14:42:24 +0000>
+2015-01-20T08:43:31 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:32 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:32 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156afd90> -- 3279B9AC-E7C0-42B6-BACB-5B8C080798AD <2013-06-23 16:25:30 +0000>
+2015-01-20T08:43:32 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:33 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:33 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f7c30> -- 32B7461E-DC5F-427D-A57D-69E8BE378F73 <2014-08-09 14:23:33 +0000>
+2015-01-20T08:43:33 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:33 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:33 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f3440> -- 32FC467D-3B9A-4A78-9571-821D8DFD1F55 <2013-05-08 13:50:26 +0000>
+2015-01-20T08:43:33 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:34 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:34 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f7c70> -- 3337FF58-5329-4F02-8618-050DBC0C1D85 <2014-06-30 14:53:13 +0000>
+2015-01-20T08:43:34 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:34 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:34 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f0930> -- 346D04FE-67ED-415F-989D-36C3BB85B820 <2014-10-27 13:30:22 +0000>
+2015-01-20T08:43:34 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:35 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:35 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16e2bec0> -- 34A61685-2DFE-49AD-864A-9DA1C182A5E7 <2014-05-23 13:59:21 +0000>
+2015-01-20T08:43:35 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:35 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:35 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16b8d190> -- 3727ADCC-2651-4A38-8658-242F5BBD952A <2013-08-04 12:54:43 +0000>
+2015-01-20T08:43:35 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:36 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:36 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f9d30> -- 377F30EA-A76C-454B-BAA5-74FF751D14DE <2013-07-26 14:57:15 +0000>
+2015-01-20T08:43:36 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:36 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:36 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f5190> -- 37CC3997-589E-4175-A8DC-651C80B5DB15 <2014-07-11 14:47:49 +0000>
+2015-01-20T08:43:36 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:37 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:37 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1560f800> -- 3A5296E2-6120-4919-A20C-F380B10E2129 <2013-07-15 14:28:09 +0000>
+2015-01-20T08:43:37 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:38 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:38 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f18f0> -- 3A86387A-8597-4775-827A-8D612D300C69 <2014-05-27 14:48:05 +0000>
+2015-01-20T08:43:38 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:38 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:38 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15615230> -- 3C66C54E-A2E8-4162-9D2B-DDD0EDD8724E <2014-08-04 14:34:38 +0000>
+2015-01-20T08:43:38 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:39 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:39 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156e63e0> -- 3E56C8C3-6C83-4755-9A9C-6BC9AD3CEA28 <2013-07-06 14:59:12 +0000>
+2015-01-20T08:43:39 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:39 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:39 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16e532f0> -- 3E837FAD-7019-4289-BAEC-17629329D019 <2014-07-13 15:11:42 +0000>
+2015-01-20T08:43:39 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:40 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:40 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x16984860> -- 40014239-710E-4BB1-82A8-6053C4310781 <2014-06-25 15:14:27 +0000>
+2015-01-20T08:43:40 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:40 - INFO    applicationWillResignActive
+2015-01-20T08:43:40 - INFO    Battery state changed
+2015-01-20T08:43:40 - INFO    Battery Charging
+2015-01-20T08:43:40 - INFO    Battery state changed
+2015-01-20T08:43:40 - INFO    Battery Charging
+2015-01-20T08:43:40 - INFO    Succeeded! Received 59 bytes of data
+2015-01-20T08:43:40 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x156f82d0> -- 4236E1E6-AFED-4FC7-B63B-6E3B9BA2B43F <2013-03-23 14:37:59 +0000>
+2015-01-20T08:43:40 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2015-01-20T08:43:41 - INFO    applicationDidEnterBackground: loggedIn=0
+2015-01-20T08:43:42 - INFO    stopClockUpdates
+2015-01-20T08:43:42 - INFO    stopClockUpdates
+2015-01-20T08:43:45 - INFO    Persisting data online: 252 offline: 253
+2015-01-20T08:43:46 - INFO    Data persisted: pass=1 in 4.699689 - -3.646523 - 1.053167 1.052662 0.203671 seconds 8155922bytes

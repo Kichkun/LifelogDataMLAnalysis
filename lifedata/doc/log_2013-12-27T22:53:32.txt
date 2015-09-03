@@ -1,0 +1,52 @@
+Log level: INFO   
+2013-12-27T22:53:32 - INFO    Device info: iPhone 4S iPhone OS 7.0.4 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2013-12-27T22:53:32 - INFO    com.azumio.iphone.sleepcycle 2.8.4830
+2013-12-27T22:53:32 - INFO    application didFinishLaunchingWithOptions
+2013-12-27T22:53:32 - INFO    started logspecs
+2013-12-27T22:53:32 - INFO    Sleep Time 2.8.4830
+2013-12-27T22:53:32 - INFO    com.azumio.iphone.sleepcycle
+2013-12-27T22:53:32 - INFO    iPhone 4S
+2013-12-27T22:53:32 - INFO    Bryan’s iPhone
+2013-12-27T22:53:32 - INFO    iPhone OS
+2013-12-27T22:53:32 - INFO    7.0.4
+2013-12-27T22:53:32 - INFO    iPhone
+2013-12-27T22:53:32 - INFO    iPhone
+2013-12-27T22:53:32 - INFO    multitaskingSupported=1
+2013-12-27T22:53:32 - INFO    App Settings = {
+    "_requestedVersion" = 20899;
+    "_returnedVersion" = 20400;
+    "_v" = 20899;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-12-27T22:53:32 - INFO    finished logspecs
+2013-12-27T22:53:33 - INFO    startClockUpdates
+2013-12-27T22:53:33 - INFO    stopClockUpdates
+2013-12-27T22:53:33 - INFO    Run clearBackupNotifications.
+2013-12-27T22:53:33 - INFO    clearBackupNotifications Done
+2013-12-27T22:53:34 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2013-12-27T22:53:34 - INFO    applicationDidBecomeActive
+2013-12-27T22:53:35 - INFO    Calling POST https://api.azumio.com/v2/events
+2013-12-27T22:53:38 - INFO    server settings={
+    "_requestedVersion" = 20899;
+    "_returnedVersion" = 20400;
+    "_v" = 20899;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-12-27T22:53:39 - INFO    Succeeded! Received 3 bytes of data
+2013-12-27T22:53:40 - INFO    Succeeded! Received 57 bytes of data
+2013-12-27T22:53:41 - INFO    applicationWillResignActive
+2013-12-27T22:53:41 - INFO    applicationDidEnterBackground
+2013-12-27T22:53:44 - INFO    stopClockUpdates
+2013-12-27T22:53:44 - INFO    stopClockUpdates

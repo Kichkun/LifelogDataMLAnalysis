@@ -1,0 +1,107 @@
+2013-03-20T18:59:43 - INFO    application didFinishLaunchingWithOptions
+2013-03-20T18:59:43 - INFO    started logspecs
+2013-03-20T18:59:43 - INFO    Sleep Time 2.2.1.1010
+2013-03-20T18:59:43 - INFO    iPhone 4S
+2013-03-20T18:59:43 - INFO    Bryan’s iPhone
+2013-03-20T18:59:43 - INFO    iPhone OS
+2013-03-20T18:59:43 - INFO    6.0.1
+2013-03-20T18:59:43 - INFO    iPhone
+2013-03-20T18:59:43 - INFO    iPhone
+2013-03-20T18:59:43 - INFO    multitaskingSupported=1
+2013-03-20T18:59:43 - INFO    App Settings = {
+}
+2013-03-20T18:59:43 - INFO    PreferencesBase settings: No Settings
+2013-03-20T18:59:43 - INFO    finished logspecs
+2013-03-20T18:59:43 - INFO    Now=Wednesday, March 20, 2013, 6:59:43 PM Eastern Daylight Time    Fire Date=Wednesday, March 20, 2013, 8:00:00 PM Eastern Daylight Time
+2013-03-20T18:59:43 - INFO    Now=Wednesday, March 20, 2013, 6:59:43 PM Eastern Daylight Time    New Fire Date=Thursday, March 21, 2013, 8:00:00 PM Eastern Daylight Time
+2013-03-20T18:59:43 - TRACE   fetchCheckIns END
+2013-03-20T18:59:43 - TRACE   Current token (null)
+2013-03-20T18:59:43 - TRACE   Current token (null)
+2013-03-20T18:59:43 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-03-20T18:59:43 - TRACE   Current token (null)
+2013-03-20T18:59:43 - TRACE   Current token (null)
+2013-03-20T18:59:43 - TRACE   Current token (null)
+2013-03-20T18:59:43 - INFO    startClockUpdates
+2013-03-20T18:59:43 - INFO    stopClockUpdates
+2013-03-20T18:59:45 - TRACE   Current token (null)
+2013-03-20T18:59:45 - INFO    Run clearBackupNotifications.
+2013-03-20T18:59:45 - INFO    clearBackupNotifications Done
+2013-03-20T18:59:46 - TRACE   Params {
+}
+2013-03-20T18:59:46 - INFO    Calling https://api.azumio.com/v2/users/me?
+2013-03-20T18:59:46 - TRACE   Current token (null)
+2013-03-20T18:59:46 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-20T18:59:46 - INFO    applicationDidBecomeActive
+2013-03-20T18:59:46 - TRACE   Params {
+    details = "{\"processes\":[{\"pid\":\"0\",\"name\":\"kernel_task\"},{\"pid\":\"1\",\"name\":\"launchd\"},{\"pid\":\"13\",\"name\":\"UserEventAgent\"},{\"pid\":\"14\",\"name\":\"wifid\"},{\"pid\":\"17\",\"name\":\"timed\"},{\"pid\":\"18\",\"name\":\"syslogd\"},{\"pid\":\"20\",\"name\":\"powerd\"},{\"pid\":\"29\",\"name\":\"lockdownd\"},{\"pid\":\"31\",\"name\":\"installd\"},{\"pid\":\"33\",\"name\":\"deleted\"},{\"pid\":\"37\",\"name\":\"mediaserverd\"},{\"pid\":\"39\",\"name\":\"mDNSResponder\"},{\"pid\":\"41\",\"name\":\"locationd\"},{\"pid\":\"43\",\"name\":\"imagent\"},{\"pid\":\"44\",\"name\":\"iaptransportd\"},{\"pid\":\"46\",\"name\":\"fseventsd\"},{\"pid\":\"47\",\"name\":\"fairplayd.N94\"},{\"pid\":\"49\",\"name\":\"AppleIDAuthAgent\"},{\"pid\":\"50\",\"name\":\"configd\"},{\"pid\":\"52\",\"name\":\"backboardd\"},{\"pid\":\"57\",\"name\":\"kbd\"},{\"pid\":\"62\",\"name\":\"CommCenter\"},{\"pid\":\"63\",\"name\":\"BTServer\"},{\"pid\":\"65\",\"name\":\"notifyd\"},{\"pid\":\"68\",\"name\":\"SpringBoard\"},{\"pid\":\"69\",\"name\":\"itunesstored\"},{\"pid\":\"70\",\"name\":\"aggregated\"},{\"pid\":\"71\",\"name\":\"networkd\"},{\"pid\":\"72\",\"name\":\"networkd_privile\"},{\"pid\":\"74\",\"name\":\"apsd\"},{\"pid\":\"80\",\"name\":\"gamed\"},{\"pid\":\"83\",\"name\":\"dataaccessd\"},{\"pid\":\"85\",\"name\":\"aosnotifyd\"},{\"pid\":\"87\",\"name\":\"accountsd\"},{\"pid\":\"88\",\"name\":\"lsd\"},{\"pid\":\"89\",\"name\":\"geod\"},{\"pid\":\"90\",\"name\":\"distnoted\"},{\"pid\":\"92\",\"name\":\"BlueTool\"},{\"pid\":\"94\",\"name\":\"tccd\"},{\"pid\":\"96\",\"name\":\"softwareupdatese\"},{\"pid\":\"97\",\"name\":\"MobileMail\"},{\"pid\":\"98\",\"name\":\"MobilePhone\"},{\"pid\":\"101\",\"name\":\"assetsd\"},{\"pid\":\"104\",\"name\":\"filecoordination\"},{\"pid\":\"108\",\"name\":\"xpcd\"},{\"pid\":\"123\",\"name\":\"MobileSMS\"},{\"pid\":\"127\",\"name\":\"ubd\"},{\"pid\":\"130\",\"name\":\"quicklookd\"},{\"pid\":\"133\",\"name\":\"recentsd\"},{\"pid\":\"138\",\"name\":\"BracketBound\"},{\"pid\":\"153\",\"name\":\"MobileSafari\"},{\"pid\":\"154\",\"name\":\"webbookmarksd\"},{\"pid\":\"179\",\"name\":\"GroupMe\"},{\"pid\":\"184\",\"name\":\"kBatteryDoctor\"},{\"pid\":\"196\",\"name\":\"profiled\"},{\"pid\":\"198\",\"name\":\"librariand\"},{\"pid\":\"199\",\"name\":\"IMDMessageServic\"},{\"pid\":\"200\",\"name\":\"searchd\"},{\"pid\":\"201\",\"name\":\"AppIndexer\"},{\"pid\":\"202\",\"name\":\"securityd\"},{\"pid\":\"203\",\"name\":\"sandboxd\"},{\"pid\":\"204\",\"name\":\"MySleepCycle\"},{\"pid\":\"205\",\"name\":\"amfid\"},{\"pid\":\"206\",\"name\":\"pasteboardd\"},{\"pid\":\"207\",\"name\":\"mediaremoted\"},{\"pid\":\"208\",\"name\":\"Music~iphone\"}]}";
+    event = runningProcesses;
+    session = 7617388E60574F05B300;
+}
+2013-03-20T18:59:46 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-20T18:59:46 - TRACE   Current token (null)
+2013-03-20T18:59:46 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-20T18:59:46 - INFO    applicationWillResignActive
+2013-03-20T18:59:46 - INFO    applicationDidEnterBackground
+2013-03-20T18:59:46 - INFO    stopClockUpdates
+2013-03-20T18:59:46 - INFO    stopClockUpdates
+2013-03-20T18:59:47 - INFO    applicationWillEnterForeground
+2013-03-20T18:59:47 - INFO    startClockUpdates
+2013-03-20T18:59:47 - INFO    stopClockUpdates
+2013-03-20T18:59:47 - INFO    applicationDidBecomeActive
+2013-03-20T18:59:48 - TRACE   Current token (null)
+2013-03-20T18:59:50 - INFO    Succeeded! Received 22 bytes of data
+2013-03-20T18:59:50 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-20T18:59:50 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-20T18:59:51 - INFO    Succeeded! Received 57 bytes of data
+2013-03-20T18:59:51 - TRACE   responseWithData:{"error":{"errorDetail":"Restricted access","code":401}}
+
+2013-03-20T18:59:51 - TRACE   AZHCIApiResponse {
+    error =     {
+        code = 401;
+        errorDetail = "Restricted access";
+    };
+}
+2013-03-20T18:59:51 - TRACE   Current token (null)
+2013-03-20T18:59:51 - INFO    applicationWillResignActive
+2013-03-20T18:59:51 - INFO    didRegisterForRemoteNotificationsWithDeviceToken
+2013-03-20T18:59:51 - TRACE   Params {
+    token = b9b9182c29064aa0a4ca93038503edd326d61511abbcc2e2c1d2537b97aa295c;
+}
+2013-03-20T18:59:51 - INFO    Calling https://api.azumio.com/v1/registerforpush
+2013-03-20T18:59:51 - TRACE   Current token (null)
+2013-03-20T18:59:51 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-20T18:59:53 - INFO    didReceiveLocalNotification: (null) fireDate=Wednesday, March 20, 2013, 6:59:53 PM Eastern Daylight Time repeatInterval=0 repeatCalendar=0
+2013-03-20T18:59:53 - INFO    Succeeded! Received 22 bytes of data
+2013-03-20T18:59:53 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-20T18:59:53 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-20T18:59:53 - TRACE   Params {
+    details = "{\"apps\":[\"shazam\",\"bikerace\",\"bumpapp\",\"com.atebits.Tweetie2\",\"com.azumio.iphone.sleepcycle\",\"com.shazam.Shazam\",\"comgoogleearth\",\"dbapi-1\",\"dps.a7a0b9ce5c64438389e43600ae76ae7d\",\"drawsomething\",\"etrade\",\"fb\",\"fb-messenger\",\"fb113246946530\",\"fb117344358296665\",\"fb123448314320\",\"fb124024574287414\",\"fb127221877343651\",\"fb139475280761\",\"fb163114453728333\",\"fb168378113211268WordsWithFriendsFree\",\"fb205249296161973HangingWithFriendsFree\",\"fb225826214141508free\",\"fb252151381489775\",\"fb323595464361460\",\"fb327229777290354\",\"fb43211574282\",\"fb80092579137\",\"fb86734274142\",\"flowfree\",\"gplus\",\"gwhizz\",\"qr\",\"remote\",\"surpaxledflashlight\",\"templerun\"]}";
+    event = installedApps;
+    session = 7617388E60574F05B300;
+}
+2013-03-20T18:59:53 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-20T18:59:53 - TRACE   Current token (null)
+2013-03-20T18:59:53 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-20T18:59:54 - INFO    Succeeded! Received 22 bytes of data
+2013-03-20T18:59:54 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-20T18:59:54 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-20T19:00:32 - INFO    applicationDidBecomeActive
+2013-03-20T19:00:41 - INFO    applicationWillResignActive
+2013-03-20T19:00:41 - INFO    applicationDidEnterBackground
+2013-03-20T19:00:41 - INFO    stopClockUpdates
+2013-03-20T19:00:41 - INFO    stopClockUpdates

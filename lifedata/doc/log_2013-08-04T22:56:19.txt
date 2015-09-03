@@ -1,0 +1,160 @@
+Log level: INFO   
+2013-08-04T22:56:19 - INFO    Device info: iPhone 4S iPhone OS 6.0.1 Bryan’s iPhone
+2013-08-04T22:56:19 - INFO    application didFinishLaunchingWithOptions
+2013-08-04T22:56:19 - INFO    started logspecs
+2013-08-04T22:56:19 - INFO    Sleep Time 2.4.4361
+2013-08-04T22:56:19 - INFO    com.azumio.iphone.sleepcycle
+2013-08-04T22:56:19 - INFO    iPhone 4S
+2013-08-04T22:56:19 - INFO    Bryan’s iPhone
+2013-08-04T22:56:19 - INFO    iPhone OS
+2013-08-04T22:56:19 - INFO    6.0.1
+2013-08-04T22:56:19 - INFO    iPhone
+2013-08-04T22:56:19 - INFO    iPhone
+2013-08-04T22:56:19 - INFO    multitaskingSupported=1
+2013-08-04T22:56:19 - INFO    App Settings = {
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-04T22:56:19 - INFO    finished logspecs
+2013-08-04T22:56:20 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-04T22:56:22 - INFO    startClockUpdates
+2013-08-04T22:56:22 - INFO    stopClockUpdates
+2013-08-04T22:56:23 - INFO    Run clearBackupNotifications.
+2013-08-04T22:56:23 - INFO    clearBackupNotifications Done
+2013-08-04T22:56:23 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2013-08-04T22:56:23 - INFO    applicationDidBecomeActive
+2013-08-04T22:56:24 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-04T22:56:24 - INFO    server settings={
+    "_requestedVersion" = 20499;
+    "_returnedVersion" = 20400;
+    "_v" = 20499;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2013-08-04T22:56:24 - INFO    Succeeded! Received 22 bytes of data
+2013-08-04T22:56:24 - INFO    Succeeded! Received 57 bytes of data
+2013-08-04T22:56:24 - WARNING SleepReportDataPoint:p1 Friday, July 26, 2013, 10:39:44 AM Eastern Daylight Time 0.932000 idx=854
+2013-08-04T22:56:24 - WARNING SleepReportDataPoint:p2 Friday, July 26, 2013, 10:55:46 AM Eastern Daylight Time 0.934000 idx=855
+2013-08-04T22:56:46 - INFO    Sleep manager state change 0 to 1
+2013-08-04T22:56:46 - INFO    Sleep manager state change 1 to 2
+2013-08-04T22:56:46 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-08-04T22:56:47 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2013-08-04T22:56:47 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2013-08-04T22:56:47 - INFO    is silence playing: 1
+2013-08-04T22:56:47 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-08-04T22:56:47 - INFO    AccelerometerThread start.
+2013-08-04T22:56:47 - INFO    alarm start
+2013-08-04T22:56:47 - INFO    Scheduling alarm timer 2013-08-05T10:00:00.000-0400
+2013-08-04T22:56:47 - INFO    Wakup window stats 24.000000 1176.000000 
+2013-08-04T22:56:47 - INFO    PowerManager started
+2013-08-04T22:56:47 - INFO    Alarm is on and device has sufficient power.
+2013-08-04T22:56:47 - INFO    Accelerometer was already on.
+2013-08-04T22:56:47 - INFO    Battery Charging
+2013-08-04T22:56:47 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-04T22:56:47 - INFO    Succeeded! Received 22 bytes of data
+2013-08-04T22:56:51 - INFO    Battery state changed
+2013-08-04T22:56:51 - INFO    Battery state 1 level = 0.150000
+2013-08-04T22:56:51 - INFO    Battery criticalBatteryLevel
+2013-08-04T22:56:51 - INFO    Power is critical
+2013-08-04T22:56:51 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-08-04T22:56:51 - INFO    AccelerometerThread.stop
+2013-08-04T22:56:51 - INFO    AccelerometerThread.stopAccelerometer
+2013-08-04T22:56:51 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-08-04T22:56:51 - INFO    idleTimerDisabled=0
+2013-08-04T22:56:51 - INFO    Stopped silence.
+2013-08-04T22:56:51 - INFO    turnAudioConfigurationOFF passed.
+2013-08-04T22:56:51 - INFO    stopAllMusic
+2013-08-04T22:56:52 - INFO    Proximity sensor state changed: closeToUser=1
+2013-08-04T22:56:52 - INFO    stopClockUpdates
+2013-08-04T22:56:52 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-08-04T22:56:54 - INFO    Proximity sensor state changed: closeToUser=0
+2013-08-04T22:56:54 - INFO    startClockUpdates
+2013-08-04T22:56:54 - INFO    stopClockUpdates
+2013-08-04T22:56:54 - INFO    Device face up
+2013-08-04T22:56:54 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-08-04T22:56:55 - INFO    Proximity sensor state changed: closeToUser=1
+2013-08-04T22:56:55 - INFO    stopClockUpdates
+2013-08-04T22:56:55 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-08-04T22:56:55 - INFO    Proximity sensor state changed: closeToUser=0
+2013-08-04T22:56:55 - INFO    startClockUpdates
+2013-08-04T22:56:55 - INFO    stopClockUpdates
+2013-08-04T22:56:55 - INFO    Device face up
+2013-08-04T22:56:55 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-08-04T22:56:55 - INFO    Proximity sensor state changed: closeToUser=1
+2013-08-04T22:56:55 - INFO    stopClockUpdates
+2013-08-04T22:56:55 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-08-04T22:56:56 - INFO    Proximity sensor state changed: closeToUser=0
+2013-08-04T22:56:56 - INFO    startClockUpdates
+2013-08-04T22:56:56 - INFO    stopClockUpdates
+2013-08-04T22:56:56 - INFO    Device face up
+2013-08-04T22:56:56 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-08-04T22:56:56 - INFO    Proximity sensor state changed: closeToUser=1
+2013-08-04T22:56:56 - INFO    stopClockUpdates
+2013-08-04T22:56:56 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-08-04T22:56:58 - INFO    Proximity sensor state changed: closeToUser=0
+2013-08-04T22:56:58 - INFO    startClockUpdates
+2013-08-04T22:56:58 - INFO    stopClockUpdates
+2013-08-04T22:56:58 - INFO    Device face up
+2013-08-04T22:56:58 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-08-04T22:56:58 - INFO    applicationWillResignActive
+2013-08-04T22:56:58 - INFO    applicationDidEnterBackground
+2013-08-04T22:56:59 - INFO    stopClockUpdates
+2013-08-04T22:56:59 - INFO    stopClockUpdates
+2013-08-05T09:41:32 - INFO    Battery level changed
+2013-08-05T09:41:32 - INFO    Alarm is on and device has sufficient power.
+2013-08-05T09:41:32 - INFO    Restart accelerometer.
+2013-08-05T09:41:32 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-08-05T09:41:32 - INFO    AccelerometerThread start.
+2013-08-05T09:41:32 - INFO    Battery state 1 level = 1.000000
+2013-08-05T09:41:32 - INFO    applicationWillEnterForeground
+2013-08-05T09:41:33 - INFO    startClockUpdates
+2013-08-05T09:41:33 - INFO    stopClockUpdates
+2013-08-05T09:41:33 - INFO    applicationDidBecomeActive
+2013-08-05T09:41:33 - INFO    readAccelerometer counters: Total=1 Interval=1 accelerometerActive=1
+2013-08-05T09:41:36 - INFO    Sleep manager state change 2 to 0
+2013-08-05T09:41:36 - INFO    Silence audio was already off.
+2013-08-05T09:41:36 - INFO    turnAudioConfigurationOFF passed.
+2013-08-05T09:41:36 - INFO    Stop 0 ap=0 0
+2013-08-05T09:41:36 - INFO    turnAudioConfigurationOFF passed.
+2013-08-05T09:41:36 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-08-05T09:41:36 - INFO    AccelerometerThread.stop
+2013-08-05T09:41:36 - INFO    AccelerometerThread.stopAccelerometer
+2013-08-05T09:41:36 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-08-05T09:41:36 - INFO    alarm stop
+2013-08-05T09:41:36 - INFO    Generating sleep report
+2013-08-05T09:41:36 - INFO    _sleepState.cepoch: 1.000000
+2013-08-05T09:41:36 - INFO    alarm stop
+2013-08-05T09:41:36 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-08-05T09:41:36 - INFO    PowerManager stopped
+2013-08-05T09:41:36 - INFO    Run clearBackupNotifications.
+2013-08-05T09:41:36 - INFO    stopAllMusic
+2013-08-05T09:41:36 - INFO    clearBackupNotifications Done
+2013-08-05T09:41:36 - WARNING SleepReportDataPoint:p1 Sunday, August 4, 2013, 10:56:47 PM Eastern Daylight Time -0.100000 idx=1
+2013-08-05T09:41:36 - WARNING SleepReportDataPoint:p2 Monday, August 5, 2013, 9:41:32 AM Eastern Daylight Time 0.000000 idx=2
+2013-08-05T09:41:36 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-05T09:41:36 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-08-05T09:41:36 - INFO    Calling POST https://api.azumio.com/v1/events
+2013-08-05T09:41:37 - INFO    Succeeded! Received 22 bytes of data
+2013-08-05T09:41:57 - WARNING SleepReportDataPoint:p1 Sunday, May 26, 2013, 10:06:22 AM Eastern Daylight Time 0.454000 idx=885
+2013-08-05T09:41:57 - WARNING SleepReportDataPoint:p2 Sunday, May 26, 2013, 11:45:11 AM Eastern Daylight Time -0.100000 idx=886
+2013-08-05T09:41:57 - WARNING SleepReportDataPoint:p1 Monday, May 27, 2013, 8:06:58 AM Eastern Daylight Time 0.813559 idx=691
+2013-08-05T09:41:57 - WARNING SleepReportDataPoint:p2 Monday, May 27, 2013, 11:02:53 AM Eastern Daylight Time -0.100000 idx=692
+2013-08-05T09:41:57 - WARNING SleepReportDataPoint:p1 Wednesday, May 29, 2013, 10:07:24 AM Eastern Daylight Time 0.932000 idx=969
+2013-08-05T09:41:57 - WARNING SleepReportDataPoint:p2 Wednesday, May 29, 2013, 10:24:20 AM Eastern Daylight Time 0.934000 idx=970
+2013-08-05T09:42:12 - INFO    applicationWillResignActive
+2013-08-05T09:42:12 - INFO    applicationDidEnterBackground
+2013-08-05T09:42:12 - INFO    stopClockUpdates
+2013-08-05T09:42:12 - INFO    stopClockUpdates

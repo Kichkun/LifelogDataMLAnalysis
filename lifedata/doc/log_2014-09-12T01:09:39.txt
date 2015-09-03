@@ -1,0 +1,129 @@
+Log level: INFO   
+2014-09-12T01:09:39 - INFO    Device info: iPhone 4S iPhone OS 7.1.2 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2014-09-12T01:09:39 - INFO    com.azumio.iphone.sleepcycle 2.10.4958
+2014-09-12T01:09:39 - INFO    application didFinishLaunchingWithOptions
+2014-09-12T01:09:39 - INFO    started logspecs
+2014-09-12T01:09:39 - INFO    RELEASE build
+2014-09-12T01:09:39 - INFO    Sleep Time 2.10.4958
+2014-09-12T01:09:39 - INFO    com.azumio.iphone.sleepcycle
+2014-09-12T01:09:39 - INFO    iPhone 4S
+2014-09-12T01:09:39 - INFO    Bryan’s iPhone
+2014-09-12T01:09:39 - INFO    iPhone OS
+2014-09-12T01:09:39 - INFO    7.1.2
+2014-09-12T01:09:39 - INFO    iPhone
+2014-09-12T01:09:39 - INFO    iPhone
+2014-09-12T01:09:39 - INFO    multitaskingSupported=1
+2014-09-12T01:09:39 - INFO    App Settings = {
+    "_requestedVersion" = 21099;
+    "_returnedVersion" = 20400;
+    "_v" = 21099;
+    aiengine = "\nAIEngine.detectInstantHeartRate = function(){\n    if( AIEngine.hasInstantHeartRate ){\n        return;//allready has it\n    }\n    \n    AIEngine.hasInstantHeartRatePaid = AIEngine.canOpenURL(\"si.modula.instantheartrate:\");\n    AIEngine.hasInstantHeartRateFree = AIEngine.canOpenURL(\"si.modula.instantheartrate.free:\");\n    AIEngine.hasInstantHeartRate = AIEngine.hasInstantHeartRateFree | AIEngine.hasInstantHeartRatePaid;\n}\n\nAIEngine.measureHeartRateUrl = function(){\n    if( AIEngine.hasInstantHeartRatePaid ){\n        return \"si.modula.instantheartrate:?callback=com.azumio.iphone.argus:?heartrate=!HR!\";\n    }\n    \n    if( AIEngine.hasInstantHeartRateFree ){\n        return \"si.modula.instantheartrate.free:?callback=com.azumio.iphone.argus:?heartrate=!HR!\";\n    }\n    return \"https://itunes.apple.com/us/app/instant-heart-rate-heart-rate/id395042892?mt=8\";\n};\n\nAIEngine.getTiles = function(){\n    AIEngine.detectInstantHeartRate();\n    \n    this.tiles = [];\n    this.highPriorityTileCount = 0;\n    //Console.log(\"blockedTiled \" + JSON.stringify(this.blockedTiles));\n    \n    //this.addNotification(\"Hello\",\"unlock\", new Date().getTime()+10*1000, \"asdsa\");\n    \n    this.addTile({\n                 \"url\":\"/checkins/add\",\n                 \"ts\":-1,\n                 \"id\":\"plus-tile\",\n                 \"image\":\"add_activity.png\",\n                 \"priority\":MAX_TILE_PRIORITY,\n                 });\n    \n    \n    //Add cells for traking based on previous day\n    if( !this.stats.updatesDayNumbers[\"drink-water\"] || this.stats.updatesDayNumbers[\"drink-water\"] == this.dayNumber-1 ){\n        \n        this.addTile({\n                     \"ts\": 1,\n                     \"id\":\"suggest-tile-drink-water\",\n                     \"type\":\"drink\",\n                     \"subtype\":\"water\",\n                     \"text\":\"+ WATER\",\n                     \"image\":\"Suggested.png\",\n                     \"priority\":MAX_TILE_PRIORITY,\n                     \n                     });\n    }\n    \n    if( this.stats.updatesDayNumbers[\"drink-coffee\"] == this.dayNumber-1){\n        this.addTile({\n                     \"ts\":2,\n                     \"id\":\"suggest-tile-drink-coffee\",\n                     \"type\":\"drink\",\n                     \"subtype\":\"coffee\",\n                     \"text\":\"+ COFFEE\",\n                     \"image\":\"Suggested.png\",\n                     \"priority\":MAX_TILE_PRIORITY,\n                     });\n    }\n    \n    //display weight tracker every 7 days\n    if( !this.stats.updatesDayNumbers[\"weight\"] || this.stats.updatesDayNumbers[\"weight\"] < this.dayNumber-6  ){\n        this.addTile({\n                     \"url\":\"/checkins/add?type=weight\",\n                     \"ts\":-3,\n                     \"id\":\"suggest-tile-weight\",\n                     \"text\":\"+ WEIGHT\",\n                     \"image\":\"Suggested.png\",\n                     \"priority\":1000,\n                     });\n    }\n    \n    \n    if( this.caloriesAccuracy <= 0.5){\n        this.addTile({\n                     \"url\":\"/calories/setup?type=calories\",\n                     \"ts\":-1000,\n                     \"id\":\"calories-setup\",\n                     \"image\":\"CalorieSetup.png\",\n                     \"priority\":MAX_TILE_PRIORITY,\n                     });\n    }\n    \n    \n    //    if( this.stats.updatesDayNumbers[\"activity-run\"] >= this.dayNumber-7  ){\n    //        this.addTile({\n    //                     \"url\":\"/checkins/add?type=activity&subtype=run\",\n    //                     \"ts\":-4,\n    //                     \"id\":\"fake-run\",\n    //                     \"text\":\"+ RUN\",\n    //                     \"image\":\"Suggested.png\"\n    //                     });\n    //    }\n    //\n    //\n    //    if( this.stats.updatesDayNumbers[\"activity-bike\"] >= this.dayNumber-7  ){\n    //        this.addTile({\n    //                     \"url\":\"/checkins/add?type=activity&subtype=bike\",\n    //                     \"ts\":-5,\n    //                     \"id\":\"fake-cycle\",\n    //                     \"text\":\"+ CYCLE\",\n    //                     \"image\":\"Suggested.png\"\n    //                     });\n    //    }\n    \n    //Console.log(\"First user day \" + this.firstUseDay + \" \" + this.dayNumber);\n    \n    if(this.firstUseDay > this.dayNumber - 4){//suggest this for 3 days\n        if(!this.stats.updatesDayNumbers[\"food\"]){\n            this.addTile({\n                         \"url\":\"/checkins/add?type=food\",\n                         \"ts\":-6,\n                         \"id\":\"suggest-tile-food\",\n                         \"text\":\"+ FOOD\",\n                         \"image\":\"Suggested.png\",\n                         \"priority\":1,\n                         });\n        }\n    }\n    \n//    if( this.stats.updatesDayNumbers[\"sleepreport\"] != this.dayNumber || true ){\n//        this.addTile({\n//                     \"url\":\"/checkins/add?type=sleepreport\",\n//                     \"ts\":12,\n//                     \"id\":\"suggest-tile-sleepreport\",\n//                     \"text\":\"SLEEP TIME?\",\n//                     \"image\":\"Suggested.png\",\n//                     \"priority\":100,\n//                     });\n//    }\n    \n    \n    //return this.tiles;\n    if( this.stats.updatesDayNumbers[\"heartrate\"] != this.dayNumber ){\n        this.addTile({\n                     \"url\":AIEngine.measureHeartRateUrl(),\n                     \"ts\":-100,\n                     \"id\":\"suggest-tile-heartrate\",\n                     \"text\":\"\\nRESTING\\nHEART RATE\",\n                     \"image\":\"SuggestedHeartRate.png\",\n                     \"priority\":100,\n                     });\n    }\n    \n    var addCnt = 0;\n    for( simpletype in this.stats.updatesDayNumbers ){\n        var activity = this.getActivity(simpletype);\n        if( !activity.suggestpriority ){\n            //break;\n        }\n        \n        \n        var type = simpletype.split(\"-\",2);\n        \n        \n        //Console.log(\"Type \" + type);\n        var priority = 10 - (this.dayNumber - this.stats.updatesDayNumbers[simpletype]) ;\n        \n        if( simpletype == 'food' || simpletype == 'status' ){\n            priority = 11;\n        }\n        \n        var usedRecently = this.stats.updatesDayNumbers[simpletype] >= this.dayNumber - 7;\n        if(!usedRecently){\n            continue;\n        }\n        \n        var usedToday = this.stats.updatesDayNumbers[simpletype] == this.dayNumber;\n        if( ((type[0] == 'activity' && type.length == 2) && !usedToday)\n           || simpletype == 'food'\n           || simpletype == 'status' ){\n            this.addTile({\n                         \"url\":\"/checkins/add?type=\" + type[0] + ((type.length==2)?(\"&subtype=\"+type[1]):\"\"),\n                         \"ts\":-8-addCnt,\n                         \"id\":\"suggest-tile-\" + simpletype,\n                         \"text\":\"+ \" + activity.shorttitle,\n                         \"image\":\"Suggested.png\",\n                         \"priority\":priority\n                         });\n            \n            addCnt = addCnt + 1;\n        }\n        \n    }\n    \n    \n    \n    //    Console.log(\"Sonda \" + JSON.stringify(this.tiles) );\n    \n    this.tiles.sort(function(tile1,tile2){\n                    return tile2.priority - tile1.priority;\n                    });\n    \n   // Console.log(\"Sonda \" + JSON.stringify(this.tiles) );\n    \n    return this.tiles.slice(0,Math.min(this.tiles.length,3+this.highPriorityTileCount));\n};";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-09-12T01:09:39 - INFO    finished logspecs
+2014-09-12T01:09:40 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2014-09-12T01:09:40 - INFO    applicationDidBecomeActive
+2014-09-12T01:09:40 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-09-12T01:09:40 - INFO    user = AZTimelineOfflineUser AZOnlineOfflineUser
+2014-09-12T01:09:40 - INFO    Loading data
+2014-09-12T01:09:40 - INFO    server settings={
+    "_requestedVersion" = 21099;
+    "_returnedVersion" = 20400;
+    "_v" = 21099;
+    aiengine = "\nAIEngine.detectInstantHeartRate = function(){\n    if( AIEngine.hasInstantHeartRate ){\n        return;//allready has it\n    }\n    \n    AIEngine.hasInstantHeartRatePaid = AIEngine.canOpenURL(\"si.modula.instantheartrate:\");\n    AIEngine.hasInstantHeartRateFree = AIEngine.canOpenURL(\"si.modula.instantheartrate.free:\");\n    AIEngine.hasInstantHeartRate = AIEngine.hasInstantHeartRateFree | AIEngine.hasInstantHeartRatePaid;\n}\n\nAIEngine.measureHeartRateUrl = function(){\n    if( AIEngine.hasInstantHeartRatePaid ){\n        return \"si.modula.instantheartrate:?callback=com.azumio.iphone.argus:?heartrate=!HR!\";\n    }\n    \n    if( AIEngine.hasInstantHeartRateFree ){\n        return \"si.modula.instantheartrate.free:?callback=com.azumio.iphone.argus:?heartrate=!HR!\";\n    }\n    return \"https://itunes.apple.com/us/app/instant-heart-rate-heart-rate/id395042892?mt=8\";\n};\n\nAIEngine.getTiles = function(){\n    AIEngine.detectInstantHeartRate();\n    \n    this.tiles = [];\n    this.highPriorityTileCount = 0;\n    //Console.log(\"blockedTiled \" + JSON.stringify(this.blockedTiles));\n    \n    //this.addNotification(\"Hello\",\"unlock\", new Date().getTime()+10*1000, \"asdsa\");\n    \n    this.addTile({\n                 \"url\":\"/checkins/add\",\n                 \"ts\":-1,\n                 \"id\":\"plus-tile\",\n                 \"image\":\"add_activity.png\",\n                 \"priority\":MAX_TILE_PRIORITY,\n                 });\n    \n    \n    //Add cells for traking based on previous day\n    if( !this.stats.updatesDayNumbers[\"drink-water\"] || this.stats.updatesDayNumbers[\"drink-water\"] == this.dayNumber-1 ){\n        \n        this.addTile({\n                     \"ts\": 1,\n                     \"id\":\"suggest-tile-drink-water\",\n                     \"type\":\"drink\",\n                     \"subtype\":\"water\",\n                     \"text\":\"+ WATER\",\n                     \"image\":\"Suggested.png\",\n                     \"priority\":MAX_TILE_PRIORITY,\n                     \n                     });\n    }\n    \n    if( this.stats.updatesDayNumbers[\"drink-coffee\"] == this.dayNumber-1){\n        this.addTile({\n                     \"ts\":2,\n                     \"id\":\"suggest-tile-drink-coffee\",\n                     \"type\":\"drink\",\n                     \"subtype\":\"coffee\",\n                     \"text\":\"+ COFFEE\",\n                     \"image\":\"Suggested.png\",\n                     \"priority\":MAX_TILE_PRIORITY,\n                     });\n    }\n    \n    //display weight tracker every 7 days\n    if( !this.stats.updatesDayNumbers[\"weight\"] || this.stats.updatesDayNumbers[\"weight\"] < this.dayNumber-6  ){\n        this.addTile({\n                     \"url\":\"/checkins/add?type=weight\",\n                     \"ts\":-3,\n                     \"id\":\"suggest-tile-weight\",\n                     \"text\":\"+ WEIGHT\",\n                     \"image\":\"Suggested.png\",\n                     \"priority\":1000,\n                     });\n    }\n    \n    \n    if( this.caloriesAccuracy <= 0.5){\n        this.addTile({\n                     \"url\":\"/calories/setup?type=calories\",\n                     \"ts\":-1000,\n                     \"id\":\"calories-setup\",\n                     \"image\":\"CalorieSetup.png\",\n                     \"priority\":MAX_TILE_PRIORITY,\n                     });\n    }\n    \n    \n    //    if( this.stats.updatesDayNumbers[\"activity-run\"] >= this.dayNumber-7  ){\n    //        this.addTile({\n    //                     \"url\":\"/checkins/add?type=activity&subtype=run\",\n    //                     \"ts\":-4,\n    //                     \"id\":\"fake-run\",\n    //                     \"text\":\"+ RUN\",\n    //                     \"image\":\"Suggested.png\"\n    //                     });\n    //    }\n    //\n    //\n    //    if( this.stats.updatesDayNumbers[\"activity-bike\"] >= this.dayNumber-7  ){\n    //        this.addTile({\n    //                     \"url\":\"/checkins/add?type=activity&subtype=bike\",\n    //                     \"ts\":-5,\n    //                     \"id\":\"fake-cycle\",\n    //                     \"text\":\"+ CYCLE\",\n    //                     \"image\":\"Suggested.png\"\n    //                     });\n    //    }\n    \n    //Console.log(\"First user day \" + this.firstUseDay + \" \" + this.dayNumber);\n    \n    if(this.firstUseDay > this.dayNumber - 4){//suggest this for 3 days\n        if(!this.stats.updatesDayNumbers[\"food\"]){\n            this.addTile({\n                         \"url\":\"/checkins/add?type=food\",\n                         \"ts\":-6,\n                         \"id\":\"suggest-tile-food\",\n                         \"text\":\"+ FOOD\",\n                         \"image\":\"Suggested.png\",\n                         \"priority\":1,\n                         });\n        }\n    }\n    \n//    if( this.stats.updatesDayNumbers[\"sleepreport\"] != this.dayNumber || true ){\n//        this.addTile({\n//                     \"url\":\"/checkins/add?type=sleepreport\",\n//                     \"ts\":12,\n//                     \"id\":\"suggest-tile-sleepreport\",\n//                     \"text\":\"SLEEP TIME?\",\n//                     \"image\":\"Suggested.png\",\n//                     \"priority\":100,\n//                     });\n//    }\n    \n    \n    //return this.tiles;\n    if( this.stats.updatesDayNumbers[\"heartrate\"] != this.dayNumber ){\n        this.addTile({\n                     \"url\":AIEngine.measureHeartRateUrl(),\n                     \"ts\":-100,\n                     \"id\":\"suggest-tile-heartrate\",\n                     \"text\":\"\\nRESTING\\nHEART RATE\",\n                     \"image\":\"SuggestedHeartRate.png\",\n                     \"priority\":100,\n                     });\n    }\n    \n    var addCnt = 0;\n    for( simpletype in this.stats.updatesDayNumbers ){\n        var activity = this.getActivity(simpletype);\n        if( !activity.suggestpriority ){\n            //break;\n        }\n        \n        \n        var type = simpletype.split(\"-\",2);\n        \n        \n        //Console.log(\"Type \" + type);\n        var priority = 10 - (this.dayNumber - this.stats.updatesDayNumbers[simpletype]) ;\n        \n        if( simpletype == 'food' || simpletype == 'status' ){\n            priority = 11;\n        }\n        \n        var usedRecently = this.stats.updatesDayNumbers[simpletype] >= this.dayNumber - 7;\n        if(!usedRecently){\n            continue;\n        }\n        \n        var usedToday = this.stats.updatesDayNumbers[simpletype] == this.dayNumber;\n        if( ((type[0] == 'activity' && type.length == 2) && !usedToday)\n           || simpletype == 'food'\n           || simpletype == 'status' ){\n            this.addTile({\n                         \"url\":\"/checkins/add?type=\" + type[0] + ((type.length==2)?(\"&subtype=\"+type[1]):\"\"),\n                         \"ts\":-8-addCnt,\n                         \"id\":\"suggest-tile-\" + simpletype,\n                         \"text\":\"+ \" + activity.shorttitle,\n                         \"image\":\"Suggested.png\",\n                         \"priority\":priority\n                         });\n            \n            addCnt = addCnt + 1;\n        }\n        \n    }\n    \n    \n    \n    //    Console.log(\"Sonda \" + JSON.stringify(this.tiles) );\n    \n    this.tiles.sort(function(tile1,tile2){\n                    return tile2.priority - tile1.priority;\n                    });\n    \n   // Console.log(\"Sonda \" + JSON.stringify(this.tiles) );\n    \n    return this.tiles.slice(0,Math.min(this.tiles.length,3+this.highPriorityTileCount));\n};";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-09-12T01:09:43 - INFO    Data loaded online:177 offline:178 in -2.751319
+2014-09-12T01:09:43 - INFO    Replaying file /var/mobile/Applications/E2C54B0E-E8CC-448D-852A-9FC992DA4420/Documents/timeline.AZOnlineOfflineUser.log/CC283912-6022-4E93-AE23-84951FB5FD01
+2014-09-12T01:09:43 - INFO    Replayed log files 1ct
+2014-09-12T01:09:43 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:09:44 - INFO    startClockUpdates
+2014-09-12T01:09:44 - INFO    stopClockUpdates
+2014-09-12T01:09:44 - INFO    Run clearBackupNotifications.
+2014-09-12T01:09:44 - INFO    clearBackupNotifications Done
+2014-09-12T01:09:45 - INFO    Succeeded! Received 56 bytes of data
+2014-09-12T01:09:45 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:09:45 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15b0f970> -- 7049FC66-07F3-4C31-8A45-7DB6E4C1AE02 <2013-03-30 15:55:08 +0000>
+2014-09-12T01:09:45 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:09:45 - INFO    Succeeded! Received 2 bytes of data
+2014-09-12T01:09:46 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:09:46 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14670c50> -- 86D52C46-C404-4412-9017-89FC0D6D3B04 <2013-04-15 14:34:28 +0000>
+2014-09-12T01:09:46 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:09:46 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:09:46 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1466bff0> -- 8A912555-F05E-4B96-A52E-D3B992A6159B <2013-08-05 13:41:36 +0000>
+2014-09-12T01:09:47 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:09:47 - INFO    low battery threshold = 0.250000
+2014-09-12T01:09:47 - INFO    Sleep manager state change 0 to 1
+2014-09-12T01:09:47 - INFO    low battery threshold = 0.250000
+2014-09-12T01:09:47 - INFO    Sleep manager state change 1 to 2
+2014-09-12T01:09:47 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2014-09-12T01:09:47 - INFO    defaultAudioConfigurationAndMixWithOthers mix=1
+2014-09-12T01:09:47 - INFO    Scheduling silence loops 8640, loop duration 10.000000 seconds
+2014-09-12T01:09:47 - INFO    is silence playing: 1
+2014-09-12T01:09:47 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2014-09-12T01:09:47 - INFO    AccelerometerThread start.
+2014-09-12T01:09:47 - INFO    low battery threshold = 0.250000
+2014-09-12T01:09:47 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-09-12T01:09:47 - INFO    alarm start
+2014-09-12T01:09:47 - INFO    Scheduling alarm timer 2014-09-12T11:40:00.000-0400
+2014-09-12T01:09:47 - INFO    Wakup window stats 8.000000 1192.000000 
+2014-09-12T01:09:47 - INFO    PowerManager started
+2014-09-12T01:09:47 - INFO    low battery threshold = 0.250000
+2014-09-12T01:09:47 - INFO    Alarm is on and device has sufficient power.
+2014-09-12T01:09:47 - INFO    Accelerometer was already on.
+2014-09-12T01:09:47 - INFO    low battery threshold = 0.250000
+2014-09-12T01:09:47 - INFO    Battery Charging
+2014-09-12T01:09:48 - INFO    Succeeded! Received 2 bytes of data
+2014-09-12T01:09:49 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:09:49 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14672290> -- 8C2BAC08-7C4C-42B9-B831-6324DDA38F65 <2013-05-10 15:11:09 +0000>
+2014-09-12T01:09:49 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:09:49 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:09:49 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x158e7e20> -- 959A19B5-E83A-4BD6-B9DB-A763245F1DB6 <2013-06-05 15:13:15 +0000>
+2014-09-12T01:09:50 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:09:51 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:09:51 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14679840> -- 9D73F5B1-79B4-47B9-82D4-AD284759115A <2014-06-07 15:36:12 +0000>
+2014-09-12T01:09:51 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:09:52 - INFO    applicationWillResignActive
+2014-09-12T01:09:52 - INFO    event: SongSelection
+2014-09-12T01:09:52 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-09-12T01:09:52 - INFO    applicationDidEnterBackground: loggedIn=0
+2014-09-12T01:09:58 - INFO    stopClockUpdates
+2014-09-12T01:09:58 - INFO    stopClockUpdates
+2014-09-12T01:10:04 - INFO    Persisting data online: 177 offline: 178
+2014-09-12T01:10:08 - INFO    Data persisted: pass=1 in 10.335375 - -6.578180 - 3.757200 3.753932 0.412818 seconds 5786501bytes
+2014-09-12T01:10:09 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:10:09 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1584c4c0> -- 9EE5A9B7-5CE9-4013-BAA7-EBD4E00073DF <2013-05-25 15:13:04 +0000>
+2014-09-12T01:10:09 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:10:10 - INFO    Succeeded! Received 2 bytes of data
+2014-09-12T01:10:11 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:10:11 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14678610> -- A6565AE9-CE02-487D-8E4A-FD425D4B73C4 <2013-03-31 13:20:08 +0000>
+2014-09-12T01:10:11 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:10:12 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:10:12 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x15864540> -- AC4F9BBF-FD17-42C8-BB65-2B978EEDC92D <2013-06-15 15:55:05 +0000>
+2014-09-12T01:10:12 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:10:12 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:10:12 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1466e7b0> -- BEB9A2A7-EBF0-48EC-9987-BA898B6F117E <2014-06-27 14:09:13 +0000>
+2014-09-12T01:10:12 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:10:13 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:10:13 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x146d9810> -- C91C1791-F872-4BC8-9C34-2D70BF82BD42 <2013-04-16 14:27:00 +0000>
+2014-09-12T01:10:13 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:10:14 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:10:14 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x1466fbf0> -- CAC8EDE0-392C-4AD9-AD5B-5BA4821F3C23 <2013-05-22 15:15:30 +0000>
+2014-09-12T01:10:14 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:10:15 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:10:15 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x146755e0> -- CC9D384A-8542-4D2C-9FFD-58B8EEE87202 <2013-03-24 15:19:34 +0000>
+2014-09-12T01:10:15 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-09-12T01:10:16 - INFO    Succeeded! Received 59 bytes of data
+2014-09-12T01:10:16 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x158b0c20> -- CE36BAFD-845A-4DC4-8F91-E8CCA412B3D2 <2013-07-09 15:05:39 +0000>

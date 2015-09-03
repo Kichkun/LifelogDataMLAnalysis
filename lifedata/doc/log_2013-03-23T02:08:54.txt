@@ -1,0 +1,1424 @@
+2013-03-23T02:08:54 - INFO    application didFinishLaunchingWithOptions
+2013-03-23T02:08:54 - INFO    started logspecs
+2013-03-23T02:08:54 - INFO    Sleep Time 2.2.1.1010
+2013-03-23T02:08:54 - INFO    iPhone 4S
+2013-03-23T02:08:54 - INFO    Bryan’s iPhone
+2013-03-23T02:08:54 - INFO    iPhone OS
+2013-03-23T02:08:54 - INFO    6.0.1
+2013-03-23T02:08:54 - INFO    iPhone
+2013-03-23T02:08:54 - INFO    iPhone
+2013-03-23T02:08:54 - INFO    multitaskingSupported=1
+2013-03-23T02:08:54 - INFO    App Settings = {
+    "_requestedVersion" = 21210;
+    "_returnedVersion" = 10000;
+    "_v" = 21210;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 1;
+}
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key1/20=WebKitShrinksStandaloneImagesToFit value=1
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key2/20=ShowIntroScreen value=NO
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key3/20=WebKitOfflineWebApplicationCacheEnabled value=1
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key4/20=installedAppsListHash value=DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key5/20=appsListHash value=DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key6/20=AlarmTimeHour value=34.341667
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key7/20=WebKitDiskImageCacheSavedCacheDirectory value=
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key8/20=WebKitLocalStorageDatabasePathPreferenceKey value=/var/mobile/Applications/3DEB4E00-B306-4F67-AB8A-7AF1EDF42862/Library/Caches
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key9/20=bundleVersion value=2.2.1.1010
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key10/20=useCount value=0
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key11/20=OpenUDID value={
+    OpenUDID = d40a5093f38d5806e60772dfccfad4513a4f8c2a;
+    "OpenUDID_createdTS" = "2013-03-20 22:59:43 +0000";
+    "OpenUDID_guuid" = "F3B53371-307A-40AD-B47E-FDD5A283B07B";
+    "OpenUDID_slot" = "org.OpenUDID.slot.7";
+}
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key12/20=Use12hSettings value=NO
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key13/20=SlideToStop value=NO
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key14/20=WebDatabaseDirectory value=/var/mobile/Applications/3DEB4E00-B306-4F67-AB8A-7AF1EDF42862/Library/Caches
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key15/20=baseServerURL value=https://api.azumio.com
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key16/20=appsListTime value=1363820391.412373
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key17/20=FirstUseReminder value=YES
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key18/20=MasterVolumeValue value=0.536765
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key19/20=VibrationIsOn value=YES
+2013-03-23T02:08:54 - INFO    PreferencesBase setting: key20/20=WakeUpPhaseTime value=1
+2013-03-23T02:08:54 - INFO    finished logspecs
+2013-03-23T02:08:55 - TRACE   fetchCheckIns END
+2013-03-23T02:08:55 - TRACE   Current token (null)
+2013-03-23T02:08:55 - TRACE   Current token (null)
+2013-03-23T02:08:55 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-03-23T02:08:55 - TRACE   Current token (null)
+2013-03-23T02:08:55 - TRACE   Current token (null)
+2013-03-23T02:08:55 - TRACE   Current token (null)
+2013-03-23T02:08:55 - INFO    startClockUpdates
+2013-03-23T02:08:55 - INFO    stopClockUpdates
+2013-03-23T02:08:57 - TRACE   Current token (null)
+2013-03-23T02:08:57 - INFO    Run clearBackupNotifications.
+2013-03-23T02:08:57 - INFO    clearBackupNotifications Done
+2013-03-23T02:08:57 - TRACE   Current token (null)
+2013-03-23T02:08:57 - TRACE   Params {
+}
+2013-03-23T02:08:57 - INFO    Calling https://api.azumio.com/v2/users/me?
+2013-03-23T02:08:57 - TRACE   Current token (null)
+2013-03-23T02:08:57 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T02:08:57 - INFO    applicationDidBecomeActive
+2013-03-23T02:08:58 - TRACE   Params {
+    details = "{\"processes\":[{\"pid\":\"0\",\"name\":\"kernel_task\"},{\"pid\":\"1\",\"name\":\"launchd\"},{\"pid\":\"13\",\"name\":\"UserEventAgent\"},{\"pid\":\"14\",\"name\":\"wifid\"},{\"pid\":\"17\",\"name\":\"timed\"},{\"pid\":\"18\",\"name\":\"syslogd\"},{\"pid\":\"20\",\"name\":\"powerd\"},{\"pid\":\"29\",\"name\":\"lockdownd\"},{\"pid\":\"31\",\"name\":\"installd\"},{\"pid\":\"33\",\"name\":\"deleted\"},{\"pid\":\"37\",\"name\":\"mediaserverd\"},{\"pid\":\"39\",\"name\":\"mDNSResponder\"},{\"pid\":\"41\",\"name\":\"locationd\"},{\"pid\":\"43\",\"name\":\"imagent\"},{\"pid\":\"44\",\"name\":\"iaptransportd\"},{\"pid\":\"46\",\"name\":\"fseventsd\"},{\"pid\":\"47\",\"name\":\"fairplayd.N94\"},{\"pid\":\"49\",\"name\":\"AppleIDAuthAgent\"},{\"pid\":\"50\",\"name\":\"configd\"},{\"pid\":\"52\",\"name\":\"backboardd\"},{\"pid\":\"57\",\"name\":\"kbd\"},{\"pid\":\"62\",\"name\":\"CommCenter\"},{\"pid\":\"63\",\"name\":\"BTServer\"},{\"pid\":\"65\",\"name\":\"notifyd\"},{\"pid\":\"68\",\"name\":\"SpringBoard\"},{\"pid\":\"69\",\"name\":\"aggregated\"},{\"pid\":\"70\",\"name\":\"itunesstored\"},{\"pid\":\"71\",\"name\":\"networkd\"},{\"pid\":\"72\",\"name\":\"networkd_privile\"},{\"pid\":\"74\",\"name\":\"apsd\"},{\"pid\":\"80\",\"name\":\"distnoted\"},{\"pid\":\"81\",\"name\":\"lsd\"},{\"pid\":\"82\",\"name\":\"dataaccessd\"},{\"pid\":\"83\",\"name\":\"aosnotifyd\"},{\"pid\":\"84\",\"name\":\"ubd\"},{\"pid\":\"86\",\"name\":\"gamed\"},{\"pid\":\"88\",\"name\":\"accountsd\"},{\"pid\":\"89\",\"name\":\"BlueTool\"},{\"pid\":\"90\",\"name\":\"geod\"},{\"pid\":\"93\",\"name\":\"tccd\"},{\"pid\":\"95\",\"name\":\"softwareupdatese\"},{\"pid\":\"96\",\"name\":\"MobileMail\"},{\"pid\":\"97\",\"name\":\"MobilePhone\"},{\"pid\":\"98\",\"name\":\"absinthed.N94\"},{\"pid\":\"101\",\"name\":\"assetsd\"},{\"pid\":\"103\",\"name\":\"BracketBound\"},{\"pid\":\"106\",\"name\":\"filecoordination\"},{\"pid\":\"110\",\"name\":\"xpcd\"},{\"pid\":\"122\",\"name\":\"MobileSMS\"},{\"pid\":\"130\",\"name\":\"GroupMe\"},{\"pid\":\"139\",\"name\":\"Maps\"},{\"pid\":\"153\",\"name\":\"librariand\"},{\"pid\":\"157\",\"name\":\"MobileTimer\"},{\"pid\":\"159\",\"name\":\"Snapchat\"},{\"pid\":\"163\",\"name\":\"recentsd\"},{\"pid\":\"165\",\"name\":\"profiled\"},{\"pid\":\"166\",\"name\":\"syncdefaultsd\"},{\"pid\":\"168\",\"name\":\"searchd\"},{\"pid\":\"169\",\"name\":\"AppIndexer\"},{\"pid\":\"170\",\"name\":\"securityd\"},{\"pid\":\"171\",\"name\":\"sandboxd\"},{\"pid\":\"172\",\"name\":\"MySleepCycle\"},{\"pid\":\"173\",\"name\":\"amfid\"},{\"pid\":\"174\",\"name\":\"pasteboardd\"},{\"pid\":\"175\",\"name\":\"mediaremoted\"},{\"pid\":\"176\",\"name\":\"Music~iphone\"}]}";
+    event = runningProcesses;
+    session = 5D209CE3DD4F6C40A6B4;
+}
+2013-03-23T02:08:58 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-23T02:08:58 - TRACE   Current token (null)
+2013-03-23T02:08:58 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T02:09:00 - INFO    Succeeded! Received 57 bytes of data
+2013-03-23T02:09:00 - TRACE   responseWithData:{"error":{"errorDetail":"Restricted access","code":401}}
+
+2013-03-23T02:09:00 - TRACE   AZHCIApiResponse {
+    error =     {
+        code = 401;
+        errorDetail = "Restricted access";
+    };
+}
+2013-03-23T02:09:00 - TRACE   Current token (null)
+2013-03-23T02:09:00 - INFO    didRegisterForRemoteNotificationsWithDeviceToken
+2013-03-23T02:09:00 - TRACE   Params {
+    token = b9b9182c29064aa0a4ca93038503edd326d61511abbcc2e2c1d2537b97aa295c;
+}
+2013-03-23T02:09:00 - INFO    Calling https://api.azumio.com/v1/registerforpush
+2013-03-23T02:09:00 - TRACE   Current token (null)
+2013-03-23T02:09:00 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T02:09:00 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T02:09:00 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T02:09:00 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T02:09:00 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T02:09:00 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T02:09:00 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T02:09:10 - TRACE   Current token (null)
+2013-03-23T02:09:21 - TRACE   Current token (null)
+2013-03-23T02:09:25 - TRACE   Current token (null)
+2013-03-23T02:09:38 - INFO    Sleep manager state change 0 to 1
+2013-03-23T02:09:55 - INFO    Sleep manager state change 1 to 2
+2013-03-23T02:09:56 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-03-23T02:09:56 - INFO    AccelerometerThread start.
+2013-03-23T02:09:56 - INFO    alarm start
+2013-03-23T02:09:56 - INFO    Scheduling alarm timer 2013-03-23T10:30:00.000-0400
+2013-03-23T02:09:56 - INFO    Wakup window stats 49.000000 1151.000000 
+2013-03-23T02:09:56 - INFO    PowerManager started
+2013-03-23T02:09:56 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:09:56 - INFO    Accelerometer was already on.
+2013-03-23T02:09:56 - INFO    Battery Charging
+2013-03-23T02:09:56 - TRACE   Params {
+    details = "{\"alarm\":\"Alarm\"}";
+    event = GoneToBed;
+    session = 5D209CE3DD4F6C40A6B4;
+}
+2013-03-23T02:09:56 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-23T02:09:56 - TRACE   Current token (null)
+2013-03-23T02:09:56 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T02:09:57 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T02:09:57 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T02:09:57 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T02:10:06 - INFO    Sleep manager state change 2 to 0
+2013-03-23T02:10:06 - INFO    Stop 0 ap=0 0
+2013-03-23T02:10:06 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-03-23T02:10:06 - INFO    AccelerometerThread.stop
+2013-03-23T02:10:06 - INFO    AccelerometerThread.stopAccelerometer
+2013-03-23T02:10:06 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-03-23T02:10:06 - INFO    alarm stop
+2013-03-23T02:10:06 - INFO    alarm stop
+2013-03-23T02:10:06 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-03-23T02:10:06 - INFO    PowerManager stopped
+2013-03-23T02:10:06 - INFO    Run clearBackupNotifications.
+2013-03-23T02:10:06 - INFO    clearBackupNotifications Done
+2013-03-23T02:10:09 - INFO    applicationWillResignActive
+2013-03-23T02:10:09 - INFO    applicationDidEnterBackground
+2013-03-23T02:10:09 - INFO    stopClockUpdates
+2013-03-23T02:10:09 - INFO    stopClockUpdates
+2013-03-23T02:10:10 - INFO    applicationWillEnterForeground
+2013-03-23T02:10:10 - INFO    startClockUpdates
+2013-03-23T02:10:10 - INFO    stopClockUpdates
+2013-03-23T02:10:10 - INFO    applicationDidBecomeActive
+2013-03-23T02:10:11 - TRACE   Current token (null)
+2013-03-23T02:10:23 - INFO    Battery state changed
+2013-03-23T02:10:23 - INFO    Battery Charging
+2013-03-23T02:10:23 - INFO    Sleep manager state change 0 to 1
+2013-03-23T02:10:31 - INFO    Sleep manager state change 1 to 2
+2013-03-23T02:10:31 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-03-23T02:10:31 - INFO    AccelerometerThread start.
+2013-03-23T02:10:31 - INFO    alarm start
+2013-03-23T02:10:31 - INFO    Scheduling alarm timer 2013-03-23T10:30:00.000-0400
+2013-03-23T02:10:31 - INFO    Wakup window stats 17.000000 1183.000000 
+2013-03-23T02:10:31 - INFO    PowerManager started
+2013-03-23T02:10:31 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:10:31 - INFO    Accelerometer was already on.
+2013-03-23T02:10:31 - INFO    Battery Charging
+2013-03-23T02:10:31 - TRACE   Params {
+    details = "{\"alarm\":\"Alarm\"}";
+    event = GoneToBed;
+    session = 5D209CE3DD4F6C40A6B4;
+}
+2013-03-23T02:10:31 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-23T02:10:31 - TRACE   Current token (null)
+2013-03-23T02:10:31 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T02:10:32 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T02:10:32 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T02:10:32 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T02:10:42 - INFO    applicationWillResignActive
+2013-03-23T02:10:42 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-03-23T02:10:42 - INFO    is silence playing: 1
+2013-03-23T02:10:42 - INFO    applicationDidEnterBackground
+2013-03-23T02:10:42 - INFO    stopClockUpdates
+2013-03-23T02:10:42 - INFO    stopClockUpdates
+2013-03-23T02:10:45 - INFO    applicationWillEnterForeground
+2013-03-23T02:10:45 - INFO    Stopped silence.
+2013-03-23T02:10:45 - INFO    startClockUpdates
+2013-03-23T02:10:45 - INFO    stopClockUpdates
+2013-03-23T02:10:45 - INFO    applicationDidBecomeActive
+2013-03-23T02:10:45 - INFO    Silence audio was already off.
+2013-03-23T02:10:45 - TRACE   Current token (null)
+2013-03-23T02:10:51 - INFO    applicationWillResignActive
+2013-03-23T02:10:52 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-03-23T02:10:52 - INFO    is silence playing: 1
+2013-03-23T02:10:52 - INFO    applicationDidEnterBackground
+2013-03-23T02:10:52 - INFO    stopClockUpdates
+2013-03-23T02:10:52 - INFO    stopClockUpdates
+2013-03-23T02:10:55 - INFO    applicationWillEnterForeground
+2013-03-23T02:10:55 - INFO    Stopped silence.
+2013-03-23T02:10:55 - INFO    startClockUpdates
+2013-03-23T02:10:55 - INFO    stopClockUpdates
+2013-03-23T02:10:55 - INFO    applicationDidBecomeActive
+2013-03-23T02:10:55 - INFO    Silence audio was already off.
+2013-03-23T02:10:56 - TRACE   Current token (null)
+2013-03-23T02:10:59 - INFO    applicationWillResignActive
+2013-03-23T02:10:59 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-03-23T02:10:59 - INFO    is silence playing: 1
+2013-03-23T02:11:01 - INFO    applicationDidBecomeActive
+2013-03-23T02:11:01 - INFO    Stopped silence.
+2013-03-23T02:11:08 - INFO    Sleep manager state change 2 to 0
+2013-03-23T02:11:08 - INFO    Stop 0 ap=0 0
+2013-03-23T02:11:08 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-03-23T02:11:08 - INFO    AccelerometerThread.stop
+2013-03-23T02:11:08 - INFO    AccelerometerThread.stopAccelerometer
+2013-03-23T02:11:08 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-03-23T02:11:08 - INFO    alarm stop
+2013-03-23T02:11:08 - INFO    alarm stop
+2013-03-23T02:11:08 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-03-23T02:11:08 - INFO    PowerManager stopped
+2013-03-23T02:11:08 - INFO    Run clearBackupNotifications.
+2013-03-23T02:11:09 - INFO    clearBackupNotifications Done
+2013-03-23T02:11:20 - INFO    Battery state changed
+2013-03-23T02:11:20 - INFO    Battery Charging
+2013-03-23T02:11:20 - INFO    Battery state changed
+2013-03-23T02:11:20 - INFO    Battery Charging
+2013-03-23T02:11:20 - INFO    Sleep manager state change 0 to 1
+2013-03-23T02:11:21 - INFO    Sleep manager state change 1 to 2
+2013-03-23T02:11:21 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-03-23T02:11:21 - INFO    AccelerometerThread start.
+2013-03-23T02:11:21 - INFO    alarm start
+2013-03-23T02:11:21 - INFO    Scheduling alarm timer 2013-03-23T10:30:00.000-0400
+2013-03-23T02:11:21 - INFO    Wakup window stats 99.000000 1101.000000 
+2013-03-23T02:11:21 - INFO    PowerManager started
+2013-03-23T02:11:21 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:11:21 - INFO    Accelerometer was already on.
+2013-03-23T02:11:21 - INFO    Battery Charging
+2013-03-23T02:11:21 - TRACE   Params {
+    details = "{\"alarm\":\"Alarm\"}";
+    event = GoneToBed;
+    session = 5D209CE3DD4F6C40A6B4;
+}
+2013-03-23T02:11:21 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-23T02:11:21 - TRACE   Current token (null)
+2013-03-23T02:11:21 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T02:11:23 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T02:11:23 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T02:11:23 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T02:11:26 - INFO    applicationWillResignActive
+2013-03-23T02:11:26 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-03-23T02:11:26 - INFO    is silence playing: 1
+2013-03-23T02:11:26 - INFO    applicationDidEnterBackground
+2013-03-23T02:11:26 - INFO    stopClockUpdates
+2013-03-23T02:11:26 - INFO    stopClockUpdates
+2013-03-23T02:11:26 - INFO    applicationWillEnterForeground
+2013-03-23T02:11:26 - INFO    Stopped silence.
+2013-03-23T02:11:26 - INFO    startClockUpdates
+2013-03-23T02:11:26 - INFO    stopClockUpdates
+2013-03-23T02:11:26 - INFO    applicationDidBecomeActive
+2013-03-23T02:11:26 - INFO    Silence audio was already off.
+2013-03-23T02:11:27 - TRACE   Current token (null)
+2013-03-23T02:11:32 - INFO    applicationWillResignActive
+2013-03-23T02:11:33 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-03-23T02:11:33 - INFO    is silence playing: 1
+2013-03-23T02:11:33 - INFO    applicationDidEnterBackground
+2013-03-23T02:11:33 - INFO    stopClockUpdates
+2013-03-23T02:11:33 - INFO    stopClockUpdates
+2013-03-23T02:11:33 - INFO    applicationWillEnterForeground
+2013-03-23T02:11:33 - INFO    Stopped silence.
+2013-03-23T02:11:33 - INFO    startClockUpdates
+2013-03-23T02:11:33 - INFO    stopClockUpdates
+2013-03-23T02:11:33 - INFO    applicationDidBecomeActive
+2013-03-23T02:11:33 - INFO    Silence audio was already off.
+2013-03-23T02:11:33 - TRACE   Current token (null)
+2013-03-23T02:11:35 - INFO    Sleep manager state change 2 to 0
+2013-03-23T02:11:35 - INFO    Stop 0 ap=0 0
+2013-03-23T02:11:35 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-03-23T02:11:35 - INFO    AccelerometerThread.stop
+2013-03-23T02:11:35 - INFO    AccelerometerThread.stopAccelerometer
+2013-03-23T02:11:35 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-03-23T02:11:35 - INFO    alarm stop
+2013-03-23T02:11:35 - INFO    alarm stop
+2013-03-23T02:11:35 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-03-23T02:11:35 - INFO    PowerManager stopped
+2013-03-23T02:11:35 - INFO    Run clearBackupNotifications.
+2013-03-23T02:11:36 - INFO    clearBackupNotifications Done
+2013-03-23T02:11:55 - TRACE   Current token (null)
+2013-03-23T02:12:01 - TRACE   Current token (null)
+2013-03-23T02:12:25 - TRACE   Current token (null)
+2013-03-23T02:12:28 - INFO    Battery state changed
+2013-03-23T02:12:28 - INFO    Battery Charging
+2013-03-23T02:12:28 - INFO    Battery state changed
+2013-03-23T02:12:28 - INFO    Battery Charging
+2013-03-23T02:12:28 - INFO    Battery state changed
+2013-03-23T02:12:28 - INFO    Battery Charging
+2013-03-23T02:12:28 - INFO    Sleep manager state change 0 to 1
+2013-03-23T02:12:30 - INFO    Sleep manager state change 1 to 2
+2013-03-23T02:12:31 - INFO    AccelerometerSensorSource: cur state=0 set state to 1
+2013-03-23T02:12:31 - INFO    AccelerometerThread start.
+2013-03-23T02:12:31 - INFO    alarm start
+2013-03-23T02:12:31 - INFO    Scheduling alarm timer 2013-03-23T10:30:00.000-0400
+2013-03-23T02:12:31 - INFO    Wakup window stats 51.000000 1149.000000 
+2013-03-23T02:12:31 - INFO    PowerManager started
+2013-03-23T02:12:31 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:12:31 - INFO    Accelerometer was already on.
+2013-03-23T02:12:31 - INFO    Battery Charging
+2013-03-23T02:12:31 - TRACE   Params {
+    details = "{\"alarm\":\"Alarm\"}";
+    event = GoneToBed;
+    session = 5D209CE3DD4F6C40A6B4;
+}
+2013-03-23T02:12:31 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-23T02:12:31 - TRACE   Current token (null)
+2013-03-23T02:12:31 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T02:12:32 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T02:12:32 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T02:12:32 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T02:12:33 - INFO    Proximity sensor state changed: closeToUser=1
+2013-03-23T02:12:33 - INFO    stopClockUpdates
+2013-03-23T02:12:33 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-03-23T02:13:32 - INFO    Battery level changed
+2013-03-23T02:13:32 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:13:32 - INFO    Accelerometer was already on.
+2013-03-23T02:13:32 - INFO    Battery Charging
+2013-03-23T02:13:32 - INFO    Battery level changed
+2013-03-23T02:13:32 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:13:32 - INFO    Accelerometer was already on.
+2013-03-23T02:13:32 - INFO    Battery Charging
+2013-03-23T02:13:32 - INFO    Battery level changed
+2013-03-23T02:13:32 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:13:32 - INFO    Accelerometer was already on.
+2013-03-23T02:13:32 - INFO    Battery Charging
+2013-03-23T02:13:32 - INFO    Battery level changed
+2013-03-23T02:13:32 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:13:32 - INFO    Accelerometer was already on.
+2013-03-23T02:13:32 - INFO    Battery Charging
+2013-03-23T02:14:43 - INFO    Proximity sensor state changed: closeToUser=0
+2013-03-23T02:14:43 - INFO    startClockUpdates
+2013-03-23T02:14:43 - INFO    stopClockUpdates
+2013-03-23T02:14:43 - INFO    Device face up
+2013-03-23T02:14:43 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-03-23T02:14:43 - INFO    Device face up
+2013-03-23T02:14:44 - INFO    Proximity sensor state changed: closeToUser=1
+2013-03-23T02:14:44 - INFO    stopClockUpdates
+2013-03-23T02:14:44 - INFO    sensorStateChange: idleTimerDisabled=1
+2013-03-23T02:14:45 - INFO    Proximity sensor state changed: closeToUser=0
+2013-03-23T02:14:45 - INFO    startClockUpdates
+2013-03-23T02:14:45 - INFO    stopClockUpdates
+2013-03-23T02:14:45 - INFO    Device face up
+2013-03-23T02:14:45 - INFO    sensorStateChange: idleTimerDisabled=0
+2013-03-23T02:14:46 - INFO    applicationWillResignActive
+2013-03-23T02:14:46 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-03-23T02:14:46 - INFO    is silence playing: 1
+2013-03-23T02:14:46 - INFO    applicationDidEnterBackground
+2013-03-23T02:14:46 - INFO    stopClockUpdates
+2013-03-23T02:14:46 - INFO    stopClockUpdates
+2013-03-23T02:19:14 - INFO    Battery level changed
+2013-03-23T02:19:14 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:19:14 - INFO    Accelerometer was already on.
+2013-03-23T02:19:14 - INFO    Battery Charging
+2013-03-23T02:19:14 - INFO    Battery level changed
+2013-03-23T02:19:14 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:19:14 - INFO    Accelerometer was already on.
+2013-03-23T02:19:14 - INFO    Battery Charging
+2013-03-23T02:19:14 - INFO    Battery level changed
+2013-03-23T02:19:14 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:19:14 - INFO    Accelerometer was already on.
+2013-03-23T02:19:14 - INFO    Battery Charging
+2013-03-23T02:19:14 - INFO    Battery level changed
+2013-03-23T02:19:14 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:19:14 - INFO    Accelerometer was already on.
+2013-03-23T02:19:14 - INFO    Battery Charging
+2013-03-23T02:19:56 - INFO    readAccelerometer counters: Total=44356 Interval=44356 accelerometerActive=1
+2013-03-23T02:24:17 - INFO    Battery level changed
+2013-03-23T02:24:17 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:24:17 - INFO    Accelerometer was already on.
+2013-03-23T02:24:17 - INFO    Battery Charging
+2013-03-23T02:24:17 - INFO    Battery level changed
+2013-03-23T02:24:17 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:24:17 - INFO    Accelerometer was already on.
+2013-03-23T02:24:17 - INFO    Battery Charging
+2013-03-23T02:24:17 - INFO    Battery level changed
+2013-03-23T02:24:17 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:24:17 - INFO    Accelerometer was already on.
+2013-03-23T02:24:17 - INFO    Battery Charging
+2013-03-23T02:24:17 - INFO    Battery level changed
+2013-03-23T02:24:17 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:24:17 - INFO    Accelerometer was already on.
+2013-03-23T02:24:17 - INFO    Battery Charging
+2013-03-23T02:28:39 - INFO    Battery level changed
+2013-03-23T02:28:39 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:28:39 - INFO    Accelerometer was already on.
+2013-03-23T02:28:39 - INFO    Battery Charging
+2013-03-23T02:28:39 - INFO    Battery level changed
+2013-03-23T02:28:39 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:28:39 - INFO    Accelerometer was already on.
+2013-03-23T02:28:39 - INFO    Battery Charging
+2013-03-23T02:28:39 - INFO    Battery level changed
+2013-03-23T02:28:39 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:28:39 - INFO    Accelerometer was already on.
+2013-03-23T02:28:39 - INFO    Battery Charging
+2013-03-23T02:28:39 - INFO    Battery level changed
+2013-03-23T02:28:39 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:28:39 - INFO    Accelerometer was already on.
+2013-03-23T02:28:39 - INFO    Battery Charging
+2013-03-23T02:29:56 - INFO    readAccelerometer counters: Total=104343 Interval=59987 accelerometerActive=1
+2013-03-23T02:33:01 - INFO    Battery level changed
+2013-03-23T02:33:01 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:33:01 - INFO    Accelerometer was already on.
+2013-03-23T02:33:01 - INFO    Battery Charging
+2013-03-23T02:33:01 - INFO    Battery level changed
+2013-03-23T02:33:01 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:33:01 - INFO    Accelerometer was already on.
+2013-03-23T02:33:01 - INFO    Battery Charging
+2013-03-23T02:33:01 - INFO    Battery level changed
+2013-03-23T02:33:01 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:33:01 - INFO    Accelerometer was already on.
+2013-03-23T02:33:01 - INFO    Battery Charging
+2013-03-23T02:33:01 - INFO    Battery level changed
+2013-03-23T02:33:01 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:33:01 - INFO    Accelerometer was already on.
+2013-03-23T02:33:01 - INFO    Battery Charging
+2013-03-23T02:37:23 - INFO    Battery level changed
+2013-03-23T02:37:23 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:37:23 - INFO    Accelerometer was already on.
+2013-03-23T02:37:23 - INFO    Battery Charging
+2013-03-23T02:37:23 - INFO    Battery level changed
+2013-03-23T02:37:23 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:37:23 - INFO    Accelerometer was already on.
+2013-03-23T02:37:23 - INFO    Battery Charging
+2013-03-23T02:37:23 - INFO    Battery level changed
+2013-03-23T02:37:23 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:37:23 - INFO    Accelerometer was already on.
+2013-03-23T02:37:23 - INFO    Battery Charging
+2013-03-23T02:37:23 - INFO    Battery level changed
+2013-03-23T02:37:23 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:37:23 - INFO    Accelerometer was already on.
+2013-03-23T02:37:23 - INFO    Battery Charging
+2013-03-23T02:39:56 - INFO    readAccelerometer counters: Total=164339 Interval=59996 accelerometerActive=1
+2013-03-23T02:41:44 - INFO    Battery level changed
+2013-03-23T02:41:44 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:41:44 - INFO    Accelerometer was already on.
+2013-03-23T02:41:44 - INFO    Battery Charging
+2013-03-23T02:41:44 - INFO    Battery level changed
+2013-03-23T02:41:44 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:41:44 - INFO    Accelerometer was already on.
+2013-03-23T02:41:44 - INFO    Battery Charging
+2013-03-23T02:41:44 - INFO    Battery level changed
+2013-03-23T02:41:44 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:41:44 - INFO    Accelerometer was already on.
+2013-03-23T02:41:44 - INFO    Battery Charging
+2013-03-23T02:41:44 - INFO    Battery level changed
+2013-03-23T02:41:44 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:41:44 - INFO    Accelerometer was already on.
+2013-03-23T02:41:44 - INFO    Battery Charging
+2013-03-23T02:46:06 - INFO    Battery level changed
+2013-03-23T02:46:06 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:46:06 - INFO    Accelerometer was already on.
+2013-03-23T02:46:06 - INFO    Battery Charging
+2013-03-23T02:46:06 - INFO    Battery level changed
+2013-03-23T02:46:06 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:46:06 - INFO    Accelerometer was already on.
+2013-03-23T02:46:06 - INFO    Battery Charging
+2013-03-23T02:46:06 - INFO    Battery level changed
+2013-03-23T02:46:06 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:46:06 - INFO    Accelerometer was already on.
+2013-03-23T02:46:06 - INFO    Battery Charging
+2013-03-23T02:46:06 - INFO    Battery level changed
+2013-03-23T02:46:06 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:46:06 - INFO    Accelerometer was already on.
+2013-03-23T02:46:06 - INFO    Battery Charging
+2013-03-23T02:49:56 - INFO    readAccelerometer counters: Total=224336 Interval=59997 accelerometerActive=1
+2013-03-23T02:50:28 - INFO    Battery level changed
+2013-03-23T02:50:28 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:50:28 - INFO    Accelerometer was already on.
+2013-03-23T02:50:28 - INFO    Battery Charging
+2013-03-23T02:50:28 - INFO    Battery level changed
+2013-03-23T02:50:28 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:50:28 - INFO    Accelerometer was already on.
+2013-03-23T02:50:28 - INFO    Battery Charging
+2013-03-23T02:50:28 - INFO    Battery level changed
+2013-03-23T02:50:28 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:50:28 - INFO    Accelerometer was already on.
+2013-03-23T02:50:28 - INFO    Battery Charging
+2013-03-23T02:50:28 - INFO    Battery level changed
+2013-03-23T02:50:28 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:50:28 - INFO    Accelerometer was already on.
+2013-03-23T02:50:28 - INFO    Battery Charging
+2013-03-23T02:55:11 - INFO    Battery level changed
+2013-03-23T02:55:11 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:55:11 - INFO    Accelerometer was already on.
+2013-03-23T02:55:11 - INFO    Battery Charging
+2013-03-23T02:55:11 - INFO    Battery level changed
+2013-03-23T02:55:11 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:55:11 - INFO    Accelerometer was already on.
+2013-03-23T02:55:11 - INFO    Battery Charging
+2013-03-23T02:55:11 - INFO    Battery level changed
+2013-03-23T02:55:11 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:55:11 - INFO    Accelerometer was already on.
+2013-03-23T02:55:11 - INFO    Battery Charging
+2013-03-23T02:55:11 - INFO    Battery level changed
+2013-03-23T02:55:11 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:55:11 - INFO    Accelerometer was already on.
+2013-03-23T02:55:11 - INFO    Battery Charging
+2013-03-23T02:59:32 - INFO    Battery level changed
+2013-03-23T02:59:32 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:59:32 - INFO    Accelerometer was already on.
+2013-03-23T02:59:32 - INFO    Battery Charging
+2013-03-23T02:59:32 - INFO    Battery level changed
+2013-03-23T02:59:32 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:59:32 - INFO    Accelerometer was already on.
+2013-03-23T02:59:32 - INFO    Battery Charging
+2013-03-23T02:59:32 - INFO    Battery level changed
+2013-03-23T02:59:32 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:59:32 - INFO    Accelerometer was already on.
+2013-03-23T02:59:32 - INFO    Battery Charging
+2013-03-23T02:59:32 - INFO    Battery level changed
+2013-03-23T02:59:32 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T02:59:32 - INFO    Accelerometer was already on.
+2013-03-23T02:59:32 - INFO    Battery Charging
+2013-03-23T02:59:56 - INFO    readAccelerometer counters: Total=284323 Interval=59987 accelerometerActive=1
+2013-03-23T03:03:54 - INFO    Battery level changed
+2013-03-23T03:03:54 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:03:54 - INFO    Accelerometer was already on.
+2013-03-23T03:03:54 - INFO    Battery Charging
+2013-03-23T03:03:54 - INFO    Battery level changed
+2013-03-23T03:03:54 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:03:54 - INFO    Accelerometer was already on.
+2013-03-23T03:03:54 - INFO    Battery Charging
+2013-03-23T03:03:54 - INFO    Battery level changed
+2013-03-23T03:03:54 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:03:54 - INFO    Accelerometer was already on.
+2013-03-23T03:03:54 - INFO    Battery Charging
+2013-03-23T03:03:54 - INFO    Battery level changed
+2013-03-23T03:03:54 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:03:54 - INFO    Accelerometer was already on.
+2013-03-23T03:03:54 - INFO    Battery Charging
+2013-03-23T03:08:17 - INFO    Battery level changed
+2013-03-23T03:08:17 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:08:17 - INFO    Accelerometer was already on.
+2013-03-23T03:08:17 - INFO    Battery Charging
+2013-03-23T03:08:17 - INFO    Battery level changed
+2013-03-23T03:08:17 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:08:17 - INFO    Accelerometer was already on.
+2013-03-23T03:08:17 - INFO    Battery Charging
+2013-03-23T03:08:17 - INFO    Battery level changed
+2013-03-23T03:08:17 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:08:17 - INFO    Accelerometer was already on.
+2013-03-23T03:08:17 - INFO    Battery Charging
+2013-03-23T03:08:17 - INFO    Battery level changed
+2013-03-23T03:08:17 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:08:17 - INFO    Accelerometer was already on.
+2013-03-23T03:08:17 - INFO    Battery Charging
+2013-03-23T03:09:56 - INFO    readAccelerometer counters: Total=344314 Interval=59991 accelerometerActive=1
+2013-03-23T03:12:38 - INFO    Battery level changed
+2013-03-23T03:12:38 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:12:38 - INFO    Accelerometer was already on.
+2013-03-23T03:12:38 - INFO    Battery Charging
+2013-03-23T03:12:38 - INFO    Battery level changed
+2013-03-23T03:12:38 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:12:38 - INFO    Accelerometer was already on.
+2013-03-23T03:12:38 - INFO    Battery Charging
+2013-03-23T03:12:38 - INFO    Battery level changed
+2013-03-23T03:12:38 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:12:38 - INFO    Accelerometer was already on.
+2013-03-23T03:12:38 - INFO    Battery Charging
+2013-03-23T03:12:38 - INFO    Battery level changed
+2013-03-23T03:12:38 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:12:38 - INFO    Accelerometer was already on.
+2013-03-23T03:12:38 - INFO    Battery Charging
+2013-03-23T03:18:21 - INFO    Battery level changed
+2013-03-23T03:18:21 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:18:21 - INFO    Accelerometer was already on.
+2013-03-23T03:18:21 - INFO    Battery Charging
+2013-03-23T03:18:21 - INFO    Battery level changed
+2013-03-23T03:18:21 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:18:21 - INFO    Accelerometer was already on.
+2013-03-23T03:18:21 - INFO    Battery Charging
+2013-03-23T03:18:21 - INFO    Battery level changed
+2013-03-23T03:18:21 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:18:21 - INFO    Accelerometer was already on.
+2013-03-23T03:18:21 - INFO    Battery Charging
+2013-03-23T03:18:21 - INFO    Battery level changed
+2013-03-23T03:18:21 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:18:21 - INFO    Accelerometer was already on.
+2013-03-23T03:18:21 - INFO    Battery Charging
+2013-03-23T03:19:56 - INFO    readAccelerometer counters: Total=404307 Interval=59993 accelerometerActive=1
+2013-03-23T03:26:05 - INFO    Battery level changed
+2013-03-23T03:26:05 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:26:05 - INFO    Accelerometer was already on.
+2013-03-23T03:26:05 - INFO    Battery Charging
+2013-03-23T03:26:05 - INFO    Battery level changed
+2013-03-23T03:26:05 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:26:05 - INFO    Accelerometer was already on.
+2013-03-23T03:26:05 - INFO    Battery Charging
+2013-03-23T03:26:05 - INFO    Battery level changed
+2013-03-23T03:26:05 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:26:05 - INFO    Accelerometer was already on.
+2013-03-23T03:26:05 - INFO    Battery Charging
+2013-03-23T03:26:05 - INFO    Battery level changed
+2013-03-23T03:26:05 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:26:05 - INFO    Accelerometer was already on.
+2013-03-23T03:26:05 - INFO    Battery Charging
+2013-03-23T03:29:56 - INFO    readAccelerometer counters: Total=464304 Interval=59997 accelerometerActive=1
+2013-03-23T03:37:30 - INFO    Battery level changed
+2013-03-23T03:37:30 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:37:30 - INFO    Accelerometer was already on.
+2013-03-23T03:37:30 - INFO    Battery Charging
+2013-03-23T03:37:30 - INFO    Battery level changed
+2013-03-23T03:37:30 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:37:30 - INFO    Accelerometer was already on.
+2013-03-23T03:37:30 - INFO    Battery Charging
+2013-03-23T03:37:30 - INFO    Battery level changed
+2013-03-23T03:37:30 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:37:30 - INFO    Accelerometer was already on.
+2013-03-23T03:37:30 - INFO    Battery Charging
+2013-03-23T03:37:30 - INFO    Battery level changed
+2013-03-23T03:37:30 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T03:37:30 - INFO    Accelerometer was already on.
+2013-03-23T03:37:30 - INFO    Battery Charging
+2013-03-23T03:39:56 - INFO    readAccelerometer counters: Total=524299 Interval=59995 accelerometerActive=1
+2013-03-23T03:49:56 - INFO    readAccelerometer counters: Total=584298 Interval=59999 accelerometerActive=1
+2013-03-23T03:59:56 - INFO    readAccelerometer counters: Total=644294 Interval=59996 accelerometerActive=1
+2013-03-23T04:09:56 - INFO    readAccelerometer counters: Total=704291 Interval=59997 accelerometerActive=1
+2013-03-23T04:19:56 - INFO    readAccelerometer counters: Total=764289 Interval=59998 accelerometerActive=1
+2013-03-23T04:29:56 - INFO    readAccelerometer counters: Total=824287 Interval=59998 accelerometerActive=1
+2013-03-23T04:37:36 - INFO    Battery state changed
+2013-03-23T04:37:36 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T04:37:36 - INFO    Accelerometer was already on.
+2013-03-23T04:37:36 - INFO    Battery Charging
+2013-03-23T04:37:36 - INFO    Battery state changed
+2013-03-23T04:37:36 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T04:37:36 - INFO    Accelerometer was already on.
+2013-03-23T04:37:36 - INFO    Battery Charging
+2013-03-23T04:37:36 - INFO    Battery state changed
+2013-03-23T04:37:36 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T04:37:36 - INFO    Accelerometer was already on.
+2013-03-23T04:37:36 - INFO    Battery Charging
+2013-03-23T04:37:36 - INFO    Battery state changed
+2013-03-23T04:37:36 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T04:37:36 - INFO    Accelerometer was already on.
+2013-03-23T04:37:36 - INFO    Battery Charging
+2013-03-23T04:39:56 - INFO    readAccelerometer counters: Total=884286 Interval=59999 accelerometerActive=1
+2013-03-23T04:49:56 - INFO    readAccelerometer counters: Total=944285 Interval=59999 accelerometerActive=1
+2013-03-23T04:59:56 - INFO    readAccelerometer counters: Total=1004283 Interval=59998 accelerometerActive=1
+2013-03-23T05:09:56 - INFO    readAccelerometer counters: Total=1064282 Interval=59999 accelerometerActive=1
+2013-03-23T05:19:56 - INFO    readAccelerometer counters: Total=1124282 Interval=60000 accelerometerActive=1
+2013-03-23T05:29:56 - INFO    readAccelerometer counters: Total=1184283 Interval=60001 accelerometerActive=1
+2013-03-23T05:39:56 - INFO    readAccelerometer counters: Total=1244280 Interval=59997 accelerometerActive=1
+2013-03-23T05:49:56 - INFO    readAccelerometer counters: Total=1304280 Interval=60000 accelerometerActive=1
+2013-03-23T05:59:56 - INFO    readAccelerometer counters: Total=1364273 Interval=59993 accelerometerActive=1
+2013-03-23T06:03:19 - INFO    Device face up
+2013-03-23T06:09:56 - INFO    readAccelerometer counters: Total=1424268 Interval=59995 accelerometerActive=1
+2013-03-23T06:19:56 - INFO    readAccelerometer counters: Total=1484266 Interval=59998 accelerometerActive=1
+2013-03-23T06:29:56 - INFO    readAccelerometer counters: Total=1544264 Interval=59998 accelerometerActive=1
+2013-03-23T06:39:56 - INFO    readAccelerometer counters: Total=1604263 Interval=59999 accelerometerActive=1
+2013-03-23T06:49:56 - INFO    readAccelerometer counters: Total=1664262 Interval=59999 accelerometerActive=1
+2013-03-23T06:59:56 - INFO    readAccelerometer counters: Total=1724261 Interval=59999 accelerometerActive=1
+2013-03-23T07:09:56 - INFO    readAccelerometer counters: Total=1784259 Interval=59998 accelerometerActive=1
+2013-03-23T07:19:56 - INFO    readAccelerometer counters: Total=1844260 Interval=60001 accelerometerActive=1
+2013-03-23T07:29:56 - INFO    readAccelerometer counters: Total=1904258 Interval=59998 accelerometerActive=1
+2013-03-23T07:39:56 - INFO    readAccelerometer counters: Total=1964256 Interval=59998 accelerometerActive=1
+2013-03-23T07:49:56 - INFO    readAccelerometer counters: Total=2024258 Interval=60002 accelerometerActive=1
+2013-03-23T07:59:56 - INFO    readAccelerometer counters: Total=2084257 Interval=59999 accelerometerActive=1
+2013-03-23T08:09:56 - INFO    readAccelerometer counters: Total=2144257 Interval=60000 accelerometerActive=1
+2013-03-23T08:19:56 - INFO    readAccelerometer counters: Total=2204256 Interval=59999 accelerometerActive=1
+2013-03-23T08:27:10 - INFO    Battery state changed
+2013-03-23T08:27:10 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T08:27:10 - INFO    Accelerometer was already on.
+2013-03-23T08:27:10 - INFO    Battery Charging
+2013-03-23T08:27:10 - INFO    Battery state changed
+2013-03-23T08:27:10 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T08:27:10 - INFO    Accelerometer was already on.
+2013-03-23T08:27:10 - INFO    Battery Charging
+2013-03-23T08:27:10 - INFO    Battery state changed
+2013-03-23T08:27:10 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T08:27:10 - INFO    Accelerometer was already on.
+2013-03-23T08:27:10 - INFO    Battery Charging
+2013-03-23T08:27:10 - INFO    Battery state changed
+2013-03-23T08:27:10 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T08:27:10 - INFO    Accelerometer was already on.
+2013-03-23T08:27:10 - INFO    Battery Charging
+2013-03-23T08:29:56 - INFO    readAccelerometer counters: Total=2264254 Interval=59998 accelerometerActive=1
+2013-03-23T08:39:56 - INFO    readAccelerometer counters: Total=2324246 Interval=59992 accelerometerActive=1
+2013-03-23T08:40:30 - INFO    Battery state changed
+2013-03-23T08:40:30 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T08:40:30 - INFO    Accelerometer was already on.
+2013-03-23T08:40:30 - INFO    Battery state 1 level = 1.000000
+2013-03-23T08:40:30 - INFO    Battery state changed
+2013-03-23T08:40:30 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T08:40:30 - INFO    Accelerometer was already on.
+2013-03-23T08:40:30 - INFO    Battery state 1 level = 1.000000
+2013-03-23T08:40:30 - INFO    Battery state changed
+2013-03-23T08:40:30 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T08:40:30 - INFO    Accelerometer was already on.
+2013-03-23T08:40:30 - INFO    Battery state 1 level = 1.000000
+2013-03-23T08:40:30 - INFO    Battery state changed
+2013-03-23T08:40:30 - INFO    Alarm is on and device has sufficient power.
+2013-03-23T08:40:30 - INFO    Accelerometer was already on.
+2013-03-23T08:40:30 - INFO    Battery state 1 level = 1.000000
+2013-03-23T08:49:56 - INFO    readAccelerometer counters: Total=2384242 Interval=59996 accelerometerActive=1
+2013-03-23T08:59:56 - INFO    readAccelerometer counters: Total=2444241 Interval=59999 accelerometerActive=1
+2013-03-23T09:09:56 - INFO    readAccelerometer counters: Total=2504238 Interval=59997 accelerometerActive=1
+2013-03-23T09:19:56 - INFO    readAccelerometer counters: Total=2564233 Interval=59995 accelerometerActive=1
+2013-03-23T09:22:44 - INFO    Device face up
+2013-03-23T09:29:56 - INFO    readAccelerometer counters: Total=2624229 Interval=59996 accelerometerActive=1
+2013-03-23T09:39:56 - INFO    readAccelerometer counters: Total=2684228 Interval=59999 accelerometerActive=1
+2013-03-23T09:49:56 - INFO    readAccelerometer counters: Total=2744228 Interval=60000 accelerometerActive=1
+2013-03-23T09:59:56 - INFO    readAccelerometer counters: Total=2804223 Interval=59995 accelerometerActive=1
+2013-03-23T10:09:56 - INFO    readAccelerometer counters: Total=2864221 Interval=59998 accelerometerActive=1
+2013-03-23T10:11:09 - INFO    Alarm triggered on move 1.000000 into windows -18.470000 377 0 1
+2013-03-23T10:11:09 - INFO    triggerAlarm
+2013-03-23T10:11:09 - INFO    Alarm is triggered...
+2013-03-23T10:11:09 - INFO    Sleep manager state change 2 to 3
+2013-03-23T10:11:09 - INFO    Run clearBackupNotifications.
+2013-03-23T10:11:09 - INFO    Alarm started
+2013-03-23T10:11:09 - INFO    clearBackupNotifications Done
+2013-03-23T10:11:14 - INFO    Snoozing
+2013-03-23T10:11:14 - INFO    Will snooze for s=1125.485351 ms=540.000000 alailTime=1125.485351 e=1 a=1
+2013-03-23T10:11:14 - INFO    Alarm stopped
+2013-03-23T10:11:14 - INFO    Stop 1 ap=495090672 0
+2013-03-23T10:11:14 - INFO    Sleep manager state change 3 to 4
+2013-03-23T10:11:14 - INFO    handleAlarmStopped for MXAVAudioPlayerFadeOperation
+2013-03-23T10:11:14 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-03-23T10:11:14 - INFO    is silence playing: 1
+2013-03-23T10:11:14 - INFO    Run clearBackupNotifications.
+2013-03-23T10:11:14 - INFO    clearBackupNotifications Done
+2013-03-23T10:11:15 - TRACE   Params {
+    details = "{\"alarm\":\"Alarm\"}";
+    event = Snoozed;
+    session = 5D209CE3DD4F6C40A6B4;
+}
+2013-03-23T10:11:15 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-23T10:11:15 - TRACE   Current token (null)
+2013-03-23T10:11:15 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T10:11:15 - INFO    Device face up
+2013-03-23T10:11:18 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T10:11:18 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T10:11:18 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T10:19:56 - INFO    readAccelerometer counters: Total=2924023 Interval=59802 accelerometerActive=1
+2013-03-23T10:29:56 - INFO    readAccelerometer counters: Total=2984020 Interval=59997 accelerometerActive=1
+2013-03-23T10:30:00 - INFO    triggerAlarm
+2013-03-23T10:30:00 - INFO    Alarm is triggered...
+2013-03-23T10:30:00 - INFO    Sleep manager state change 4 to 3
+2013-03-23T10:30:00 - INFO    Run clearBackupNotifications.
+2013-03-23T10:30:00 - INFO    Alarm started
+2013-03-23T10:30:00 - INFO    clearBackupNotifications Done
+2013-03-23T10:30:25 - INFO    Snoozing
+2013-03-23T10:30:25 - INFO    Will snooze for s=420.000000 ms=540.000000 alailTime=0.000000 e=1 a=1
+2013-03-23T10:30:25 - INFO    Alarm stopped
+2013-03-23T10:30:25 - INFO    Stop 1 ap=495113920 0
+2013-03-23T10:30:25 - INFO    Sleep manager state change 3 to 4
+2013-03-23T10:30:25 - INFO    handleAlarmStopped for MXAVAudioPlayerFadeOperation
+2013-03-23T10:30:26 - INFO    Scheduling silence loops 8640, per 10.000000 forcing long
+2013-03-23T10:30:26 - INFO    is silence playing: 1
+2013-03-23T10:30:26 - INFO    Run clearBackupNotifications.
+2013-03-23T10:30:26 - TRACE   Params {
+    details = "{\"alarm\":\"Alarm\"}";
+    event = Snoozed;
+    session = 5D209CE3DD4F6C40A6B4;
+}
+2013-03-23T10:30:26 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-23T10:30:26 - TRACE   Current token (null)
+2013-03-23T10:30:26 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T10:30:26 - INFO    clearBackupNotifications Done
+2013-03-23T10:30:26 - INFO    Device face up
+2013-03-23T10:30:29 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T10:30:29 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T10:30:29 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T10:37:26 - INFO    triggerAlarm
+2013-03-23T10:37:26 - INFO    Alarm is triggered...
+2013-03-23T10:37:26 - INFO    Sleep manager state change 4 to 3
+2013-03-23T10:37:26 - INFO    Run clearBackupNotifications.
+2013-03-23T10:37:26 - INFO    Alarm started
+2013-03-23T10:37:26 - INFO    clearBackupNotifications Done
+2013-03-23T10:37:55 - INFO    applicationWillEnterForeground
+2013-03-23T10:37:55 - INFO    Stopped silence.
+2013-03-23T10:37:55 - INFO    startClockUpdates
+2013-03-23T10:37:55 - INFO    stopClockUpdates
+2013-03-23T10:37:55 - INFO    didReceiveLocalNotification: (null) fireDate=(null) repeatInterval=0 repeatCalendar=0
+2013-03-23T10:37:55 - INFO    applicationDidBecomeActive
+2013-03-23T10:37:55 - INFO    Silence audio was already off.
+2013-03-23T10:37:55 - TRACE   Current token (null)
+2013-03-23T10:37:56 - INFO    didReceiveLocalNotification: (null) fireDate=(null) repeatInterval=0 repeatCalendar=0
+2013-03-23T10:37:58 - INFO    Sleep manager state change 3 to 0
+2013-03-23T10:37:58 - INFO    Stop 1 ap=548908080 0
+2013-03-23T10:37:58 - INFO    AccelerometerSensorSource: cur state=1 set state to 0
+2013-03-23T10:37:58 - INFO    AccelerometerThread.stop
+2013-03-23T10:37:58 - INFO    AccelerometerThread.stopAccelerometer
+2013-03-23T10:37:58 - INFO    AccelerometerSensorSource state = 0, turned it off.
+2013-03-23T10:37:58 - INFO    alarm stop
+2013-03-23T10:37:58 - INFO    Generating sleep report
+2013-03-23T10:37:58 - INFO    alarm stop
+2013-03-23T10:37:58 - INFO    stateChangedTo StateOff: idleTimerDisabled=0
+2013-03-23T10:37:58 - INFO    handleAlarmStopped for MXAVAudioPlayerFadeOperation
+2013-03-23T10:37:58 - INFO    PowerManager stopped
+2013-03-23T10:37:58 - INFO    Run clearBackupNotifications.
+2013-03-23T10:37:58 - INFO    clearBackupNotifications Done
+2013-03-23T10:37:59 - INFO    _sleepState.cepoch: 1010.000000
+2013-03-23T10:37:59 - TRACE   Current token (null)
+2013-03-23T10:37:59 - TRACE   Current token (null)
+2013-03-23T10:37:59 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-03-23T10:37:59 - TRACE   Current token (null)
+2013-03-23T10:37:59 - TRACE   Current token (null)
+2013-03-23T10:37:59 - INFO    [AZHCIApiAuthentication instance].authorized = false, checkin sync skipped
+2013-03-23T10:37:59 - TRACE   Params {
+    details = "{\"duration\":30327.960942983627}";
+    event = Wakeup;
+    session = 5D209CE3DD4F6C40A6B4;
+}
+2013-03-23T10:37:59 - INFO    Calling https://api.azumio.com/v1/events
+2013-03-23T10:37:59 - TRACE   Current token (null)
+2013-03-23T10:37:59 - ERROR   OpenUDID error localizedDescription=OpenUDID in cache from first call
+2013-03-23T10:38:00 - INFO    Succeeded! Received 22 bytes of data
+2013-03-23T10:38:00 - TRACE   responseWithData:{"meta":{"code":200}}
+
+2013-03-23T10:38:00 - TRACE   AZHCIApiResponse {
+    meta =     {
+        code = 200;
+    };
+}
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:25 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:26 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:27 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:29 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:30 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:31 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:35 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:38 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:40 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:41 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:42 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:38:59 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:00 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:12 - TRACE   Current token (null)
+2013-03-23T10:39:13 - TRACE   Current token (null)
+2013-03-23T10:39:13 - TRACE   Current token (null)
+2013-03-23T10:39:13 - TRACE   Current token (null)
+2013-03-23T10:39:13 - TRACE   Current token (null)
+2013-03-23T10:39:13 - TRACE   Current token (null)
+2013-03-23T10:39:13 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:28 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:29 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:34 - TRACE   Current token (null)
+2013-03-23T10:39:38 - TRACE   Current token (null)
+2013-03-23T10:39:38 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:39 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:40 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:41 - TRACE   Current token (null)
+2013-03-23T10:39:42 - TRACE   Current token (null)
+2013-03-23T10:39:42 - TRACE   Current token (null)
+2013-03-23T10:39:42 - TRACE   Current token (null)
+2013-03-23T10:39:42 - TRACE   Current token (null)
+2013-03-23T10:39:42 - TRACE   Current token (null)
+2013-03-23T10:39:42 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:07 - TRACE   Current token (null)
+2013-03-23T10:40:09 - TRACE   Current token (null)
+2013-03-23T10:40:09 - TRACE   Current token (null)
+2013-03-23T10:40:09 - TRACE   Current token (null)
+2013-03-23T10:40:09 - TRACE   Current token (null)
+2013-03-23T10:40:09 - TRACE   Current token (null)
+2013-03-23T10:40:09 - TRACE   Current token (null)
+2013-03-23T10:40:09 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:10 - TRACE   Current token (null)
+2013-03-23T10:40:25 - INFO    applicationWillResignActive
+2013-03-23T10:40:26 - INFO    applicationDidBecomeActive
+2013-03-23T10:40:34 - INFO    applicationWillResignActive
+2013-03-23T10:40:36 - INFO    applicationDidBecomeActive
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:57 - TRACE   Current token (null)
+2013-03-23T10:41:58 - TRACE   Current token (null)
+2013-03-23T10:42:01 - INFO    applicationWillResignActive
+2013-03-23T10:42:02 - INFO    applicationDidEnterBackground
+2013-03-23T10:42:02 - INFO    stopClockUpdates
+2013-03-23T10:42:02 - INFO    stopClockUpdates

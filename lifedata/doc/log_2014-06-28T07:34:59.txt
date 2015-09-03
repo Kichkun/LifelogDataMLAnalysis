@@ -1,0 +1,120 @@
+Log level: INFO   
+2014-06-28T07:34:59 - INFO    Device info: iPhone 4S iPhone OS 7.1.1 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2014-06-28T07:34:59 - INFO    com.azumio.iphone.sleepcycle 2.10.4958
+2014-06-28T07:34:59 - INFO    application didFinishLaunchingWithOptions
+2014-06-28T07:34:59 - INFO    started logspecs
+2014-06-28T07:34:59 - INFO    RELEASE build
+2014-06-28T07:34:59 - INFO    Sleep Time 2.10.4958
+2014-06-28T07:34:59 - INFO    com.azumio.iphone.sleepcycle
+2014-06-28T07:34:59 - INFO    iPhone 4S
+2014-06-28T07:34:59 - INFO    Bryan’s iPhone
+2014-06-28T07:34:59 - INFO    iPhone OS
+2014-06-28T07:34:59 - INFO    7.1.1
+2014-06-28T07:34:59 - INFO    iPhone
+2014-06-28T07:34:59 - INFO    iPhone
+2014-06-28T07:34:59 - INFO    multitaskingSupported=1
+2014-06-28T07:34:59 - INFO    App Settings = {
+    "_requestedVersion" = 21099;
+    "_returnedVersion" = 20400;
+    "_v" = 21099;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-06-28T07:34:59 - INFO    finished logspecs
+2014-06-28T07:35:01 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2014-06-28T07:35:01 - INFO    applicationDidBecomeActive
+2014-06-28T07:35:02 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-06-28T07:35:02 - INFO    server settings={
+    "_requestedVersion" = 21099;
+    "_returnedVersion" = 20400;
+    "_v" = 21099;
+    aiengine = "true;";
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-06-28T07:35:02 - INFO    user = AZTimelineOfflineUser AZOnlineOfflineUser
+2014-06-28T07:35:02 - INFO    Loading data
+2014-06-28T07:35:05 - INFO    Data loaded online:129 offline:129 in -2.747508
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/04697745-C0F0-4682-A431-1F0C91EE857E
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/08C181AA-7604-4873-93E0-C64BE26773A2
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/0AD66069-67C9-43CE-A80A-48ECC7705A38
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/108260C9-6576-45B9-B5B0-80E350C9C30D
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/13C22274-E29A-47E7-9379-2E69B954E74A
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/18AC703B-BE8A-4F18-9365-ADEAB0A87782
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/19333827-8399-4102-88DC-8110218C1FF6
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/1A8F2AC7-3408-40E2-8EEF-75FC6CF057BC
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/1D8AE167-96DA-448C-A357-52EDF73B4490
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/259750A5-B2EA-4A7C-B67C-7321CECC1723
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/27AAD9F5-BFA0-4FBA-97E7-6196C8DA86A8
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/2A3E269C-D825-4824-A2A2-9B79F83C7C03
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/2AF0C26B-1FCA-4890-8005-39DA886D2A7F
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/2DEB86D4-8C73-4B22-AF51-4289AD01E43C
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/2DFCB418-00B9-4F59-8372-0FC59FCFD6CF
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/2DFE151D-071C-495E-85A1-9875B4F7007D
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/30F2D9FE-83D9-4954-B790-002A5E061B9D
+2014-06-28T07:35:05 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/31E8BFC8-7BED-47F2-BBB2-D12C7913928A
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/3279B9AC-E7C0-42B6-BACB-5B8C080798AD
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/32FC467D-3B9A-4A78-9571-821D8DFD1F55
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/34A61685-2DFE-49AD-864A-9DA1C182A5E7
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/377F30EA-A76C-454B-BAA5-74FF751D14DE
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/3A86387A-8597-4775-827A-8D612D300C69
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/3E56C8C3-6C83-4755-9A9C-6BC9AD3CEA28
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/4236E1E6-AFED-4FC7-B63B-6E3B9BA2B43F
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/4C5E15B3-4A7E-4F35-AE3F-2CD6F8C01DB5
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/4C90A05B-8D46-41C3-A602-F2325C6E7CB2
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/4D68BA1D-933B-4FB3-8E26-50408BFA2B39
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/4F943527-4954-4A74-929B-8CD206C8DF7B
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/6B53F3CC-0F74-4759-861B-72F8298222D2
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/6E7FDE7D-D5EE-45BD-8C66-5DE3360540CC
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/6FC1FF23-C8F4-4D78-A5DA-E10434C7A4A0
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/7049FC66-07F3-4C31-8A45-7DB6E4C1AE02
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/73F14D15-1A16-4ECB-9876-D6D1291705CD
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/776B63D6-9B42-4726-A429-052E9CD3501C
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/80B60D3A-AB0B-401B-A0EA-A0E1E977FDB0
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/859EDFD9-6668-421E-B7B3-6659BD01F4E5
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/86D52C46-C404-4412-9017-89FC0D6D3B04
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/87B0D3E5-067C-4DA7-B30A-750FB32F04E2
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/8956CCC5-D1D3-4194-9FFF-DCAAA7B8D9CA
+2014-06-28T07:35:06 - INFO    Replaying file /var/mobile/Applications/990AFD8C-F04D-4C1E-901F-E6C00B943313/Documents/timeline.AZOnlineOfflineUser.log/8C2BAC08-7C4C-42B9-B831-6324DDA38F65
+2014-06-28T07:35:06 - INFO    Replayed log files 41ct
+2014-06-28T07:35:06 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-06-28T07:35:07 - INFO    startClockUpdates
+2014-06-28T07:35:07 - INFO    stopClockUpdates
+2014-06-28T07:35:08 - INFO    Run clearBackupNotifications.
+2014-06-28T07:35:08 - INFO    clearBackupNotifications Done
+2014-06-28T07:35:09 - INFO    Succeeded! Received 56 bytes of data
+2014-06-28T07:35:09 - INFO    Succeeded! Received 2 bytes of data
+2014-06-28T07:35:09 - INFO    Succeeded! Received 59 bytes of data
+2014-06-28T07:35:09 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x161788b0> -- 6A66099A-92FC-4B45-AE5D-6E364E00BE9D <2013-08-07 13:22:46 +0000>
+2014-06-28T07:35:09 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-06-28T07:35:10 - INFO    Succeeded! Received 59 bytes of data
+2014-06-28T07:35:10 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14e8c460> -- 8A912555-F05E-4B96-A52E-D3B992A6159B <2013-08-05 13:41:36 +0000>
+2014-06-28T07:35:11 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-06-28T07:35:11 - INFO    applicationWillResignActive
+2014-06-28T07:35:12 - INFO    Succeeded! Received 59 bytes of data
+2014-06-28T07:35:12 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14ec3870> -- 3727ADCC-2651-4A38-8658-242F5BBD952A <2013-08-04 12:54:43 +0000>
+2014-06-28T07:35:13 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-06-28T07:35:13 - INFO    Succeeded! Received 59 bytes of data
+2014-06-28T07:35:13 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14e70150> -- F68F6421-C3E8-4CAB-BDD1-6F6C780915FD <2013-08-02 12:50:53 +0000>
+2014-06-28T07:35:14 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-06-28T07:35:14 - INFO    Succeeded! Received 59 bytes of data
+2014-06-28T07:35:14 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14ec7ac0> -- F1B61887-87C1-4A7C-BEB6-A97CC99421F8 <2013-08-01 13:16:22 +0000>
+2014-06-28T07:35:14 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-06-28T07:35:15 - INFO    Succeeded! Received 59 bytes of data
+2014-06-28T07:35:15 - ERROR   Can't put. this is likely a stale checkin error <AZCheckIn: 0x14e592b0> -- 00256B12-07C0-4C53-82E3-9E8D984E80E4 <2013-07-25 14:51:31 +0000>
+2014-06-28T07:35:15 - INFO    Calling POST https://api.azumio.com/v2/checkins
+2014-06-28T07:35:15 - INFO    applicationDidEnterBackground: loggedIn=0
+2014-06-28T07:35:21 - INFO    stopClockUpdates
+2014-06-28T07:35:21 - INFO    stopClockUpdates
+2014-06-28T07:35:29 - INFO    Persisting data online: 129 offline: 129

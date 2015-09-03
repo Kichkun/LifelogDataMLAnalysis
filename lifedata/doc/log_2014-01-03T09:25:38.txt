@@ -1,0 +1,52 @@
+Log level: INFO   
+2014-01-03T09:25:38 - INFO    Device info: iPhone 4S iPhone OS 7.0.4 Bryan’s iPhone d40a5093f38d5806e60772dfccfad4513a4f8c2a
+2014-01-03T09:25:38 - INFO    com.azumio.iphone.sleepcycle 2.8.4830
+2014-01-03T09:25:38 - INFO    application didFinishLaunchingWithOptions
+2014-01-03T09:25:38 - INFO    started logspecs
+2014-01-03T09:25:38 - INFO    Sleep Time 2.8.4830
+2014-01-03T09:25:38 - INFO    com.azumio.iphone.sleepcycle
+2014-01-03T09:25:38 - INFO    iPhone 4S
+2014-01-03T09:25:38 - INFO    Bryan’s iPhone
+2014-01-03T09:25:38 - INFO    iPhone OS
+2014-01-03T09:25:38 - INFO    7.0.4
+2014-01-03T09:25:38 - INFO    iPhone
+2014-01-03T09:25:38 - INFO    iPhone
+2014-01-03T09:25:38 - INFO    multitaskingSupported=1
+2014-01-03T09:25:38 - INFO    App Settings = {
+    "_requestedVersion" = 20899;
+    "_returnedVersion" = 20400;
+    "_v" = 20899;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-01-03T09:25:38 - INFO    finished logspecs
+2014-01-03T09:25:39 - INFO    startClockUpdates
+2014-01-03T09:25:39 - INFO    stopClockUpdates
+2014-01-03T09:25:39 - INFO    Run clearBackupNotifications.
+2014-01-03T09:25:39 - INFO    clearBackupNotifications Done
+2014-01-03T09:25:40 - INFO    Calling GET https://api.azumio.com/v2/users/me?
+2014-01-03T09:25:40 - INFO    applicationDidBecomeActive
+2014-01-03T09:25:41 - INFO    server settings={
+    "_requestedVersion" = 20899;
+    "_returnedVersion" = 20400;
+    "_v" = 20899;
+    enableBG = 1;
+    loginPromptSleepLab =     (
+        "Login to keep your data safe",
+        "Login Now to keep your data safe"
+    );
+    soundscapeAudioDefault = 0;
+    version = 2;
+}
+2014-01-03T09:25:43 - INFO    applicationWillResignActive
+2014-01-03T09:25:43 - INFO    applicationDidEnterBackground
+2014-01-03T09:25:47 - INFO    stopClockUpdates
+2014-01-03T09:25:47 - INFO    stopClockUpdates
+2014-01-03T09:25:47 - INFO    Calling POST https://api.azumio.com/v2/events
+2014-01-03T09:25:48 - INFO    Succeeded! Received 57 bytes of data
+2014-01-03T09:25:48 - INFO    Succeeded! Received 3 bytes of data
