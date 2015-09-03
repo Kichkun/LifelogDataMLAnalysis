@@ -8,9 +8,13 @@ I wanted to analyze my college data tracking through the app Coach.Me where I in
 The code can easily be transferable if you want to analyze your own Coach.Me data! Just swap out my .csv for yours.
 
 The changable variables rely on the 4 different ways I organized the data.
+
 organizeByItem          -> ex: {ID:'1' : [habit,date,note,checkin count, streak, props, comments, url], etc.}
+
 organizeByStreak        -> ex: {ID:'1' : [streak of today, streak of yesterday], etc.}
+
 organizeByDate          -> ex: {'date1': [all habits on that day],'date2': [all habits in day 2],etc}
+
 organizeByDateWithDOTW  -> ex: {'date1': [all habits on that day, monday],'date2': [all habits in day 2, thursday],etc}
 
 There is interesting questions that can be answered from each of these organizations of the data.
