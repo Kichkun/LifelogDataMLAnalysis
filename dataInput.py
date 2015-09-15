@@ -1,5 +1,8 @@
 # Python: Version 2.7.10
 # Project: Import CSV of coach.me and scripts to format the data into a bunch of different useful sets for data analysis.
+# - 9/1 add organization sets
+# - 9/8 add "by habit" sets for the date and dotw
+# - 9/15 final polishing, organizing what is left
 # By: Bryan Dickens, Summer 2015
  
 __author__ = "bryan"
@@ -85,27 +88,73 @@ def organizeByDateWithDOTW(data):
             
     return date_dictionary
 
+#start with the data input organized by date
+#return a dictionary of each of the habits and then their data sets from the time that habit was first created
+#{key:'habit',value:{dataset from that start date}}
+def createItemDictionary(data):
+    item_dictionary = dict()
+    data = data.tolist()
+    #go through the data, if item has not been seen yet, create a new key and start that dataset with that date
+    firstrow = True
+    current_date = ''
+    current_date_origin_index = 0
+    for row in data:
+        if firstrow:
+            firstrow = False
+            #update the first item in the current date
+            current_date = row[2]
+            #get the row to start on
+            current_date_origin_index = data.index(row)
+        else:
+            if current_date != row[2]:
+                #update the new index and date
+                current_date = row[2]
+                current_date_origin_index = data.index(row)
+            if row[1] not in item_dictionary:
+                #create data dictionary of all stuff after that date                
+                item_dictionary[row[1]] = data[current_date_origin_index:]
+                
+                #print 'Started Goal: ' + row[1] + ' on ' + current_date
+            
+    return item_dictionary
+
 # loading data into python
+#just in general the goal here now is to get analytics for each habit
 def loadData():
     #file to import
     coach_me_in_file = "lifedata/coach.me.export.20150828020632.csv"
     coach_me_data = np.genfromtxt(coach_me_in_file,delimiter=',', dtype=None)
 
-    print 'Data shape:'
-    print coach_me_data.shape       #5922, 1 features row
-    print 'Feature Set:'
-    print coach_me_data[0]          #see the feature variables
-    print 'Full Data Input:'
-    print coach_me_data             #all data input received correctly
+#    print 'Data shape:'
+#    print coach_me_data.shape       #5922, 1 features row
+#    print 'Feature Set:'
+#    print coach_me_data[0]          #see the feature variables
+#    print 'Full Data Input:'
+#    print coach_me_data             #all data input received correctly
+
+    #turns data into {Habit: [dataset from that habit start date], etc.}
+    coach_me_data_per_item = createItemDictionary(coach_me_data)
     
-    #organize into all the tables that I want to run associative analysis on
-    coach_me_organized_date = organizeByDate(coach_me_data)
+    coach_me_organized_date = {}
+    coach_me_organized_dotw = {}
+    for key in coach_me_data_per_item:
+        #organize into all the tables that I want to run associative analysis on
+        #turns data into {Habit: {date: [habits that day], etc.}, etc.}
+        coach_me_organized_date[key] = organizeByDate(coach_me_data_per_item[key])
+        coach_me_organized_dotw[key] = organizeByDateWithDOTW(coach_me_data_per_item[key])
+
+    #organize other ways, via all general items and via streak usage
     coach_me_organized_items = organizeByItem(coach_me_data)
     coach_me_organized_streak = organizeByStreak(coach_me_data)
-    coach_me_organized_dotw = organizeByDateWithDOTW(coach_me_data)
 
-    #return the tables to run the analysis
+    #return the dictionaries of tables to run the analysis
     return (coach_me_organized_date, coach_me_organized_items, coach_me_organized_streak, coach_me_organized_dotw)
 
 
-    
+#potential TODO for dataInput.py
+#TODO:if key is not in the date add it for the date/dotw? ex: !pray -> workout
+#TODO:plot all of these habits, color coded via the habit. try to get each habit as the series in the data, and then calendar on the x axis, occured or not on the y axis, maybe just the count of them as a column
+#TODO:histograms of each variable?
+#TODO:% likelihood of a habit GIVEN did it previous day, previous 3 days, etc.
+#TODO:Azure Web service offer it on the Gallery
+#TODO:add different data sources! Sleep, Finance, Phone Usage, etc.

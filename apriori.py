@@ -12,19 +12,22 @@ def doDataInput(removedCommons):
     import dataInput
     coach_me_organized_date, coach_me_organized_items, coach_me_organized_streak, coach_me_organized_dotw = dataInput.loadData()
     
-    
+    #input is {Habit: {date: [habits that day], etc.}, etc.}
+    #for each habit
+        #trim the keys of the dates in the dictionary to just have it be relational
+    for k,v in coach_me_organized_date.iteritems():
+        coach_me_organized_date[k] = [v[key] for key in coach_me_organized_date[k].keys()]
+    for k,v in coach_me_organized_dotw.iteritems():
+        coach_me_organized_dotw[k] = [v[key] for key in coach_me_organized_dotw[k].keys()]
+        
     #trim the keys of the dictionary because associative analysis is solely relational in the group
-    coach_me_organized_date = [coach_me_organized_date[key] for key in coach_me_organized_date.keys()]
     coach_me_organized_items = [coach_me_organized_items[key] for key in coach_me_organized_items.keys()]
     coach_me_organized_streak = [coach_me_organized_streak[key] for key in coach_me_organized_streak.keys()]
-    coach_me_organized_dotw = [coach_me_organized_dotw[key] for key in coach_me_organized_dotw.keys()]
         
     if(removedCommons):
         #remove common data sometimes works best
-        coach_me_organized_date = [[x for x in y if x not in ['Pray','NoP!','Laugh','Set priorities for your day']] for y in coach_me_organized_date]
-        coach_me_organized_items = [[x for x in y if x not in ['Pray','NoP!','Laugh','Set priorities for your day']] for y in coach_me_organized_items]
+        coach_me_organized_items = [[x for x in y if x not in ['Note:','Comment Count:0','Prop Count:0']] for y in coach_me_organized_items]
         coach_me_organized_streak = [[x for x in y if x not in ['Pray','NoP!','Laugh','Set priorities for your day']] for y in coach_me_organized_streak]
-        coach_me_organized_dotw = [[x for x in y if x not in ['Pray','NoP!','Laugh','Set priorities for your day']] for y in coach_me_organized_dotw]
 
     return coach_me_organized_date, coach_me_organized_items, coach_me_organized_streak, coach_me_organized_dotw
 
@@ -83,10 +86,15 @@ def aprioriGenerator(itemsets, size):
 def calculateConfidence(itemSet, individualSet, supportData, ruleList, minConfidence):
     prunedSet = []
     for item in individualSet:
-        confidence = supportData[itemSet] / supportData[itemSet-item]
-        if confidence >= minConfidence:
-            ruleList.append((itemSet-item, item, confidence))
-            prunedSet.append(item)
+        #BUGFIX: try/except, not sure why this breaks on some odd combos... would be fixed by limiting to just 4 item lattices
+        try:
+            confidence = supportData[itemSet] / supportData[itemSet-item] # this breaks sometimes...
+
+            if confidence >= minConfidence:
+                ruleList.append((itemSet-item, item, confidence))
+                prunedSet.append(item)
+        except KeyError:
+            pass #ignore error the support in question is a made up combination that does not exist in the dataset
     return prunedSet
 
 #generate rules from recursion
@@ -101,11 +109,7 @@ def recursiveRuleCalculation(itemSet, individualSet, supportData, ruleList, minC
     
     
 
-#apriori algorithm for 5922 days/~50 items
-#run time estimate = instant for minSupport = 0.6 
-#rt = instant for minSupport 0.3
-#rt = 2s for minSupport 0.1
-#rt = 5s for minSupport 0.08 lowest I can go, overly crowded data though
+#apriori algorithm
 def aprioriAlgorithm(data, minSupport = 0.10):
     initial_itemset = createItemset(data)
     itemsetList = map(set, data)
@@ -136,11 +140,11 @@ def generateRules(itemList, supportData, minConfidence = 0.10):
     for i in range(1, len(itemList)):
         for itemSet in itemList[i]:
             #creates single item sets
-            individualSet = [frozenset([item]) for item in itemSet]
+            individualSet1 = [frozenset([item]) for item in itemSet]
             if (i > 1):
-                recursiveRuleCalculation(itemSet, individualSet, supportData, ruleList, minConfidence)
+                recursiveRuleCalculation(itemSet, individualSet1, supportData, ruleList, minConfidence)
             else:
-                calculateConfidence(itemSet, individualSet, supportData, ruleList, minConfidence)
+                calculateConfidence(itemSet, individualSet1, supportData, ruleList, minConfidence)
     return ruleList
     
 #output the support data and the associative rules formed in decreasing order
@@ -155,37 +159,71 @@ def outputData(supportData, rules, isDOTW):
         print "Support Data: "
         for n in xrange(len(sorted_support)):
             if any(x in (list(sorted_support[n][0])) for x in [0,1,2,3,4,5,6]):
-                print '\n'.join(['%i: %s support: %s' % (n, list(sorted_support[n][0]), sorted_support[n][1])])
+                print '\n'.join(['%i: %s: support: %s' % (n, list(sorted_support[n][0]), sorted_support[n][1])])
         print "Rules: "
         for n in xrange(len(sorted_rules)):
             if any(x in (list(sorted_rules[n][0])) for x in [0,1,2,3,4,5,6]):
-                print '\n'.join(['%i: %s -> %s confidence: %s' % (n, list(sorted_rules[n][0]), list(sorted_rules[n][1]), sorted_rules[n][2])])
+                print '\n'.join(['%i: %s -> %s: confidence: %s' % (n, list(sorted_rules[n][0]), list(sorted_rules[n][1]), sorted_rules[n][2])])
     #else just print the data
     else:
         print "Support Data: "
-        print '\n'.join(['%i: %s support: %s' % (n, list(sorted_support[n][0]), sorted_support[n][1]) for n in xrange(len(sorted_support))])
+        print '\n'.join(['%i: %s: support: %s' % (n, list(sorted_support[n][0]), sorted_support[n][1]) for n in xrange(len(sorted_support))])
 
         print "Rules: "
-        print '\n'.join(['%i: %s -> %s confidence: %s' % (n, list(sorted_rules[n][0]), list(sorted_rules[n][1]), sorted_rules[n][2]) for n in xrange(len(sorted_rules))])
+        print '\n'.join(['%i: %s -> %s: confidence: %s' % (n, list(sorted_rules[n][0]), list(sorted_rules[n][1]), sorted_rules[n][2]) for n in xrange(len(sorted_rules))])
     
+#trim data is just remove all that aren't in relation with the habit at hand
+def trimData(keyValue, supportData, rules):
+    newSupportData = {}
+    
+    for val in supportData:
+        if keyValue in val:
+            newSupportData[val] = supportData[val]
+    
+    newRules = []
+    for val in rules:
+        if keyValue in val[0] or keyValue in val[1]:
+            newRules.append(val)
+    
+    #print newRules
+    return newSupportData, newRules
+            
 
 # the main function
 if __name__ == '__main__':
-    removeCommonItems = True   #set only when you want to trim the common stuff
+    removeCommonItems = False   #set only when you want to trim the common stuff, prob not needed anymore
     coach_me_organized_date, coach_me_organized_items, coach_me_organized_streak, coach_me_organized_dotw = doDataInput(removeCommonItems)
     
     print 'Data Analysis:'
     
-    isDOTW = True           #set only when running dotw
-    minSupport = 0.1        #tweak variable for allowing uncommon itemsets
-    minConfidence = 0.08    #tweak variable for allowing less common rules
+    isDOTW = False          #set only when running dotw
+    minSupport = 0.3        #good for date- 0.3 #overly info for dotw - 0.1   #tweak variable for allowing uncommon itemsets
+    minConfidence = 0.7     #good for date- 0.7, 0.8            #0.2#0.05     #tweak variable for allowing less common rules
     
-    #run the algorithm
-    itemList, supportData = aprioriAlgorithm(coach_me_organized_dotw, minSupport)
-    rules = generateRules(itemList, supportData, minConfidence)
-    outputData(supportData, rules, isDOTW)
+#    old version of just running one per
+#    itemList, supportData = aprioriAlgorithm(coach_me_organized_items, minSupport)
+#    rules = generateRules(itemList, supportData, minConfidence)
+#    outputData(supportData, rules, isDOTW)
+    
+    #run the algorithm for each key item
+    for key in coach_me_organized_date:
+        itemList, supportData = aprioriAlgorithm(coach_me_organized_date[key], minSupport)
+        rules = generateRules(itemList, supportData, minConfidence)
+        print 'Habit: ' + key
+        supportData_out, rules_out = trimData(key, supportData, rules)#only for date
+        outputData(supportData_out, rules_out, isDOTW)
+    
     print 'Finished'
 
     
 
-
+#potential TODO for apriori.py
+#TODO:limit the correlations to just two - four habits.
+#TODO:remove noisy habits effectively by finding significant value/difference between one habit vs the rest
+#TODO:rewrite main method to JUST take in a specific habit and to return all data for that habit. text input or select options in a menu
+#TODO:restructure so it just runs for one habit, and that it goes deep for that one habit (as deep as it needs to go to find info)
+#TODO:have just key = 'Run' or 'Go to gym' with a really low support and confidence
+#TODO:learn about using input/output give and take-ness. Ask them what type of data (and show the different types), ask them for the input file, ask them for which habit. also ask them what confidence and support!
+#TODO:allow for easy rerunning and recalculating in your given drill in. ask for an imported csv? then let them pick stuff?
+#TODO:Try bidirectional apriori, FP trees, other association analysis methods
+    
